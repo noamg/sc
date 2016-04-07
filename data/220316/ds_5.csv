@@ -1,0 +1,3 @@
+Time(sec),TempRes(Ohm),SampVolt(V),SampCurr(A),CoilCurr(A)
+0,47.46,0.00014051,0.02,0
+0.578,47.46,0.00013989,0.02,0.1

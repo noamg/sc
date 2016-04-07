@@ -1,0 +1,56 @@
+למה אטמוספירת הליום?
+לזכור יחידות!
+
+in 0.2 volt
+600 sec out to air
+630 sec raise 0.5 volt of heating
+
+
+PT100 - temperature resistor
+
+IMPORTANT: NEW DATA TO BE STORED ARE NORMALLY AVERAGED WITH EXISTING DATA. It is often necessary to remove existing data by clicking on the ZERO ALL DATA button, , or the File/Zero menu item before beginning a data acquisition sweep.
+
+When numerical values are to be entered in the process of system and channel configuration, expressions can usually be entered and the values automatically calculated
+
+
+
+---------------
+08/03/16
+issues with power suply. constant voltage Vs constant current.
+
+when Megadaq queries the PS voltage, it sets it to constant voltage max.
+relevant files - cooling_1, cooling_1_1.
+time - 11:30 finished with bad files and started good measurements as said below
+solution: not to query, use constant current.
+current = 0.5 +- 0.0005 amp
+
+1-cooling. looks fine. but negative resistance at the end. dont know why.
+note: without external currnet at temp ~24ohm voltage on sample is (-4)-(-2)µV
+
+TODO: take sample without current, just basic voltage on SC at all temperatures for thermoelectric potential reference
+
+next: heating.
+part-1 with heating resistor (1,then 5 then 10 V). part-2 heat res off, taken out of bath at ~125 sec, heat res back on at 200 sec at 5 V
+
+ref!!
+
+H external refernce
+-----------------
+at 1/2 to 2/3 radius off center
+
+
+with magnetic field
+-----------------------
+0) cold. scan H, fast slow
+1) heating slowly. scan H ___
+
+
+termo couple
+termo electric effect
+limits of lab.
+
+
+current coil = 5 amp
+heating 20 volt .138 amp
+at 270 secs start cooling again.
+

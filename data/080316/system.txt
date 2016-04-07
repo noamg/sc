@@ -1,0 +1,55 @@
+MegaDaq version number: 17
+SweepTime=600  MidTime=30  X_Axis=Y0,Y0  BackColor=0x0  Grid/Ticks=Ticks
+GridChannel=None,None  DeviceFaultMode=Abort
+SweepType=Single  BeginDelay=0  TimerInterval=0.015  Icount=0  Notice=Enabled  TimerMode=Slow
+DataSet=0  DataTypes=Enabled  End_of_Sweep_Mode=Paused  DataArray=4096
+Y0Min=0  Y0Max=600  Data/Sweep_Lock=None  Function_T=INTCLK  FastDisplayInterval=0.2
+Input_Channels=16 Output_Channels=16 Double_Screen=1 Split_Screen=1,1 DataSet=0,0 OutputSet=0
+--------------------------------------------------------------------------------------
+Comment: NONE
+--------------------------------------------------------------------------------------
+Channel: Y0
+     Device Name=INTCLK  Type=Time  Scan=No  AZero/PSD=No  Synch=No
+     Color=0xffffff  Point=0  Connect--Points=No  Visible=Yes  Static=No  Warning Limits=0,0
+     PrmtrStr=NONE  PrmtrStr_Sec=NONE  Prmtr=0  Board=0  Address=0  Address_Sec=0
+     Minimum=0  Maximum=60  Mid_Value=30  Channel_Z=Y0  DeviceNumber=378
+--------------------------------------------------------------------------------------
+Channel: Y1
+     Device Name=TTi1705_RESISTANCE  Type=Resistance  Scan=No  AZero/PSD=No  Synch=No
+     Color=0xffff  Point=0  Connect--Points=No  Visible=Yes  Static=No  FreeRun=No  Warning Limits=0,0
+     PrmtrStr=NONE  PrmtrStr_Sec=NONE  Prmtr=0  Board=0  Address=6  Address_Sec=0
+     Minimum=1  Maximum=6  Mid_Value=0  Channel_Z=Y0  DeviceNumber=391
+--------------------------------------------------------------------------------------
+Channel: Y2
+     Device Name=AG34401_VOLT_DC  Type=Voltage  Scan=No  AZero/PSD=No  Synch=No
+     Color=0xff00ff  Point=0  Connect--Points=No  Visible=Yes  Static=No  FreeRun=No  Warning Limits=0,0
+     PrmtrStr=NONE  PrmtrStr_Sec=NONE  Prmtr=0  Board=0  Address=22  Address_Sec=0
+     Minimum=-5  Maximum=5  Mid_Value=0  Channel_Z=Y0  DeviceNumber=55
+--------------------------------------------------------------------------------------
+Channel: Y13
+     Device Name=CHANNEL_OUTPUT0  Type=NONE  Scan=No  AZero/PSD=No  Synch=No
+     Color=0xf0caa6  Point=0  Connect--Points=No  Visible=Yes  Static=No  FreeRun=No  Warning Limits=0,0
+     PrmtrStr=NONE  PrmtrStr_Sec=NONE  Prmtr=0  Board=0  VMode=0  Address_Sec=18
+     Minimum=-1  Maximum=1  Mid_Value=0  Channel_Z=Y0  DeviceNumber=422
+--------------------------------------------------------------------------------------
+Channel: Y14
+     Device Name=CHANNEL_OUTPUT1  Type=NONE  Scan=No  AZero/PSD=No  Synch=No
+     Color=0xc0dcc0  Point=0  Connect--Points=No  Visible=Yes  Static=No  FreeRun=No  Warning Limits=0,0
+     PrmtrStr=NONE  PrmtrStr_Sec=NONE  Prmtr=0  Board=0  VMode=0  Address_Sec=19
+     Minimum=-0.5  Maximum=0.5  Mid_Value=0  Channel_Z=Y0  DeviceNumber=423
+--------------------------------------------------------------------------------------
+Channel: Y15
+     Device Name=CHANNEL_OUTPUT2  Type=NONE  Scan=No  AZero/PSD=No  Synch=No
+     Color=0xff00  Point=0  Connect--Points=No  Visible=Yes  Static=No  FreeRun=No  Warning Limits=0,0
+     PrmtrStr=NONE  PrmtrStr_Sec=NONE  Prmtr=0  Board=0  VMode=0  Address_Sec=20
+     Minimum=-2  Maximum=2  Mid_Value=0  Channel_Z=Y0  DeviceNumber=424
+--------------------------------------------------------------------------------------
+Channel: Output15
+     DeviceName=NODEVICE  Type=NONE
+     Disabled=No
+     PrmtrStr=NONE  PrmtrStr_Sec=NONE  Prmtr=0  Board=0  Address=0  Address_Sec=0
+     Min/Offset=-0.5  Max/Rate=0.5  Mid_Value=0  SourceChannel=Y0  DeviceNumber=463  Steps=0
+     Output Limits=0,0  End_of_Sweep Value/Inc=No,0,0  Crowbar=Y0,0,0  Warning Limits=0,0
+     Ramped=No  Derived=No  Regulating=No  Ramping=No, Up  Readable=No  Channel_Z=Y0
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------

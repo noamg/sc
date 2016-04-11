@@ -24,7 +24,7 @@ try
     
     % Field and sample-current values for execution:
     coilCurrent=0; % Amps
-    sampleCurrent=0.5; % Amps
+    sampleCurrent=0.03; % Amps
     heatCurr=0;
 %     
 %     temp = zeros(1, 2*length(sampleCurrent));
@@ -34,7 +34,7 @@ try
     
     pauseInterval=0.25; % Seconds
     
-    savePath='C:\dan_noam_sc.git\data\070416\';
+    savePath='C:\dan_noam_sc.git\data\110416\';
     fnamePattern='cooling_long';
     fname=nextAvailableFilename(savePath,fnamePattern,'csv');
     header='Time(sec),TempRes(Ohm),SampVolt(V),SampCurr(A),CoilCurr(A)\n';

@@ -18,9 +18,10 @@ try
     fprintf(tempResDevice, 'READ?');
     tempResistance = readMeas(tempResDevice);
     fprintf(sampleCurrentDevice,'OUTPUT ON');
-    overshootTempRes = desiredTempRes + 6 * (tempResistance - desiredTempRes);
+    overshootTempRes = desiredTempRes + 6 * (desiredTempRes - tempResistance);
     overshootCurr = calcCurrForHeat(overshootTempRes);
-    desiredCurr = calcCurrForHeat(desiredTempRes);    
+    desiredCurr = calcCurrForHeat(desiredTempRes);
+    fprintf(sampleCurrentDevice,sprintf ('INST P25V; VOLT %f',25));
     fprintf(sampleCurrentDevice,sprintf ('INST P25V; CURR %f',overshootCurr));
     
     figure
@@ -40,10 +41,12 @@ catch err
     disp(err)
     fprintf(sampleCurrentDevice,sprintf ('INST P25V; CURR %f',desiredCurr));
     fclose(tempResDevice);
+    fclose(sampleCurrentDevice)
     didclose = 1;
 end
 if ~didclose
     fprintf(sampleCurrentDevice,sprintf ('INST P25V; CURR %f',desiredCurr));
     fclose(tempResDevice);
+    fclose(sampleCurrentDevice)
     finalTemp = pt100_convert(Temp(end));
 end

@@ -34,7 +34,7 @@ try
     
     pauseInterval=0.25; % Seconds
     
-    savePath='C:\Documents and Settings\owner\Desktop\dan_noam\data_1\040416\';
+    savePath='C:\dan_noam_sc.git\data\070416\';
     fnamePattern='cooling_long';
     fname=nextAvailableFilename(savePath,fnamePattern,'csv');
     header='Time(sec),TempRes(Ohm),SampVolt(V),SampCurr(A),CoilCurr(A)\n';

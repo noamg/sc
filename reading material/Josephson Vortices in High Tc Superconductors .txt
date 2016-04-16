@@ -1,0 +1,5 @@
+published 2012 or later
+research of vortices (pancake? and josephson) in HTSC (mainly in bssco).
+doesn't talk about granular material.
+assumes (maybe knows) all disipation is from movment of normal cores. 
+

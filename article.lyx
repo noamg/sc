@@ -1,0 +1,678 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 2cm
+\rightmargin 3cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+המקור להתנגדות אפקטיבית במוליכי על
+\end_layout
+
+\begin_layout Author
+דן וקסלר ונועם גביש, בהנחיית חן אלפרן, ודן כהן***
+\end_layout
+
+\begin_layout Abstract
+מוליכי על מעניינים את האדם מאז שחר ההיסטוריה, יש יישומים רבים כמו הכיסא
+ החשמלי, המורס ומעבד המזון.
+\end_layout
+
+\begin_layout Abstract
+חקרנו חומר מסוג ___ שהוא על מוליך חם.
+\end_layout
+
+\begin_layout Abstract
+מערבולות בעל מוליך
+\end_layout
+
+\begin_layout Abstract
+הצענו
+\end_layout
+
+\begin_layout Abstract
+מודל נפל
+\end_layout
+
+\begin_layout Abstract
+ניסוי חדשני ___ שמטרתו להבחין בין מודל א' למודל ב'.
+ תוצאות מרהיבות.
+\end_layout
+
+\begin_layout Abstract
+נובל
+\end_layout
+
+\begin_layout Abstract
+תודה
+\end_layout
+
+\begin_layout Part*
+דברים לא לשכוח
+\end_layout
+
+\begin_layout Standard
+לעבור על מחברת המעבדה בשביל כאבים שהיו בדרך ולציין אותם
+\end_layout
+
+\begin_layout Standard
+להכניס איזכורים של מאמרים שעליהם עברנו וכו', קטעים מטינקהם.
+\end_layout
+
+\begin_layout Standard
+אפשר להכניס תגית לנוסחאות ואיורים, ואחרי זה להפנות אליהם עם רפרנס פנימי.
+\end_layout
+
+\begin_layout Standard
+לוודא את הכיוון של סוגריים ודברים שיכולים קצת להתעוות מעברית אנגלית
+\end_layout
+
+\begin_layout Part*
+רקע תיאורטי
+\end_layout
+
+\begin_layout Standard
+מוליכי על
+\end_layout
+
+\begin_layout Standard
+מוליכי על חמים.
+\end_layout
+
+\begin_layout Standard
+סוג
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+סוג
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Standard
+אורך קוהרנטיות?
+\end_layout
+
+\begin_layout Standard
+עומק חדירה
+\end_layout
+
+\begin_layout Standard
+משוואות לונדון
+\end_layout
+
+\begin_layout Standard
+האם גם תורת גינצבורג לנדאו??
+\end_layout
+
+\begin_layout Standard
+חדירת שדה, פרופיל מגנטיזציה עם איור
+\end_layout
+
+\begin_layout Standard
+מערבולות
+\end_layout
+
+\begin_layout Standard
+נוצרות ונעלמות בשפה
+\end_layout
+
+\begin_layout Standard
+כוח חיצוני על מערבולות
+\end_layout
+
+\begin_layout Standard
+כוח בין מערבולות, חישובי אנרגיה, ציטוט מטינקהם
+\end_layout
+
+\begin_layout Standard
+סידור מערבולות?
+\end_layout
+
+\begin_layout Standard
+עיגון מערבולות
+\end_layout
+
+\begin_layout Standard
+זרימת מערבולות
+\end_layout
+
+\begin_layout Standard
+התנגדות אפקטיבית: הטלת מתח על העל מוליך.
+\end_layout
+
+\begin_layout Standard
+דיאגרמת הפאזות 
+\begin_inset Formula $T-H$
+\end_inset
+
+ איור
+\end_layout
+
+\begin_layout Standard
+מודלים שונים לנפילת המתח: התנגדות בליבת המערבולת, 
+\end_layout
+
+\begin_layout Standard
+לכל הפחות הערה: גביש לא מושלם חומר מגורען
+\end_layout
+
+\begin_layout Standard
+אם נצליח: ההבדל בין פרופיל שדה עם בור לבלי בור
+\end_layout
+
+\begin_layout Standard
+מודל שאנחנו הצענו: על מוליכות בחומר ומוליכות מושלמת רגילה על השפה, בגלל
+ אפקטים של חימצון או אורך הקוהרנטיות + הנחה של התפלגות אחידה של בורות עבור
+ המערבולות.
+\end_layout
+
+\begin_layout Part*
+מערכת הניסוי
+\end_layout
+
+\begin_layout Standard
+בלה בלה בלה על מוליך פרמטרים סדר של דברים
+\end_layout
+
+\begin_layout Standard
+דברים שהיה צריך לשים לב, מגבלות מערכת המדידה
+\end_layout
+
+\begin_layout Standard
+סקריפט מטלב, חיבור למחשב
+\end_layout
+
+\begin_layout Standard
+זמני תרמליזציה
+\end_layout
+
+\begin_layout Standard
+חימום במגעים
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{4-probe}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+חידוש: מערך תיילים אוגו בוגו שמשרה גרדיאנט שדה.
+ כלומר, יוצר אפקט שדה בערך כמו זרם בעל מוליך, בלי הזרם עצמו.
+ מאפשר להפריד בין תופעות.
+\end_layout
+
+\begin_layout Standard
+איזכור תופעות: השהיית זמן בין פקודה לבין איסוף מידע, אפקטים של השראות פרזיטית.
+\end_layout
+
+\begin_layout Standard
+כל מיני קבועי זמן שהיה צריך לחכות
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+תרשים של מערכת הניסוי: ניתן לראות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ח
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+מערך התיילים להשראת שדה מגנטי *** על העל מוליך
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+מדידת פרופיל התנגדות כתלות בטמפרטורה, ומציאת תחום הטמפרטורה הקריטית
+\end_layout
+
+\begin_layout Standard
+שליטה ב- 
+\end_layout
+
+\begin_layout Subsection*
+איפיון דיאגרמת הפאזות 
+\begin_inset Formula $T-H$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+שליטה ב- מדידה בלה בלה
+\end_layout
+
+\begin_layout Standard
+העלנו את השדה בהדרגה כדי לא להיתקע עם אקסטרה מערבולות.
+\end_layout
+
+\begin_layout Subsection*
+מדידה עם שדה חיצוני
+\end_layout
+
+\begin_layout Standard
+בקקבקב
+\end_layout
+
+\begin_layout Part*
+תוצאות
+\end_layout
+
+\begin_layout Subsection*
+מדידת פרופיל התנגדות כתלות בטמפרטורה, ומציאת תחום הטמפרטורה הקריטית
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+פרופיל התנגדות כתלות בטמפרטורה.
+ שינוי ההתנגדות מתקיים בתחום הטמפרטורות ____
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+איפיון דיאגרמת הפאזות 
+\begin_inset Formula $T-H$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+שליטה ב- מדידה בלה בלה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+מדידות 
+\begin_inset Formula $V(I)$
+\end_inset
+
+ בטמפרטורות 
+\begin_inset Formula $T$
+\end_inset
+
+ ושדות 
+\begin_inset Formula $H$
+\end_inset
+
+ שונים, עם התאמה למודל __רפרנס פנימי___
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ח
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+השתנות הפרמטרים של ההתאמה ___ כתלות ב 
+\begin_inset Formula $T\text{,H}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מסקנה: ההתאמה נותנת פרמטרים בתחום לא הגיוני והמודל נופל.
+\end_layout
+
+\begin_layout Subsection*
+מדידה עם שדה חיצוני
+\end_layout
+
+\begin_layout Standard
+בקקבקב
+\end_layout
+
+\begin_layout Part*
+דיון, סיכום, מסקנות, כיוונים להמשך
+\end_layout
+
+\begin_layout Standard
+הרבה דיון.
+ הרבה
+\end_layout
+
+\begin_layout Part*
+הפניות
+\end_layout
+
+\begin_layout Standard
+טינקהם
+\end_layout
+
+\begin_layout Standard
+מאמרים שעברנו עליהם.
+\end_layout
+
+\begin_layout Part*
+נספח
+\end_layout
+
+\begin_layout Subsection*
+קוד מטלב מערכת הניסוי
+\end_layout
+
+\begin_layout Subsection*
+קוד מטלב ניתוח נתונים
+\end_layout
+
+\begin_layout Subsection*
+מחברת מעבדה מצורפת בדואר חלזונות
+\end_layout
+
+\begin_layout Section*
+
+\end_layout
+
+\end_body
+\end_document

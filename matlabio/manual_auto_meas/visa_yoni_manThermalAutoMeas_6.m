@@ -27,7 +27,7 @@ try
         fnamePattern='THI_manThrmAutoMeas_6_external';
     else
 %         sampleCurrent_no_zeros=linspace(0, 3, 15);
-        sampleCurrent_no_zeros=linspace(0.5, 1.5, 30);
+        sampleCurrent_no_zeros=linspace(0, 1, 30);
         fnamePattern='THI_manThrmAutoMeas_6_internal';
     end
     sampleCurrent = zeros(2 * length(sampleCurrent_no_zeros), 1);
@@ -39,7 +39,7 @@ try
     wait_L = 0.15;
     wait_I = 0.2;
 
-    savePath='C:\dan_noam_sc.git\data\050516\';
+    savePath='C:\dan_noam_sc.git\data\090516\';
     %fnamePattern='THI_manThrmAutoMeas_5';
     fname=nextAvailableFilename(savePath,fnamePattern,'csv');
     % header_all='Time(sec),TempRes(Ohm),SampVolt(V),SampCurr(A),CoilCurr(A),heat_current(A),coil_current_order(A), sample_current_order(A)\n';

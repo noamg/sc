@@ -1,4 +1,4 @@
-function [startTime]=visa_yoni_manThermalAutoMeas_7(internalCurrent,coilCurrent,const_externalCurrent)
+function [startTime]=visa_yoni_manThermalAutoMeas_7a(internalCurrent,coilCurrent,const_externalCurrent)
 disp('make sure that you set heat current manualy to the func!')
 didCloseDevices=false;
 try

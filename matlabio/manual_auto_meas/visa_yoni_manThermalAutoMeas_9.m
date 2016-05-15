@@ -1,5 +1,6 @@
 function [startTime]=visa_yoni_manThermalAutoMeas_9(internalCurrent, internal_sign,coilCurrent,const_externalCurrent, const_external_Current_sign)
 disp('is current sign correct???')
+disp('is internal current correct, on???')
 didCloseDevices=false;
 try
     tempResDevice = openGPIBDevice('CONTEC',0,6);

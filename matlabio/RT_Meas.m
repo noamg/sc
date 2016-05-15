@@ -1,4 +1,4 @@
-%function RT_meas
+function RT_Meas
 tic;
 didCloseDevices=false;
 try
@@ -34,7 +34,7 @@ try
     
     pauseInterval=0.25; % Seconds
     
-    savePath='C:\dan_noam_sc.git\data\050516\';
+    savePath='C:\dan_noam_sc.git\data\150516\';
     fnamePattern='cooling_long';
     fname=nextAvailableFilename(savePath,fnamePattern,'csv');
     header='Time(sec),TempRes(Ohm),SampVolt(V),SampCurr(A),CoilCurr(A)\n';

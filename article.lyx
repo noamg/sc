@@ -88,7 +88,34 @@
 \end_layout
 
 \begin_layout Abstract
-חקרנו חומר מסוג ___ שהוא על מוליך חם.
+חקרנו חומר מסוג ___ שהוא על מוליך חם, סוג
+\family roman
+\series medium
+\shape up
+\size small
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+, דוגמא מגורענת ולא גביש יחיד.
 \end_layout
 
 \begin_layout Abstract
@@ -104,8 +131,46 @@
 \end_layout
 
 \begin_layout Abstract
-ניסוי חדשני ___ שמטרתו להבחין בין מודל א' למודל ב'.
- תוצאות מרהיבות.
+ניסוי חדשני להראות משהו על המודל של התנגדות אפקטיבית בעל מוליך.
+ סוג
+\family roman
+\series medium
+\shape up
+\size small
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Abstract
+התקן ראשון
+\end_layout
+
+\begin_layout Abstract
+התקן שני
+\end_layout
+
+\begin_layout Abstract
+הראנו אפקט, פתח לניסויים נוספים מרהיבים.
+ עדיין לא יודעים אם תרומה ביצירת מערבולות או הסעת מערבולות
 \end_layout
 
 \begin_layout Abstract
@@ -134,6 +199,10 @@
 
 \begin_layout Standard
 לוודא את הכיוון של סוגריים ודברים שיכולים קצת להתעוות מעברית אנגלית
+\end_layout
+
+\begin_layout Standard
+אפקטים של חימום
 \end_layout
 
 \begin_layout Part*
@@ -240,11 +309,62 @@
 \end_layout
 
 \begin_layout Standard
-האם גם תורת גינצבורג לנדאו??
+האם גם תורת גינצבורג לנדאו + קווינטוט השטף המגנטי, להביא את עיקרי הפיתוח
+ מטינקהם, סביבות
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+משוואות
 \end_layout
 
 \begin_layout Standard
-חדירת שדה, פרופיל מגנטיזציה עם איור
+חדירת שדה, פרופיל מגנטיזציה עם איור שני הסוגים
 \end_layout
 
 \begin_layout Standard
@@ -256,7 +376,7 @@
 \end_layout
 
 \begin_layout Standard
-כוח חיצוני על מערבולות
+כוח חיצוני על מערבולות, "רואות גרדיאנט שדה מגנטי"
 \end_layout
 
 \begin_layout Standard
@@ -288,7 +408,9 @@
 \end_layout
 
 \begin_layout Standard
-מודלים שונים לנפילת המתח: התנגדות בליבת המערבולת, 
+מודלים שונים לנפילת המתח: התנגדות בליבת המערבולת, משוואות מקסוול שינוי שטף
+ משרה כ.א.מ: אנחנו צריכים להבין האם אילו מודלים שונים או שתי דרכים להסתכל
+ על אותו דבר
 \end_layout
 
 \begin_layout Standard
@@ -300,9 +422,9 @@
 \end_layout
 
 \begin_layout Standard
-מודל שאנחנו הצענו: על מוליכות בחומר ומוליכות מושלמת רגילה על השפה, בגלל
- אפקטים של חימצון או אורך הקוהרנטיות + הנחה של התפלגות אחידה של בורות עבור
- המערבולות.
+פיתוח תיאורטי שלנו: מודל שאנחנו הצענו: על מוליכות בחומר ומוליכות מושלמת
+ רגילה על השפה, בגלל אפקטים של חימצון או אורך הקוהרנטיות + הנחה של התפלגות
+ אחידה של בורות עבור המערבולות.
 \end_layout
 
 \begin_layout Part*
@@ -480,15 +602,35 @@ status open
 \end_layout
 
 \begin_layout Subsection*
-מדידת פרופיל התנגדות כתלות בטמפרטורה, ומציאת תחום הטמפרטורה הקריטית
+ניסוי ראשון: מדידת פרופיל התנגדות כתלות בטמפרטורה, ומציאת תחום הטמפרטורה
+ הקריטית
 \end_layout
 
 \begin_layout Standard
 שליטה ב- 
 \end_layout
 
+\begin_layout Standard
+תוצאות.
+ גרף אחד עם כל התוצאות.
+ גרף אחד עם מיצוע.
+\end_layout
+
+\begin_layout Standard
+הנה טמפרטורת מעבר: ____
+\end_layout
+
+\begin_layout Standard
+דיון.
+ מגבלות ניסוי: קצב המעבר.
+\end_layout
+
+\begin_layout Standard
+תכונות של החומר: גבישים קטנים שתיאום הפאזה ביניהם לוקח זמן ו/או טמפרטורה
+\end_layout
+
 \begin_layout Subsection*
-איפיון דיאגרמת הפאזות 
+ניסוי שני: איפיון דיאגרמת הפאזות 
 \begin_inset Formula $T-H$
 \end_inset
 
@@ -503,12 +645,139 @@ status open
 העלנו את השדה בהדרגה כדי לא להיתקע עם אקסטרה מערבולות.
 \end_layout
 
+\begin_layout Standard
+תוצאות, משטח תלת ממדי לדוגמא 
+\begin_inset Formula $\text{ֵ\left(T-H-I\right)}$
+\end_inset
+
+, חתכים כמו שחן ביקש.
+\end_layout
+
+\begin_layout Standard
+איזכור של המודל שהצענו חיבור במקביל
+\end_layout
+
+\begin_layout Standard
+התאמת עקומות + גרף לדוגמא
+\end_layout
+
+\begin_layout Standard
+דיון: עולה ערך לא ריאלי של התנגדות בהיקף והתנהגות לא ריאלית עם הטמפרטורה,
+ מודל נופל
+\end_layout
+
 \begin_layout Subsection*
-מדידה עם שדה חיצוני
+ניסוי שלישי: מדידה עם שדה חיצוני
+\end_layout
+
+\begin_layout Standard
+מוטיבציה בקטנה
+\end_layout
+
+\begin_layout Standard
+עוד על מערכת הניסוי.
+ איור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+, איור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Standard
+מהלך הניסוי, מה עשינו: להעיתיק ממחברת המעבדה ולתמצת, להבהיר את רדיפת האפקט.
+\end_layout
+
+\begin_layout Standard
+תוצאות: מופע אחד: גולמי: מתח כתלות בזרם חיצוני, אפשר לראות הסחה.
+\end_layout
+
+\begin_layout Standard
+לא גולמי: טבלאות בקיטובים שונים של הזרמים, אשכרה ההסחות.
+\end_layout
+
+\begin_layout Standard
+דיון: *להעתיק את המייל שנכתב אחרי הפגישה עם חן*
+\end_layout
+
+\begin_layout Standard
+כלול: מודלים שונים
+\end_layout
+
+\begin_layout Standard
+כלול: ניסויים להמשך *כותרת מרשימה ויפה*
+\end_layout
+
+\begin_layout Standard
+חשוב מאוד: מגבלות המערכת
+\end_layout
+
+\begin_layout Standard
+חשוב: שיקולים בעיצוב ראש הניסוי השני.
+\end_layout
+
+\begin_layout Standard
+הצלחה כבירה.
+ בוז התנגדות אוהמית, איזה יופי.
 \end_layout
 
 \begin_layout Standard
 בקקבקב
+\end_layout
+
+\begin_layout Subsection*
+ניסוי בונוס: 
+\begin_inset Formula $LSCO$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part*
@@ -668,10 +937,6 @@ status open
 
 \begin_layout Subsection*
 מחברת מעבדה מצורפת בדואר חלזונות
-\end_layout
-
-\begin_layout Section*
-
 \end_layout
 
 \end_body

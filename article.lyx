@@ -206,7 +206,7 @@
 \end_layout
 
 \begin_layout Standard
-למצוא את כל ה- *** >>> <<< וכו'
+למצוא את כל ה- *** >>> <<<, _, ___ וכו'
 \end_layout
 
 \begin_layout Standard
@@ -456,40 +456,215 @@
 \end_layout
 
 \begin_layout Standard
-בלה בלה בלה על מוליך פרמטרים סדר של דברים
+*** בלה בלה בלה על מוליך פרמטרים סדר של דברים ***
 \end_layout
 
 \begin_layout Standard
+מערכת הניסוי מיועדת למדוד את המתח של דוגמא של על מוליך תוך שליטה בפרמטרים
+ של זרם 
+\begin_inset Formula $Transport$
+\end_inset
+
+, טמפרטורה ושדה מגנטי:
+\end_layout
+
+\begin_layout Enumerate
+מדידת זרם ומתח: דוגמא של על מוליך מסוג **** במידות ____ עליה מולחמים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מגעים, ונמצאת בתוך צינור עם רכיבים שיתוארו להלן.
+ המדידה מתבצעת בקונפיגורצית 
+\begin_inset Formula $4-probe$
+\end_inset
+
+: שני המגעים הפנימיים מיועדים למדידת מתח באמצעות וולטמטר, שני המגעים החיצוניים
+ מיועדים להזרמת זרם ע"י ספק זרם.
+ בצורה זו, מקבלים מדידה אמינה של הזרם דרך והמתח על קטע העל מוליך שבין שני
+ ההדקים הפנימיים.
+\end_layout
+
+\begin_layout Enumerate
+מדידת טמפרטורה: מעל הדוגמא נגד מסוג 
+\begin_inset Formula $PT100$
+\end_inset
+
+ למדידת טמפרטורה, הנגד מחובר למד התנגדות ולפי ההתנגדות מחשבים את הטמפרטורה
+ לפי *** רפרנס.
+ 
+\end_layout
+
+\begin_layout Enumerate
+שליטה בטמפרטורה: הדוגמא נמצאת בתוך צינור המוכנס לאמבט של חנקן נוזלי בטמפרטורת
+ הרתיכה שלו 
+\begin_inset Formula $77^{\circ}k$
+\end_inset
+
+.
+ כמו כן, מעל הנגד למדידת טמפרטורה נמצא נגד הספק, בעזרתו ניתן לחמם את המערכת
+ לטמפרטורה מעל 
+\begin_inset Formula $77^{\circ}k$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+שליטה בשדה מגנטי: סביב הצינור עם הדוגמא ישנו סליל נחושת המחובר לספק זרם,
+ ומשרה שדה מגנטי בסביבת הדוגמא.
+\end_layout
+
+\begin_layout Enumerate
+בחלק מהניסוי השליטה במכשירי המדידה נעשתה באמצעות סקריפט מטלב ייעודי המצורף
+ בנספח 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:matlab_control"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
 דברים שהיה צריך לשים לב, מגבלות מערכת המדידה
 \end_layout
 
-\begin_layout Standard
-סקריפט מטלב, חיבור למחשב
+\begin_layout Subsubsection*
+בקרת טמפרטורה
 \end_layout
 
-\begin_layout Standard
-זמני תרמליזציה
+\begin_layout Enumerate
+זמני תרמליזציה: עם שינוי ההספק של נגד החימום, נדרשו כ-
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\numeric off
+ דקות להתייצבות הטמפרטורה של המערכת, *** האם להכניס מדידות טרמליזציה עם
+ זמן מחצית חיים וכו'? ***.
+ לפני כל מדידה ווידאנו את התייצבות הטמפרטורה עד סקאלה של ____
 \end_layout
 
-\begin_layout Standard
-חימום במגעים
+\begin_layout Enumerate
+שגיאה שיטתית במדידת הטמפרטורה: נגד המדידה לא היה צמוד לדוגמא, והוא היה קרוב
+ יותר לנגד החימום.
+ כלומר, הוא הצביע על טמפרטורה מעט יותר גבוהה מהטמפרטורה של הדוגמא.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Formula $\text{4-probe}$
+\begin_layout Enumerate
+אפקטים לא רצויים של חימום: ברוב הניסויים בדוגמא מתמפח הספק מזערי, אבל בתיילי
+ הנחושת המובילים אליה, ובמגעי הבדיל הצמודים אליה יכול להתפתח הספק שמשנה
+ את הטמפרטורה של הדוגמא, ולכן את התגובה שלה לזרם, שדה וכו'.
+ יתר על כן, השינוי הזה בטמפרטורה לא משתקף במדידת הטמפרטורה, שכן החימום נעשה
+ צמוד מאוד לדוגמא.
+ הפיתרון לסוגיה היה להזרים לסירוגין זרמים למקטעי זמן קצרים ***, להמתין להתקררות
+ חוזרת של הדוגמא.
+\end_layout
+
+\begin_layout Subsubsection*
+ציוד המדידה
+\end_layout
+
+\begin_layout Enumerate
+למד המתח היה 
+\begin_inset Formula $Drift$
 \end_inset
 
+: הסטה קטנה רציפה של המתח בין ההדקים בסקאלה של *** 
+\begin_inset Formula $5nV$
+\end_inset
 
+.
+ במדידות שבהן זו הייתה סקאלה משמעותית, מדדנו גם מדידות כיול שבהן לא הוזרם
+ זרם 
+\begin_inset Formula $Transport$
+\end_inset
+
+ ותיקנו את מדידת המתח לפיהן.
+\end_layout
+
+\begin_layout Enumerate
+לאחר כל שינוי של הזרם, היה צריך להמתין 
+\begin_inset Formula $0.2sec$
+\end_inset
+
+ כדי להימנע ממתח שנובע מהשראות פרזיטית במערכת.
+\end_layout
+
+\begin_layout Enumerate
+האם להזכיר גם:
 \end_layout
 
 \begin_layout Standard
-חידוש: מערך תיילים אוגו בוגו שמשרה גרדיאנט שדה.
- כלומר, יוצר אפקט שדה בערך כמו זרם בעל מוליך, בלי הזרם עצמו.
- מאפשר להפריד בין תופעות.
-\end_layout
-
-\begin_layout Standard
-איזכור תופעות: השהיית זמן בין פקודה לבין איסוף מידע, אפקטים של השראות פרזיטית.
+איזכור תופעות: השהיית זמן בין פקודה לבין איסוף מידע,.
 \end_layout
 
 \begin_layout Standard
@@ -598,17 +773,35 @@ status open
 
 \end_layout
 
-\begin_layout Standard
-ח
-\end_layout
-
 \begin_layout Section*
 ניסוי ראשון: מדידת פרופיל התנגדות כתלות בטמפרטורה, ומציאת תחום הטמפרטורה
  הקריטית
 \end_layout
 
 \begin_layout Standard
-שליטה ב- 
+נתנו למערכת להתקרר מטמפרטורת החדר לטמפרטורה של חנקן נוזלי באופן רציף.
+ במהלך ההתקררות, הזרמנו בדוגמא זרם 
+\begin_inset Formula $I_{transport}$
+\end_inset
+
+ של 
+\begin_inset Formula $0.03amp$
+\end_inset
+
+ או 
+\begin_inset Formula $0.5amp$
+\end_inset
+
+ )תלוי בהרצה( ומדדנו את המתח 
+\begin_inset Formula $V$
+\end_inset
+
+ על הדוגמא.
+ מהם חישבנו את 
+\begin_inset Formula $R(T)$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection*
@@ -774,6 +967,12 @@ status open
 
 \begin_layout Subsection*
 מהלך הניסוי
+\end_layout
+
+\begin_layout Standard
+חידוש: מערך תיילים אוגו בוגו שמשרה גרדיאנט שדה.
+ כלומר, יוצר אפקט שדה בערך כמו זרם בעל מוליך, בלי הזרם עצמו.
+ מאפשר להפריד בין תופעות.
 \end_layout
 
 \begin_layout Standard
@@ -1246,6 +1445,13 @@ status open
 
 \begin_layout Subsection*
 קוד מטלב מערכת הניסוי
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:matlab_control"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*

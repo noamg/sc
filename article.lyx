@@ -1203,14 +1203,43 @@ status open
 ניסוי שלישי: מדידה עם שדה חיצוני
 \end_layout
 
-\begin_layout Standard
-מוטיבציה בקטנה.
- לתקף מודל נפילת מתח / להבדיל בין מודלים.
- מטרה להשיג אפקט ולפתוח אפשרויות לחקור אותו בהמשך.
+\begin_layout Subsection*
+מוטיבציה
 \end_layout
 
-\begin_layout Subsection*
-מהלך הניסוי
+\begin_layout Standard
+זרם 
+\begin_inset Formula $I_{transport}$
+\end_inset
+
+ בעל מוליך משרה שדה מגנטי שיכול ליצור מערבולות זרם, וגם להסיע מערבולות שנוצרו
+ ע"י שדה חיצוני 
+\begin_inset Formula $H$
+\end_inset
+
+.
+ הסעת המערבולת מטילה מתח על העל מוליך.
+ בניסוי זה, אנחנו "מחקים" את ההשפעה של 
+\begin_inset Formula $I_{transport}$
+\end_inset
+
+ ע"י הזרמת זרם חיצוני לדוגמא 
+\begin_inset Formula $I_{ext}$
+\end_inset
+
+.
+ מטרות הניסוי להוכיח בדרך נוספת שהמתח על העל מוליך לא נובע מהתנגדות אוהמית,
+ ***ותכלס גם לחקור התקן חדש מגניב***
+\end_layout
+
+\begin_layout Standard
+***
+\end_layout
+
+\begin_layout Standard
+בקטנה.
+ לתקף מודל נפילת מתח / להבדיל בין מודלים.
+ מטרה להשיג אפקט ולפתוח אפשרויות לחקור אותו בהמשך.
 \end_layout
 
 \begin_layout Standard
@@ -1276,6 +1305,69 @@ status open
 2
 \end_layout
 
+\begin_layout Subsection*
+תוספות למערכת הניסוי
+\end_layout
+
+\begin_layout Standard
+*** תיאור של הצירים, מה זה אומר: מעל, בצד...
+\end_layout
+
+\begin_layout Standard
+לצורך הניסוי בנינו שני התקנים: התקן ראשון שבו עובר תיל מעל הדוגמא, ומשרה
+ שדה בפרופיל:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+והתקן שני שבו תיילים עוברים בצידי הדוגמא, ומשרים שדה בפרופיל:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset Float figure
 wide false
@@ -1300,7 +1392,26 @@ status open
 \end_layout
 
 \begin_layout Standard
-מהלך הניסוי, מה עשינו: להעיתיק ממחברת המעבדה ולתמצת, להבהיר את רדיפת האפקט.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1335,6 +1446,60 @@ status open
 
 \begin_layout Standard
 חשוב: שיקולים בעיצוב ראש הניסוי השני.
+\end_layout
+
+\begin_layout Subsection*
+מהלך הניסוי *** האם גם ההתקן הראשון באותה צורה? האם יש תוצאות מההתקן הראשון
+ ***
+\end_layout
+
+\begin_layout Standard
+מהלך הניסוי, מה עשינו: להעיתיק ממחברת המעבדה ולתמצת, להבהיר את רדיפת האפקט.
+\end_layout
+
+\begin_layout Enumerate
+כדי לשלוט באופן מיטבי בטמפרטורה, קיררנו את הדוגמא לטמפרטורה של חנקן נוזלי,
+ כלומר, לא הפעלנו את נגד ההספק.
+\end_layout
+
+\begin_layout Enumerate
+לאורך הניסוי השתמשנו בשדה חיצוני מקסימלי שיכלנו ליצור: 
+\begin_inset Formula $H=***$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+מדדנו פרופיל 
+\begin_inset Formula $V(I_{transport})$
+\end_inset
+
+ וזיהינו את הזרם הקריטי 
+\begin_inset Formula $I_{crit}=1.5\pm**amp$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+במקביל לקביעת זרם פנימי הקריטי או מעט מעליו, הזרמנו 
+\begin_inset Formula $I_{ext}=4amp$
+\end_inset
+
+ שהוא הזרם המקסימלי שנתן ספק הזרם.
+\end_layout
+
+\begin_layout Enumerate
+חזרנו על המדידות הנ"ל עבור שני הקיטובים )כיוונים( האפשריים של 
+\begin_inset Formula $I_{transport}$
+\end_inset
+
+ ו- 
+\begin_inset Formula $I_{ext}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
@@ -1414,7 +1579,7 @@ status open
 \end_inset
 
  בעקבות הזרם הזרם 
-\begin_inset Formula $I_{\text{ext }}$
+\begin_inset Formula $I_{ext}$
 \end_inset
 
 

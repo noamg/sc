@@ -929,6 +929,7 @@ status open
 
  יכולה להיות לא מתואמת, ורק עם ידירה נוספת בטמפרטורה חל תיאום פאזות וצניחת
  ההתנגדות.
+ *** רפרנס ***?
 \end_layout
 
 \begin_layout Standard
@@ -944,58 +945,102 @@ status open
 \end_layout
 
 \begin_layout Standard
-שליטה ב- מדידה בלה בלה
+במוליכי על מסוג
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+, שדה מגנטי חזק דיו יכול לחדור לעל מוליך בצורה של מערבולות זרמי על ***קישור
+ רקע***.
+ זרם פנימי 
+\begin_inset Formula $I_{transport}$
+\end_inset
+
+ יוצר שדה מגנטי שמזיז את המערבולות.
+ תנועת המערבולות מטילה מתח על העל מוליך, כלומר, יוצרת "התנגדות אפקטיבית".
+ בניסוי זה מדדנו את עקומת המתח 
+\begin_inset Formula $V(I)$
+\end_inset
+
+ בטמפרטורות ***תחום*** ושדות מגנטיים ***תחום***.
+ מדידות אלו מאפיינות חלק מדיאגרמת הפאזות 
+\begin_inset Formula $T-H$
+\end_inset
+
+ של העל מוליך.
 \end_layout
 
 \begin_layout Standard
-העלנו את השדה בהדרגה כדי לא להיתקע עם אקסטרה מערבולות.
+הקפדנו למדוד רק כאשר הטמפרטורה כבר התייצבה, וסידרנו את המדידות בכל טמפרטורה
+ כך שהשדה החיצוני 
+\begin_inset Formula $H$
+\end_inset
+
+ עולה, אחרת היו יכולות להיתקע בעל מוליך מערבולות שלא הספיקו להיעלם.
 \end_layout
 
 \begin_layout Subsection*
 תוצאות
 \end_layout
 
-\begin_layout Standard
-משטח תלת ממדי לדוגמא 
-\begin_inset Formula $T-H-I$
-\end_inset
-
-, חתכים כמו שחן ביקש.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection*
-מודל אפשרי לתיאור התלות 
+התלות 
 \begin_inset Formula $V(I)$
 \end_inset
 
- 
+ והצעת מודל
 \end_layout
 
 \begin_layout Standard
-איזכור של המודל שהצענו חיבור במקביל
+הצענו מודל שבו בגלל חימצון השפה או שפונקצית הגל לא נוכחת במרחק 
+\begin_inset Formula $\xi$
+\end_inset
+
+ מהשפה: השפה של הדוגמא נמצאת בפאזה מוליכה עם התנגדות 
+\begin_inset Formula $R_{b}$
+\end_inset
+
+.
+ פנים הדוגמא הינו על מוליך עם 
+\begin_inset Formula $V=\alpha I^{2}$
+\end_inset
+
+ ***נימוק***.
+ וההתנגדות הכוללת של הדוגמא יהיה לפי חיבור במקביל של הפנים העל מוליך והחוץ
+ המוליך הרגיל.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+R_{tot}=\frac{}{}
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1025,8 +1070,128 @@ status open
 
 \end_layout
 
+\begin_layout Standard
+משטח תלת ממדי לדוגמא 
+\begin_inset Formula $T-H-I$
+\end_inset
+
+, חתכים כמו שחן ביקש.
+ המדידה הכוללת: 
+\begin_inset Formula $V(T,H,I)$
+\end_inset
+
+ חתכים: 
+\begin_inset Formula $V(H,I)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+השתנות הפרמטרים של ההתאמה 
+\begin_inset Formula $R_{b}(T,H)$
+\end_inset
+
+ , 
+\begin_inset Formula $\alpha(T,H)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+דיאגרמת הפאזות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection*
 דיון
+\end_layout
+
+\begin_layout Standard
+כצפוי, רבות מהמדידות של 
+\begin_inset Formula $V(I)$
+\end_inset
+
+ אינן לינאריות, כלומר, אין במקרה זה התנגדות אוהמית.
+\end_layout
+
+\begin_layout Standard
+אולם, להתאמת המודל שהצענו לתוצאות, נדרש ערך התנגדות של בערך *** בשפה, כאשר
+ מצפים לבערך ***.
+ כמו כן, התלות בטמפרטורה ***
 \end_layout
 
 \begin_layout Standard
@@ -1345,6 +1510,15 @@ status open
 
 \begin_layout Enumerate
 להמשך: לבדוק גם בטמפרטורות גבוהות יותר.
+ ספציפית: אנחנו מצפים שבטמפרטורה גבוהה מספיק, הזרם 
+\begin_inset Formula $I_{ext}$
+\end_inset
+
+ יוכל להזיז מערבולות גם ללא 
+\begin_inset Formula $I_{transport}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection*

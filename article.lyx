@@ -838,6 +838,7 @@ status open
 \begin_layout Standard
 גרף אחד עם כל התוצאות.
  גרף אחד עם מיצוע.
+ כנראה בלי מיצוע, אין לזה משמעות.
 \end_layout
 
 \begin_layout Standard
@@ -849,11 +850,89 @@ status open
 \end_layout
 
 \begin_layout Standard
-מגבלות ניסוי: קצב המעבר.
+לפי התיאוריה ההתנגדות נופלת ל-
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+באופן חד ב- 
+\begin_inset Formula $T_{c}$
+\end_inset
+
+, ואילו בניסוי יש תחום מסוים שבו מתבצעת הירידה הזו.
+ סיבות אפשריות לתופעה זו:
 \end_layout
 
 \begin_layout Standard
-תכונות של החומר: גבישים קטנים שתיאום הפאזה ביניהם לוקח זמן ו/או טמפרטורה
+מגבלות ניסוי: באופן אידיאלי, צריך למדוד את ההתנגדות של הדוגמא בטמפרטורה
+ נתונה כאשר היא נמצאת בה זמן רב, כדי להתמודד עם אפקטים של זמן תרמליזציה
+ בתוך הדוגמא.
+ במקרה זה המדידה הייתה בזמן התקררות וזה יוצר שגיאה מסוימת: חלק מהדוגמא יכול
+ כבר להיות בפאזה על מוליכה וחלק עדיין לא.קצב המעבר.
+\end_layout
+
+\begin_layout Standard
+תכונות של החומר: הדוגמא אינה 
+\begin_inset Formula $single-crystal$
+\end_inset
+
+ אלא בנויה מהרבה גבישים קטנים באוריינטציות שונות.
+ עם הירידה בטמפרטורה, ייתכן שכל הגבישים יהיו כבר במצב על מוליך, אבל הפאזה
+ של צפיפות מוליכי העל 
+\begin_inset Formula $\psi$
+\end_inset
+
+ יכולה להיות לא מתואמת, ורק עם ידירה נוספת בטמפרטורה חל תיאום פאזות וצניחת
+ ההתנגדות.
+\end_layout
+
+\begin_layout Standard
+*** מה יש לנו להגיד על זה שיש כמה עקומות שונות? ***
 \end_layout
 
 \begin_layout Section*

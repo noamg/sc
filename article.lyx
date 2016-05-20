@@ -205,6 +205,30 @@
 אפקטים של חימום
 \end_layout
 
+\begin_layout Standard
+למצוא את כל ה- *** >>> <<< וכו'
+\end_layout
+
+\begin_layout Standard
+האם זה נראה כמו סיפור?
+\end_layout
+
+\begin_layout Subsection*
+איך לארגן את הדוח
+\end_layout
+
+\begin_layout Standard
+רקע: לכלול פיתוח קווינטוט השטף המגנטי, מושגים בסיסיים (חמים קרים, סוג, סוג
+ 2) תוצאות-ניתוח-דיון-תוצאות ניתוח דיון ולא קודם כל התוצאות הדו"ח אמור להיראות
+ כמו סיפור היפוטזות מתחרות לגבי מה שקרה ניסויים שיכולים להבחין ביניהן
+\end_layout
+
+\begin_layout Standard
+תכל'ס: שורה תחתונה: אנחנו גיבורים.
+ הוכחנו שאפקט מסוים אכן מתקיים, ואנחנו מצביעים על הסברים שונים לו ועל ניסויי
+ המשך בנושא 
+\end_layout
+
 \begin_layout Part*
 רקע תיאורטי
 \end_layout
@@ -578,6 +602,19 @@ status open
 ח
 \end_layout
 
+\begin_layout Section*
+ניסוי ראשון: מדידת פרופיל התנגדות כתלות בטמפרטורה, ומציאת תחום הטמפרטורה
+ הקריטית
+\end_layout
+
+\begin_layout Standard
+שליטה ב- 
+\end_layout
+
+\begin_layout Subsection*
+תוצאות
+\end_layout
+
 \begin_layout Standard
 \begin_inset Float figure
 wide false
@@ -588,7 +625,11 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-מערך התיילים להשראת שדה מגנטי *** על העל מוליך
+חזרות שונות של מדידת 
+\begin_inset Formula $R(T)$
+\end_inset
+
+, ומיצוע עליהן
 \end_layout
 
 \end_inset
@@ -601,18 +642,8 @@ status open
 
 \end_layout
 
-\begin_layout Subsection*
-ניסוי ראשון: מדידת פרופיל התנגדות כתלות בטמפרטורה, ומציאת תחום הטמפרטורה
- הקריטית
-\end_layout
-
 \begin_layout Standard
-שליטה ב- 
-\end_layout
-
-\begin_layout Standard
-תוצאות.
- גרף אחד עם כל התוצאות.
+גרף אחד עם כל התוצאות.
  גרף אחד עם מיצוע.
 \end_layout
 
@@ -620,16 +651,19 @@ status open
 הנה טמפרטורת מעבר: ____
 \end_layout
 
+\begin_layout Subsection*
+דיון
+\end_layout
+
 \begin_layout Standard
-דיון.
- מגבלות ניסוי: קצב המעבר.
+מגבלות ניסוי: קצב המעבר.
 \end_layout
 
 \begin_layout Standard
 תכונות של החומר: גבישים קטנים שתיאום הפאזה ביניהם לוקח זמן ו/או טמפרטורה
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section*
 ניסוי שני: איפיון דיאגרמת הפאזות 
 \begin_inset Formula $T-H$
 \end_inset
@@ -645,12 +679,47 @@ status open
 העלנו את השדה בהדרגה כדי לא להיתקע עם אקסטרה מערבולות.
 \end_layout
 
+\begin_layout Subsection*
+תוצאות
+\end_layout
+
 \begin_layout Standard
-תוצאות, משטח תלת ממדי לדוגמא 
-\begin_inset Formula $\text{ֵ\left(T-H-I\right)}$
+משטח תלת ממדי לדוגמא 
+\begin_inset Formula $T-H-I$
 \end_inset
 
 , חתכים כמו שחן ביקש.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+מודל אפשרי לתיאור התלות 
+\begin_inset Formula $V(I)$
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
@@ -662,16 +731,53 @@ status open
 \end_layout
 
 \begin_layout Standard
-דיון: עולה ערך לא ריאלי של התנגדות בהיקף והתנהגות לא ריאלית עם הטמפרטורה,
- מודל נופל
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
+דיון
+\end_layout
+
+\begin_layout Standard
+עולה ערך לא ריאלי של התנגדות בהיקף והתנהגות לא ריאלית עם הטמפרטורה, מודל
+ נופל
+\end_layout
+
+\begin_layout Section*
 ניסוי שלישי: מדידה עם שדה חיצוני
 \end_layout
 
 \begin_layout Standard
-מוטיבציה בקטנה
+מוטיבציה בקטנה.
+ לתקף מודל נפילת מתח / להבדיל בין מודלים.
+ מטרה להשיג אפקט ולפתוח אפשרויות לחקור אותו בהמשך.
+\end_layout
+
+\begin_layout Subsection*
+מהלך הניסוי
 \end_layout
 
 \begin_layout Standard
@@ -732,11 +838,95 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+מערך התיילים להשראת שדה מגנטי *** על העל מוליך
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 מהלך הניסוי, מה עשינו: להעיתיק ממחברת המעבדה ולתמצת, להבהיר את רדיפת האפקט.
 \end_layout
 
 \begin_layout Standard
-תוצאות: מופע אחד: גולמי: מתח כתלות בזרם חיצוני, אפשר לראות הסחה.
+ניתוח כמותי: השדה שמשרה תיל חיצוני.
+ מהצד, מלמעלה.
+ פרופיל.
+ גרף
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+חשוב: שיקולים בעיצוב ראש הניסוי השני.
+\end_layout
+
+\begin_layout Subsection*
+תוצאות
+\end_layout
+
+\begin_layout Standard
+מופע אחד: גולמי: מתח כתלות בזרם חיצוני, אפשר לראות הסחה.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -744,23 +934,34 @@ status open
 \end_layout
 
 \begin_layout Standard
-דיון: *להעתיק את המייל שנכתב אחרי הפגישה עם חן*
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+דיון
 \end_layout
 
 \begin_layout Standard
-כלול: מודלים שונים
-\end_layout
-
-\begin_layout Standard
-כלול: ניסויים להמשך *כותרת מרשימה ויפה*
-\end_layout
-
-\begin_layout Standard
-חשוב מאוד: מגבלות המערכת
-\end_layout
-
-\begin_layout Standard
-חשוב: שיקולים בעיצוב ראש הניסוי השני.
+משפט פותח לדיון
 \end_layout
 
 \begin_layout Standard
@@ -768,16 +969,128 @@ status open
  בוז התנגדות אוהמית, איזה יופי.
 \end_layout
 
-\begin_layout Standard
-בקקבקב
+\begin_layout Subsubsection*
+מודלים שונים שיכולים להסביר את שינוי המתח 
+\begin_inset Formula $V$
+\end_inset
+
+ בעקבות הזרם הזרם 
+\begin_inset Formula $I_{\text{ext }}$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Standard
+מבט: זרם חיצוני יוצר כוח על מערבולות
+\end_layout
+
+\begin_layout Enumerate
+זרם חיצוני חזק שלא מצליח לפרק את הבורות, וזרם פנימי שמצליח לפרק אותם (ולא
+ משנה באיזה כיוון הוא)
+\end_layout
+
+\begin_layout Enumerate
+זרם פנימי שנמצא על הסף של הזזת מערבולות וזרם חיצוני שמעביר אותו את הסף.
+\end_layout
+
+\begin_layout Standard
+מבט: זרם חיצוני יוצר מערבולות נוספות:
+\end_layout
+
+\begin_layout Enumerate
+הזרם החיצוני יוצר עוד מערבולות נטו והזרימה שלהן מטילה מתח, ספציפית, המערבולות
+ החדשות מאכלסות את הבורות הרדודים יותר וקל להזיז אותן.
+\end_layout
+
+\begin_layout Enumerate
+הזרם החיצוני בצורה שאנחנו בנינו, לא יוצר עוד מערבולות נטו, אבל יוצר עוד
+ מערבולות בצד ימין ופחות בשמאל, מאפשר שם זרימה (מערבולות מאכלסות אתרים רדודים
+ יותר)
+\end_layout
+
+\begin_layout Subsubsection*
+ניסויים שאפשר לעשות כדי להבחין בין המודלים השונים, וניסויי המשך לאיפיון
+ התופעה
+\end_layout
+
+\begin_layout Enumerate
+קודם כל: לעבור שוב על התוצאות שלנו, אפשר יהיה להגיד משהו, כנראה.
+\end_layout
+
+\begin_layout Enumerate
+להפוך את קיטוב / עצמת השדה החיצוני ולראות את ההשפעה.
+\end_layout
+
+\begin_layout Enumerate
+לבנות התקן עם ליפופים רק בצד אחד (מבחין בין יצירה נטו להעברה מצד לצד)
+\end_layout
+
+\begin_layout Enumerate
+לנתח את האפקט בטמפרטורה גבוהה יותר.
+ יכול להיות שנצליח לראות אפקט גם ללא זרם פנימי.
+\end_layout
+
+\begin_layout Enumerate
+אנחנו מניחים שהגברת השדה החיצוני בעיקר יוצרת מערבולות, והגברת הזרם הפנימי
+ בעיקר מסיעה מערבולות.
+ לעשות מדידות 
+\begin_inset Formula $V(T,H,I),V(T,H,I=0,I_{ext}),V(T,H,I=I_{crit},I_{ext})$
+\end_inset
+
+, שאת חלקן עשינו ואת חלקן לא.
+ העקומות 
+\begin_inset Formula $V(H)$
+\end_inset
+
+ מייצגות תלות במספר מערבולות.
+ העקומות 
+\begin_inset Formula $V(I)$
+\end_inset
+
+ מייצגות תלות בכוח.
+ העקומות 
+\begin_inset Formula $V(I_{ext})$
+\end_inset
+
+ או אולי 
+\begin_inset Formula $V(I=I_{crit},I_{ext})$
+\end_inset
+
+ מייצגות את התלות בזרם החיצוני, וניתן להשוות אותה לעקומות הללו.
+ אם היא דומה מאוד לאחת מהן, מצאנו אפקט דומיננטי, אם לא, אולי ניתן לעשות
+ איכשהו סופר פוזיציה.
+ אולי לא.
+\end_layout
+
+\begin_layout Enumerate
+אפשר גם לבדוק את התלות של העקומות הללו בטמפרוטורות שונות, כדי לקבל הבנה
+ יותר טובה.
+ 
+\end_layout
+
+\begin_layout Enumerate
+להמשך: לבדוק גם בטמפרטורות גבוהות יותר.
+\end_layout
+
+\begin_layout Subsubsection*
+מגבלות מערכת הניסוי הנוכחית *** מה המקום הנכון לשים את הסעיף ***?
+\end_layout
+
+\begin_layout Section*
 ניסוי בונוס: 
 \begin_inset Formula $LSCO$
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection*
+מהלך הניסוי
+\end_layout
+
+\begin_layout Subsection*
+תוצאות
 \end_layout
 
 \begin_layout Part*
@@ -921,6 +1234,14 @@ status open
 
 \begin_layout Standard
 מאמרים שעברנו עליהם.
+\end_layout
+
+\begin_layout Standard
+לינק לתיקייה עם קבצי 
+\begin_inset Formula $.fig$
+\end_inset
+
+ של הגרפים התלת ממדיים, כדי שאפשר יהיה לראות אותם יותר טוב
 \end_layout
 
 \begin_layout Part*

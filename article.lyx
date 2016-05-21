@@ -213,6 +213,19 @@
 האם זה נראה כמו סיפור?
 \end_layout
 
+\begin_layout Standard
+הסיפור שלנו: הנושא: התנגדות אפקטיבית בעל מוליך, הגביע הקדוש: זרם חיצוני,
+ ניסויי הכנה: 
+\begin_inset Formula $R(T)$
+\end_inset
+
+ 
+\begin_inset Formula $V(T,H,I)$
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection*
 איך לארגן את הדוח
 \end_layout
@@ -233,12 +246,478 @@
 רקע תיאורטי
 \end_layout
 
-\begin_layout Standard
-מוליכי על
+\begin_layout Subsection*
+מוליכות על
 \end_layout
 
 \begin_layout Standard
-מוליכי על חמים.
+מוליכות על הינה תופעה שבה חומר הוא מוליך מושלם )התנגדות חשמלית
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+(, וגם דיאמגנט מושלם )דוחה באופן מלא שדה מגנטי, תופעה הנקראת אפקט מייזנר(.
+ הדיאמגנטיות נוצרת ע"י זרמי שפה במוליך השומרים על שדה מגנטי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בתוך המוליך.
+ תכונה זו מתקבלת למשל, במתכות קרות מאוד: עופרת )
+\begin_inset Formula $7^{\circ}k$
+\end_inset
+
+(, אלומיניום )
+\begin_inset Formula $4^{\circ}k$
+\end_inset
+
+(.
+ כמובן שהתופעה לא מאפשרת התנגדות לשדה מגנטי אינסופי, ולא מאפשרת התפתחות
+ זרמים אינסופיים: כלומר, שדה חיצוני 
+\begin_inset Formula $H$
+\end_inset
+
+ חזק דיו, או זרם חזק דיו 
+\begin_inset Formula $I_{transport}$
+\end_inset
+
+ דרך החומר מפסיקים את המצב העל מוליך.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+גרף המציג את ההתנגדות 
+\begin_inset Formula $R(T)$
+\end_inset
+
+ עבור מוליך על.
+ עבור טמפרטורות גבוהות דיין, התלות לינארית, כצפוי במצב מוליך רגיל.
+ עבור טמפרטורות נמוכות יחסית התלות היא חזקתית, ומתחת לטמפרטורה קריטית 
+\begin_inset Formula $T_{c}$
+\end_inset
+
+ ההתנגדות צונחת
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ישנם מאפיינים שונים של מוליכי על.
+ מוליכי על מסוג
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ומסוג
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מגיבים לשדה חיצוני 
+\begin_inset Formula $H$
+\end_inset
+
+ באופן שונה, כפי שמומחש באיור הבא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+עקומות מיגנוט של על מוליכים מסוג
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ומסוג
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+.
+ על מוליך מסוג
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שומר על דיאמגנטיות עד שדה חיצוני קריטי 
+\begin_inset Formula $H_{c}$
+\end_inset
+
+ ומעליו "נכנע" ועובר מיגנוט בקפיצה.
+ מעל 
+\begin_inset Formula $H_{c}$
+\end_inset
+
+ התלות 
+\begin_inset Formula $B(H)$
+\end_inset
+
+ היא לינארית כמו ברוב החומריים הניתנים למיגנוט.
+ על מוליך מסוג
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מתנגד למיגנוט עד שדה 
+\begin_inset Formula $H_{c1}$
+\end_inset
+
+, מקיים קשר לינארי של 
+\begin_inset Formula $B(H)$
+\end_inset
+
+ מעל 
+\begin_inset Formula $H_{c2}$
+\end_inset
+
+ וביניהם עובר מיגנוט באופן רציף.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -321,7 +800,14 @@
 \end_layout
 
 \begin_layout Standard
-אורך קוהרנטיות?
+מוליכי על קרים הם חומרים שעוברים למצב מוליך על בטמפרטורות בטווח ___, הם
+ לרוב מתכות ולא סגסוגות.
+ מוליכי על חמים, הם חומרים שעוברים למצב על מוליך בטמפרטורות בטווח ____ והם
+ סגסוגות שונות.
+\end_layout
+
+\begin_layout Subsection*
+מודל פנומנולוגי לתיאור על מוליכות - משוואות לונדון
 \end_layout
 
 \begin_layout Standard
@@ -330,6 +816,10 @@
 
 \begin_layout Standard
 משוואות לונדון
+\end_layout
+
+\begin_layout Subsection*
+תורת גינזנורג לנדאו
 \end_layout
 
 \begin_layout Standard
@@ -392,7 +882,43 @@
 \end_layout
 
 \begin_layout Standard
-מערבולות
+אורך קוהרנטיות?
+\end_layout
+
+\begin_layout Subsection*
+מערבולות זרם בעל מוליך
+\end_layout
+
+\begin_layout Standard
+קווי השטף המגנטי חודרים לעל מוליך מסוג
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+, כאשר מסביב כל אחד מהם מערבולת של זרם, הממסך את שאר החומר מהשדה המגנטי
+ )כמו שזרמי שפה ממסכים את תוך החומר משדה חיצוני(.
 \end_layout
 
 \begin_layout Standard
@@ -437,18 +963,16 @@
  על אותו דבר
 \end_layout
 
+\begin_layout Subsection*
+עוד הערות
+\end_layout
+
 \begin_layout Standard
 לכל הפחות הערה: גביש לא מושלם חומר מגורען
 \end_layout
 
 \begin_layout Standard
 אם נצליח: ההבדל בין פרופיל שדה עם בור לבלי בור
-\end_layout
-
-\begin_layout Standard
-פיתוח תיאורטי שלנו: מודל שאנחנו הצענו: על מוליכות בחומר ומוליכות מושלמת
- רגילה על השפה, בגלל אפקטים של חימצון או אורך הקוהרנטיות + הנחה של התפלגות
- אחידה של בורות עבור המערבולות.
 \end_layout
 
 \begin_layout Part*
@@ -1011,6 +1535,14 @@ status open
 \end_inset
 
  והצעת מודל
+\end_layout
+
+\begin_layout Standard
+*** הוצאתי את השורה הזו מהרגע התיאורטי, לא ברור לי איפה זה צריך להיות: ***
+ פיתוח תיאורטי שלנו: מודל שאנחנו הצענו: על מוליכות בחומר ומוליכות מושלמת
+ רגילה על השפה, בגלל אפקטים של חימצון או אורך הקוהרנטיות + הנחה של התפלגות
+ אחידה של בורות עבור המערבולות.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1699,11 +2231,189 @@ status open
 \end_layout
 
 \begin_layout Subsection*
+מערכת ומהלך הניסוי
+\end_layout
+
+\begin_layout Standard
+דוגמא על מוליכה מרובעת במימדים ____, מהחומר ____, עם מגעים כמתואר באיור.
+ בדוגמא הוזרם זרם על האלכסון הארוך )בין המגעים *** ו- ***(, נמדד מתח על
+ האלכסון הקצר המקביל אליו )בין המגעים *** ו- ***(.
+ ערכנו ניסוי שמטרתו למדוד את הזרם הקריטי להסעת מערבולות ללא שדה חיצוני 
+\begin_inset Formula $I_{crit}(T)$
+\end_inset
+
+.
+ לצורך העניין, בטמפרטורות בטווח ____, נמדדה התלות 
+\begin_inset Formula $V(I)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
 מהלך הניסוי
 \end_layout
 
 \begin_layout Subsection*
 תוצאות
+\end_layout
+
+\begin_layout Standard
+דוגמא לגרף 
+\begin_inset Formula $V(I)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+גרף 
+\begin_inset Formula $V(T,I)$
+\end_inset
+
+ עם זום על איפה שהגיוני
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+ניסוי המשך - שמתקשר לניסוי
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+***
+\end_layout
+
+\begin_layout Standard
+מטרת ניסוי זה היא לבחון בדרך נוספת את ההשפעה של שדה של זרם חיצוני על המתח
+ בעל מוליך.
+ במקרה זה, ניתן להשתמש בגיאומטריה של הדוגמא כדי לבחון את האפקט.
+ אנחנו לא יודעים מהי התפלגות הזרם בעל מוליך, אבל באופן פשטני נוכל להניח
+ שהיא דומה להתפלגות זרם במוליך רגיל.
+ לכן אם נזרים זרם בין המגעים *** ו- ***, נניח שרוב הזרם זורם על צלע הריבוע.
+ כעת, נוכל למדוד את המתח בין המגעים *** ו- ***, ו- בין המגעים *** ו- ***.
+ המתח הזה יושפע, כנראה, מהשדה המגנטי שמשרה הזרם על צלע הריבוע.
+\end_layout
+
+\begin_layout Standard
+****
+\end_layout
+
+\begin_layout Standard
+מה עוד?
 \end_layout
 
 \begin_layout Part*

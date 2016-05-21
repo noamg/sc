@@ -1,5 +1,8 @@
 function [Tc,deltaT]  = cooling_long_displayAll(x)
-%x in output if created in run
+%add x in output if created in run (and remove from input)
+
+
+
 folder = 'C:\Users\Dan Wexler\Documents\school\year 3\lab3\superconductors\sc\data';
 dirlist = dir(folder);
 dirlist(~[dirlist.isdir]) = [];
@@ -35,6 +38,7 @@ for ind = 1:length(dirlist)
             TempRes = mat(:,2);
             SampVolt = mat(:,3);
         end
+        
         if ~run_valids
             h(ind+(jnd-1)*100) = plot3(pt100_convert(TempRes,0),abs(SampVolt./SampCurr),ind*ones(size(TempRes)),'.');
             set(h(ind+(jnd-1)*100),'displayname',[dirlist(ind).name,'\',temp(jnd).name],'markersize',15)
@@ -49,10 +53,10 @@ for ind = 1:length(dirlist)
                 h(valid_count) = plot(pt100_convert(TempRes,0),abs(SampVolt./SampCurr),'.');
                 set(h(valid_count),'markersize',15)
                 if valid_count ~= 7
-                    set(h(valid_count),'displayname',['original test head - ',num2str(valid_count)],...
+                    set(h(valid_count),'displayname',['original test head - ',num2str(valid_count),', ',num2str(mean(SampCurr)),'A'],...
                         'marker','x')
                 else
-                    set(h(valid_count),'displayname','new test head',...
+                    set(h(valid_count),'displayname',['new test head',', ',num2str(mean(SampCurr)),'A'],...
                         'marker','*')
                 end
                 [Tc(valid_count), deltaT(valid_count)] = findTcAndTransTempRange(x{valid_count},pt100_convert(TempRes,0),abs(SampVolt./SampCurr));

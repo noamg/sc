@@ -1699,11 +1699,201 @@ status open
 \end_layout
 
 \begin_layout Subsection*
+מערכת ומהלך הניסוי
+\end_layout
+
+\begin_layout Standard
+דוגמא על מוליכה מרובעת במימדים ____, מהחומר ____, עם מגעים כמתואר באיור.
+ בדוגמא הוזרם זרם על האלכסון הארוך )בין המגעים *** ו- ***(, נמדד מתח על
+ האלכסון הקצר המקביל אליו )בין המגעים *** ו- ***(.
+ ערכנו ניסוי שמטרתו למדוד את הזרם הקריטי להסעת מערבולות ללא שדה חיצוני 
+\begin_inset Formula $I_{crit}(T)$
+\end_inset
+
+.
+ לצורך העניין, בטמפרטורות בטווח ____, נמדדה התלות 
+\begin_inset Formula $V(I)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
 מהלך הניסוי
 \end_layout
 
 \begin_layout Subsection*
 תוצאות
+\end_layout
+
+\begin_layout Standard
+דוגמא לגרף 
+\begin_inset Formula $V(I)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+גרף 
+\begin_inset Formula $V(T,I)$
+\end_inset
+
+ עם זום על איפה שהגיוני
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+ניסוי המשך - שמתקשר לניסוי
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series bold
+\shape up
+\size large
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+***
+\end_layout
+
+\begin_layout Standard
+מטרת ניסוי זה היא לבחון בדרך נוספת את ההשפעה של שדה של זרם חיצוני על המתח
+ בעל מוליך.
+ במקרה זה, ניתן להשתמש בגיאומטריה של הדוגמא כדי לבחון את האפקט.
+ אנחנו לא יודעים מהי התפלגות הזרם בעל מוליך, אבל באופן פשטני נוכל להניח
+ שהיא דומה להתפלגות זרם במוליך רגיל.
+ לכן אם נזרים זרם בין המגעים *** ו- ***, נניח שרוב הזרם זורם על צלע הריבוע.
+ כעת, נוכל למדוד את המתח בין המגעים *** ו- ***, ו- בין המגעים *** ו- ***.
+ המתח הזה יושפע, כנראה, מהשדה המגנטי שמשרה הזרם על צלע הריבוע.
+\end_layout
+
+\begin_layout Standard
+****
+\end_layout
+
+\begin_layout Standard
+מה עוד?
 \end_layout
 
 \begin_layout Part*

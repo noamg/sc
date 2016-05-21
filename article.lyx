@@ -1040,6 +1040,27 @@ status open
 
 \end_layout
 
+\begin_layout Standard
+מהמשוואה הדיפרנציאלית של איפוס הוואריאציה, עולה סקאלה אופיינית לשינוי 
+\begin_inset Formula $\psi$
+\end_inset
+
+ שהיא:
+\begin_inset Formula 
+\[
+\xi=\sqrt{\frac{\hbar^{2}}{2m^{*}|\alpha|}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בפרט, זו סקאלת האורך האופיינית לדעיכה של המצב העל מוליך, למשל לקראת שפת
+ החומר.
+\end_layout
+
 \begin_layout Subsubsection*
 קוונטיזית השטף המגנטי בעל מוליך
 \end_layout
@@ -1277,6 +1298,177 @@ status open
 \numeric off
 , כאשר מסביב כל אחד מהם מערבולת של זרם, הממסך את שאר החומר מהשדה המגנטי
  )כמו שזרמי שפה ממסכים את תוך החומר משדה חיצוני(.
+ מערבולות הזרם מגיבות לכוחות שונים, ותנועה שלהן יוצרת התנגדות אפקטיבית )שאינה
+ אוהמית!( בחומר.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+מערבולת זרם על בחומר על מוליך
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+כוחות הפועלים על מערבולות
+\end_layout
+
+\begin_layout Standard
+בורות פוטנציאל: בהעדר שדה חיצוני, המצב האנרגתי העדיף של 
+\begin_inset Formula $\psi$
+\end_inset
+
+ הוא ללא מערבולות.
+ ליד פגמים בגביש, 
+\begin_inset Formula $\psi\approx0$
+\end_inset
+
+ ולכן ה"נזק" האנרגתי ביצירת מערבולת עקב השפעת שדה חיצוני 
+\begin_inset Formula $H$
+\end_inset
+
+ קטן יותר אם היא נוצרת על הפגם הזה.
+ כלומר, מערבולות נמשכות לפגמים בגביש.
+ כיוון שאנרגיה תרמית יכולה לעזור למערבולות לצאת מבורות הפוטנציאל הללו, הם
+ אפקטיבית יותר עמוקים ככל שהטמפרטורה נמוכה יותר.
+\end_layout
+
+\begin_layout Standard
+גרדיאנט שדה מגנטי: שדה מגנטי מקביל לכיוון המערבולת, מפעיל כוח לורנץ על נושאי
+ מטען העל )היות והוא מאונך לכיוון התנועה שלהם(.
+ אם השדה המגנטי אחיד במרחב, אז נושאי מטען שנמצאים בצדדים שונים של המערבולת
+ ירגישו כוח זהה, והכוח נטו על המערבולת יהיה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+.
+ לעומת זאת, אם ישנו גרדיאנט בשדה, אז המערבולת תרגיש כוח נטו במורד הגרדיאנט.
+\end_layout
+
+\begin_layout Standard
+כוח בין מערבולות: מערבולות שדה מפעילות כוח זו על זו, כוח שמנסה להרחיק אותן.
+ מקרה פשטני ברור משיקולים אנרגתיים: האנרגיה המגנטית הולכת כמו 
+\begin_inset Formula $B^{2}$
+\end_inset
+
+ ולכן אם יש שתי מערבולות זרם חופפות אז יש להן אנרגיה מגנטית כוללת 
+\begin_inset Formula $E\propto(2B)^{2}=4B^{2}$
+\end_inset
+
+ ואם הן מרוחקות, אז יש להן אנרגיה כוללת 
+\begin_inset Formula $E\propto B^{2}+B^{2}=2B^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+סידור מערבולות, עיגון מערבולות, תנועת מערבולות
+\end_layout
+
+\begin_layout Standard
+כאשר יש מיעוט מערבולות הן פשוט נמצאות במרחקים גדולים זו מזו.
+ כאשר יש ריבוי מערבולות, אנרגית האינטרקציה של מערבולות מינימלית כאשר הן
+ מסודרות בשריג משולש: 
+\begin_inset Formula $Abrikosov-Lattice$
+\end_inset
+
+.
+ הכוח בין המערבולות מאוזן ע"י השדה המגנטי שיצר את המערבולות מלכתחילה, שהוא
+ חזק יותר מחוץ לחומר העל מוליך, ולכן משאיר אותן בתוך החומר.
+\end_layout
+
+\begin_layout Standard
+כאשר זורם זרם דרך העל מוליך, הוא משרה שדה מגנטי שיש לו רכיב מקביל למערבולות
+ הזרם, המשתנה לרוחב החומר.
+ כלומר, יוצר גרדיאנט של שדה מגנטי המפעיל כוח על מערבולות.
+\end_layout
+
+\begin_layout Standard
+אם הכוח הזה חלש יותר מכוחות העיגון )
+\begin_inset Formula $pinning$
+\end_inset
+
+( של בורות הפוטנציאל, אזי המערבולות נשארות סטטיות והחומר עדיין מוליך מושלם.
+\end_layout
+
+\begin_layout Standard
+אם הכוח הזה חזק מספיק, מתקבלת תנועה לכידה של מערבולות )
+\begin_inset Formula $flux-flow$
+\end_inset
+
+(: מערבולות נעות בפסים במורד גרדיאנט השדה המגנטי שיוצר הזרם, נוצרות בשפת
+ החומר עליה השדה גבוה, ונעלמות בשפת החומר עליה השדה נמוך.
+\end_layout
+
+\begin_layout Standard
+אם הכוח הזה חזק יותר מחלק מכוחות העיגון, בד"כ לא יזוזו מערבולות בודדות בגלל
+ הדחייה ההדדית ביניהן.
+ אבל קבוצות גדולות של מערבולות יכולות לנוע יחד בהשפעת הכוח )
+\begin_inset Formula $flux-creep$
+\end_inset
+
+(.
+ הכוח על מערבולות נסכם על פני שטח הקבוצה, ודחיית המערבולות נסכמת לאורך היקף
+ הקבוצה, ולכן ייתכן שעבור קבוצה גדולה מספיק תהיה תנועה.
+\end_layout
+
+\begin_layout Subsubsection*
+התנגדות אפקטיבית
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+168-169
+\end_layout
+
+\begin_layout Standard
+כלומר, לכאורה הכוח בין מערבולות ידחוף אותן לקצוות.
+ 
 \end_layout
 
 \begin_layout Standard

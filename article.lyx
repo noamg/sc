@@ -811,15 +811,377 @@ status open
 \end_layout
 
 \begin_layout Standard
-עומק חדירה
+במודלים שונים של מוליכות על, מתארים נושאי מטען על שאינם חווים התנגדות, במסה
+ 
+\begin_inset Formula $m^{*}$
+\end_inset
+
+, מטען 
+\begin_inset Formula $e^{*}$
+\end_inset
+
+.
+ הצפיפות המקומית שלהם היא 
+\begin_inset Formula $n_{s}$
+\end_inset
+
+, וצפיפות הזרם שלהם היא 
+\begin_inset Formula $J_{s}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-משוואות לונדון
+מודל זה כולל שתי משוואות המתארות את זרם העל והקשר שלו לשדה החשמלי והמגנטי
+ הלוקאליים.
+ הראשונה היא מעין גרסא של חוק אוהם עבור זרם על ומתארת זרם שתחת מתח 
+\begin_inset Formula $DC$
+\end_inset
+
+ מתפוצץ לאינסוף: 
+\begin_inset Formula 
+\[
+\frac{d(\vec{\Lambda J_{s})}}{dt}=\vec{E}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+-c\cdot\vec{\nabla}\times(\Lambda\vec{J_{s}})=\vec{h}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר 
+\begin_inset Formula $\vec{J_{s}}$
+\end_inset
+
+ צפיפות זרם על, 
+\begin_inset Formula $\vec{h}$
+\end_inset
+
+ השדה המגנטי הלוקאלי, 
+\begin_inset Formula $\Lambda=\frac{4\pi\lambda^{2}}{c^{2}}=\frac{*}{*}$
+\end_inset
+
+ הינו פרמטר סקלארי פנומנולוגי )תוך הנחת 
+\begin_inset Formula $n_{s}=Const$
+\end_inset
+
+(.
+ משוואת לונדון השנייה, יחד עם משוואת מקסוול 
+\begin_inset Formula $\vec{h}=\frac{4\pi}{c}\vec{J}$
+\end_inset
+
+ גוררות שהשדה המגנטי 
+\begin_inset Formula $\vec{h}$
+\end_inset
+
+ דועך אקספוננציאלית משפת העל מוליך עם סקאלה אופיינית 
+\begin_inset Formula $\lambda$
+\end_inset
+
+)עומק חדירה(, דבר שמתאים לאפקט מייזנר.
+ עומק החדירה 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ משתנה כתלות בטמפרטורה, ובטמפרטורה הקריטית 
+\begin_inset Formula $T_{c}$
+\end_inset
+
+ נקבל 
+\begin_inset Formula $\lambda\to\infty$
+\end_inset
+
+, עובדה המתאימה להריסת מוליכות העל ב- 
+\begin_inset Formula $T_{c}$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+*** עוד משהו על משוואות לונדון ***?
 \end_layout
 
 \begin_layout Subsection*
 תורת גינזנורג לנדאו
+\end_layout
+
+\begin_layout Standard
+קדימה: ביעילות.
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+110
+\numeric off
+ 
+\numeric on
+127
+\end_layout
+
+\begin_layout Standard
+תורת גינזבורג לנדאו מטפלת במקרה 
+\begin_inset Formula $n_{s}\neq Const$
+\end_inset
+
+, אך 
+\begin_inset Formula $n_{s}$
+\end_inset
+
+ משתנה רק מעט מרחבית.
+ בתורה מציגים פונקצית התפלגות מרוכבת )
+\begin_inset Formula $pseodu-wavefunction$
+\end_inset
+
+( 
+\begin_inset Formula $\psi=|\psi|\cdot\exp(i\psi)$
+\end_inset
+
+ כך ש- 
+\begin_inset Formula $|\psi|^{2}=n_{s}$
+\end_inset
+
+, ומפתחים את האנרגיה החופשית 
+\begin_inset Formula $f$
+\end_inset
+
+ בסדרים של 
+\begin_inset Formula $\psi$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $Tinkham-4.1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+f=f_{normal-state}+\alpha|\psi|^{2}+\frac{1}{2}\beta|\psi|^{4}+\frac{1}{2m^{*}}(\frac{\hbar}{i}\vec{\nabla}-\frac{e^{*}}{c}\vec{A})\psi+\frac{\hbar^{2}}{8\pi}
+\]
+
+\end_inset
+
+המצב היציב אנרגתית מתקבל במינימום האנרגיה החפשית, שניתן לניתוח באמצעות שיטות
+ וואריאציה על 
+\begin_inset Formula $\psi$
+\end_inset
+
+.
+ בהעדר שדה מגנטי חיצוני, ותנאי שפה שכופים זרם בדוגמא, מינימום האנרגיה יתקבל
+ עבור 
+\begin_inset Formula $\psi=\psi_{\infty}=Const$
+\end_inset
+
+.
+ במקרים אחרים איפוס הואריאציה מתקבל ע"י:
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $Tinkham-4.14a$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\vec{J_{s}}=e^{*}\vec{v_{s}}|\psi|^{2}=\frac{e^{*}}{m^{*}}|\psi|^{2}(\hbar\vec{\nabla}\phi-\frac{e^{*}}{c}\vec{A})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מהמשוואה הדיפרנציאלית של איפוס הוואריאציה, עולה סקאלה אופיינית לשינוי 
+\begin_inset Formula $\psi$
+\end_inset
+
+ שהיא:
+\begin_inset Formula 
+\[
+\xi=\sqrt{\frac{\hbar^{2}}{2m^{*}|\alpha|}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בפרט, זו סקאלת האורך האופיינית לדעיכה של המצב העל מוליך, למשל לקראת שפת
+ החומר.
+\end_layout
+
+\begin_layout Subsubsection*
+קוונטיזית השטף המגנטי בעל מוליך
+\end_layout
+
+\begin_layout Standard
+כעת ננתח על מוליך הנמצא בשדה מגנטי חיצוני 
+\begin_inset Formula $H$
+\end_inset
+
+, אך ללא מתח חיצוני.
+ נחשב את השטף המגנטי מבעד למשטח מסוים 
+\begin_inset Formula $S$
+\end_inset
+
+, תחת כמה הנחות: המשטח הנמצא בעומק העל מוליך רחוק מזרמי שפה כלומר 
+\begin_inset Formula $\vec{J_{s}=0}$
+\end_inset
+
+, 
+\begin_inset Formula $|\psi|^{2}=n_{s}\approx Const$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נקבל )תוך שימוש במשפט סטוקס(:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Phi=\iint_{S}\vec{B}\cdot\vec{dS}=\oint_{\partial S}\vec{A}\cdot\vec{dl}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+עם שימוש בפיתרון בעיית הואריאציה וההנחה 
+\begin_inset Formula $\vec{J_{s}}=0$
+\end_inset
+
+ נקבל:
+\begin_inset Formula 
+\[
+\Phi=\frac{\hbar}{e*}\oint_{\partial S}\vec{\nabla}\phi\cdot\vec{dl}=\frac{\hbar}{e^{*}}\cdot2\pi n=\Phi_{0}\cdot n
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כאשר 
+\begin_inset Formula $n$
+\end_inset
+
+ שלם )אינטרל מסלולי סגור של פונקציה קשור במספר הקטבים מסדר ראשון שיש לה
+ בתחום 
+\begin_inset Formula $S$
+\end_inset
+
+(
+\end_layout
+
+\begin_layout Standard
+כלומר, השטף המגנטי נהיה מקוונטט בכפולות של 
+\begin_inset Formula $\Phi_{0}=\frac{\hbar}{e^{*}}2\pi=\frac{h}{e^{*}}$
+\end_inset
+
+.
+ ניתוח זה מסתדר עם העובדה שבעל מוליך מסוג
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+, חדירת שדה מגנטי מתבצעת במערבולות של זרם על, שבתוכן עובר שטף מגנטי, בקוונטות
+ של 
+\begin_inset Formula $\Phi_{0}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+***
+\end_layout
+
+\begin_layout Standard
+הנחת 
+\begin_inset Formula $\psi$
+\end_inset
+
+ משתנה באיטיות.
+ אם קבוע, חוזרים למודל של לונדון.
 \end_layout
 
 \begin_layout Standard
@@ -885,6 +1247,23 @@ status open
 אורך קוהרנטיות?
 \end_layout
 
+\begin_layout Standard
+מה חשוב: חשוב שהאינטגרל המסלולי הסגור מקוונטט.
+ קוטב וזה.
+\end_layout
+
+\begin_layout Standard
+חשוב 
+\begin_inset Formula $\phi$
+\end_inset
+
+ הפאזה של 
+\begin_inset Formula $\psi$
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection*
 מערבולות זרם בעל מוליך
 \end_layout
@@ -919,6 +1298,177 @@ status open
 \numeric off
 , כאשר מסביב כל אחד מהם מערבולת של זרם, הממסך את שאר החומר מהשדה המגנטי
  )כמו שזרמי שפה ממסכים את תוך החומר משדה חיצוני(.
+ מערבולות הזרם מגיבות לכוחות שונים, ותנועה שלהן יוצרת התנגדות אפקטיבית )שאינה
+ אוהמית!( בחומר.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+מערבולת זרם על בחומר על מוליך
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+כוחות הפועלים על מערבולות
+\end_layout
+
+\begin_layout Standard
+בורות פוטנציאל: בהעדר שדה חיצוני, המצב האנרגתי העדיף של 
+\begin_inset Formula $\psi$
+\end_inset
+
+ הוא ללא מערבולות.
+ ליד פגמים בגביש, 
+\begin_inset Formula $\psi\approx0$
+\end_inset
+
+ ולכן ה"נזק" האנרגתי ביצירת מערבולת עקב השפעת שדה חיצוני 
+\begin_inset Formula $H$
+\end_inset
+
+ קטן יותר אם היא נוצרת על הפגם הזה.
+ כלומר, מערבולות נמשכות לפגמים בגביש.
+ כיוון שאנרגיה תרמית יכולה לעזור למערבולות לצאת מבורות הפוטנציאל הללו, הם
+ אפקטיבית יותר עמוקים ככל שהטמפרטורה נמוכה יותר.
+\end_layout
+
+\begin_layout Standard
+גרדיאנט שדה מגנטי: שדה מגנטי מקביל לכיוון המערבולת, מפעיל כוח לורנץ על נושאי
+ מטען העל )היות והוא מאונך לכיוון התנועה שלהם(.
+ אם השדה המגנטי אחיד במרחב, אז נושאי מטען שנמצאים בצדדים שונים של המערבולת
+ ירגישו כוח זהה, והכוח נטו על המערבולת יהיה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+.
+ לעומת זאת, אם ישנו גרדיאנט בשדה, אז המערבולת תרגיש כוח נטו במורד הגרדיאנט.
+\end_layout
+
+\begin_layout Standard
+כוח בין מערבולות: מערבולות שדה מפעילות כוח זו על זו, כוח שמנסה להרחיק אותן.
+ מקרה פשטני ברור משיקולים אנרגתיים: האנרגיה המגנטית הולכת כמו 
+\begin_inset Formula $B^{2}$
+\end_inset
+
+ ולכן אם יש שתי מערבולות זרם חופפות אז יש להן אנרגיה מגנטית כוללת 
+\begin_inset Formula $E\propto(2B)^{2}=4B^{2}$
+\end_inset
+
+ ואם הן מרוחקות, אז יש להן אנרגיה כוללת 
+\begin_inset Formula $E\propto B^{2}+B^{2}=2B^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+סידור מערבולות, עיגון מערבולות, תנועת מערבולות
+\end_layout
+
+\begin_layout Standard
+כאשר יש מיעוט מערבולות הן פשוט נמצאות במרחקים גדולים זו מזו.
+ כאשר יש ריבוי מערבולות, אנרגית האינטרקציה של מערבולות מינימלית כאשר הן
+ מסודרות בשריג משולש: 
+\begin_inset Formula $Abrikosov-Lattice$
+\end_inset
+
+.
+ הכוח בין המערבולות מאוזן ע"י השדה המגנטי שיצר את המערבולות מלכתחילה, שהוא
+ חזק יותר מחוץ לחומר העל מוליך, ולכן משאיר אותן בתוך החומר.
+\end_layout
+
+\begin_layout Standard
+כאשר זורם זרם דרך העל מוליך, הוא משרה שדה מגנטי שיש לו רכיב מקביל למערבולות
+ הזרם, המשתנה לרוחב החומר.
+ כלומר, יוצר גרדיאנט של שדה מגנטי המפעיל כוח על מערבולות.
+\end_layout
+
+\begin_layout Standard
+אם הכוח הזה חלש יותר מכוחות העיגון )
+\begin_inset Formula $pinning$
+\end_inset
+
+( של בורות הפוטנציאל, אזי המערבולות נשארות סטטיות והחומר עדיין מוליך מושלם.
+\end_layout
+
+\begin_layout Standard
+אם הכוח הזה חזק מספיק, מתקבלת תנועה לכידה של מערבולות )
+\begin_inset Formula $flux-flow$
+\end_inset
+
+(: מערבולות נעות בפסים במורד גרדיאנט השדה המגנטי שיוצר הזרם, נוצרות בשפת
+ החומר עליה השדה גבוה, ונעלמות בשפת החומר עליה השדה נמוך.
+\end_layout
+
+\begin_layout Standard
+אם הכוח הזה חזק יותר מחלק מכוחות העיגון, בד"כ לא יזוזו מערבולות בודדות בגלל
+ הדחייה ההדדית ביניהן.
+ אבל קבוצות גדולות של מערבולות יכולות לנוע יחד בהשפעת הכוח )
+\begin_inset Formula $flux-creep$
+\end_inset
+
+(.
+ הכוח על מערבולות נסכם על פני שטח הקבוצה, ודחיית המערבולות נסכמת לאורך היקף
+ הקבוצה, ולכן ייתכן שעבור קבוצה גדולה מספיק תהיה תנועה.
+\end_layout
+
+\begin_layout Subsubsection*
+התנגדות אפקטיבית
+\end_layout
+
+\begin_layout Standard
+
+\numeric on
+168-169
+\end_layout
+
+\begin_layout Standard
+כלומר, לכאורה הכוח בין מערבולות ידחוף אותן לקצוות.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -2565,6 +3115,35 @@ status open
 \end_inset
 
  של הגרפים התלת ממדיים, כדי שאפשר יהיה לראות אותם יותר טוב
+\end_layout
+
+\begin_layout Standard
+עוד על קוונטיזצית השטף המגנטי: 
+\end_layout
+
+\begin_layout Standard
+https://en.wikipedia.org/wiki/Quantum_vortex
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $ginzburg-landau-pp11-12$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Tinkham-4.45$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $https://en.wikipedia.org/wiki/Quantum_{v}ortex$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part*

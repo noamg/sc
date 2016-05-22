@@ -1,4 +1,4 @@
-folder = 'C:\Users\Dan Wexler\Documents\school\year 3\lab3\superconductors\sc\data\040416\';
+folder = 'H:\Physics Lab 3\supercondutors\sc2.git\data\040416\';
 
 flist = dir([folder, 'THI_manThrmAutoMeas_*.csv']);
 

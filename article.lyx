@@ -2541,7 +2541,8 @@ status open
 
 \begin_layout Enumerate
 כדי לשלוט באופן מיטבי בטמפרטורה, קיררנו את הדוגמא לטמפרטורה של חנקן נוזלי,
- כלומר, לא הפעלנו את נגד ההספק.
+ כלומר, לא הפעלנו את נגד ההספק )וגם כי לא נשארה כניסה פנויה של ספק זרם בשביל
+ נגד ההספק(.
 \end_layout
 
 \begin_layout Enumerate
@@ -3095,6 +3096,69 @@ status open
 \begin_layout Standard
 הרבה דיון.
  הרבה
+\end_layout
+
+\begin_layout Part*
+כל מיני הערכות סדרי גודל
+\end_layout
+
+\begin_layout Standard
+שדה סליל.
+ כל אמפר הוא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+100
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+גאוס בערך.
+\end_layout
+
+\begin_layout Standard
+שדה חיצוני:
 \end_layout
 
 \begin_layout Part*

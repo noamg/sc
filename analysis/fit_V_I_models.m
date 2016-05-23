@@ -4,7 +4,7 @@ flist = dir([folder,'*.csv']);
 
 colHeads = {'Time(sec)','TempRes(Ohm)','SampVolt(V)','SampCurr(A)','CoilCurr(A)','HeatingCurr(A)','SampCurr_order(A)'};
 
-fitO1 = fitoptions(,'Lower',[0,0],'Upper',[inf,inf]);
+fitO1 = fitoptions('Lower',[0,0],'Upper',[inf,inf]);
 fitT1 = fittype(@(a,b,x) a*x.^2./(a/b+x),'independent','x','lower','options',fitO1);
 fitT2 = fittype(@(a,b,c,d,x) a*(x-d).^3 + b*(x-d).^2 + c*(x-d),'independent','x');
 

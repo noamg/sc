@@ -34,6 +34,7 @@ def H_z_wire_avaraged(x_wire, z_wire, x, z_min, z_max, current, mu_0=4*np.pi*1e-
 
 def H_convolve(H_green, J, x, dx, z, dz, x_conv, z_conv):
     H_tot = sp.signal.convolve2d(H_green, J, mode='valid') * dx * dz
+    H_tot = H_tot[:-1, :-1]
     #H_avarage = np.sum(H_tot, axis=0) * dz / (z_conv[-1] - z_conv[0])
     return H_tot#, H_avarage
 
@@ -115,12 +116,12 @@ xx_c, zz_c = np.meshgrid(x_conv, z_conv)
 # create current density metrix
 J_const = np.ones((len(z_conv), len(x_conv))) / (len(z_conv) * len(x_conv) * dx * dz) * I_int
 assert(np.allclose(J_const.sum() * dx * dz, I_int))
-frac = 0.1
+frac = 0.01
 J_rand = np.random.binomial(n=1, p=frac, size=(len(z_conv), len(x_conv)))
 J_rand = J_rand / J_rand.sum() / dx / dz * I_int
 assert(np.allclose(J_rand.sum() * dx * dz, I_int))
 
-J = J_const
+J = J_rand
 
 if True:    
     fig = plt.figure()
@@ -148,11 +149,10 @@ dH_dx = np.diff(H_avarage_z) / dx
 
 fig = plt.figure()
 ax = fig.gca(projection='3d')
-surf = ax.plot_wireframe(xx_c[:-1, :-1], zz_c[:-1, :-1], H_tot[:-2, :-2])
-
+surf = ax.plot_wireframe(xx_c, zz_c, H_tot)
 
 plt.figure()
-plt.plot(x_conv, H_avarage_z[:-1])
+plt.plot(x_conv, H_avarage_z)
    
 plt.figure()
-plt.plot(x_conv, dH_dx)
+plt.plot(0.5 * (x_conv[:-1] + x_conv[1:]), dH_dx)

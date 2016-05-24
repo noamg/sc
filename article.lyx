@@ -186,29 +186,93 @@
 \end_layout
 
 \begin_layout Enumerate
-ניתוח נומרי של שדה מגנטי )שעה וחצי(
+לוודא זרם כולל
+\end_layout
+
+\begin_layout Enumerate
+לנסות להגיד משהו על התוצאות שלנו
+\end_layout
+
+\begin_layout Enumerate
+ניתוח נומרי של שדה מגנטי )שעה וחצי(: הסתיים.
+ נשאר לייצר גרפים
 \end_layout
 
 \begin_layout Enumerate
 פיטים במטלב, בניית דיאגרמת פאזות.
- )שעתיים??(
+ )שעתיים??(: פיט סוג
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+, סוג
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+, ידני.
+ דן שלישי
 \end_layout
 
 \begin_layout Enumerate
 ניתוח תוצאות של הסטת מתח.
- )שעה וחצי(
+ )שעה וחצי( רביעי
 \end_layout
 
 \begin_layout Enumerate
-ייצור תמונות )שעה וחצי(
+ייצור תמונות )שעה וחצי( שלישי
 \end_layout
 
 \begin_layout Enumerate
-השלמת נתונים צפים, הכנסה של סקאלות )שעה וחצי(
+השלמת נתונים צפים, הכנסה של סקאלות )שעה וחצי( שלישי בונוס, אולי רביעי
 \end_layout
 
 \begin_layout Enumerate
-עוד כתיבה בנושא התנגדות אפקטיבית, כתיבה בנושא הדיון )שעה-שעתיים?(
+עוד כתיבה בנושא התנגדות אפקטיבית, כתיבה בנושא הדיון )שעה-שעתיים?( רביעי
 \end_layout
 
 \begin_layout Enumerate
@@ -263,6 +327,7 @@
 
 \begin_layout Enumerate
 בונוס בלבד: ניתוח תוצאות הסטת מתח ראש ראשון.
+ בוטל
 \end_layout
 
 \begin_layout Part*

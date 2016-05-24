@@ -92,10 +92,10 @@ I_int = 1.5
 I_coil = 7
 
 # space parameters
-N_x = 100
+N_x = 10000
 N_z = 70
-Dx = 3e-3
-Dz = 1e-3
+Dx = 3.2e-3
+Dz = 2e-3
 
 # create Green function
 x, dx = np.linspace(-Dx, Dx, N_x, retstep=True)
@@ -123,7 +123,7 @@ assert(np.allclose(J_rand.sum() * dx * dz, I_int))
 
 J = J_rand
 
-if True:    
+if False:    
     fig = plt.figure()
     ax = fig.gca(projection='3d')
     surf = ax.plot_wireframe(xx_c, zz_c, J)
@@ -147,9 +147,15 @@ dH_dx = np.diff(H_avarage_z) / dx
 
 #%%
 
+if True:
+    fig = plt.figure()
+    ax = fig.gca(projection='3d')
+    surf = ax.plot_wireframe(xx_c, zz_c, H_tot)
+
 fig = plt.figure()
 ax = fig.gca(projection='3d')
-surf = ax.plot_wireframe(xx_c, zz_c, H_tot)
+surf = ax.plot_wireframe(xx_c[:,:-1], zz_c[:,:-1], np.diff(H_tot, axis=1) / dx)
+
 
 plt.figure()
 plt.plot(x_conv, H_avarage_z)

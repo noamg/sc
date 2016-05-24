@@ -32,9 +32,13 @@ def H_z_wire_avaraged(x_wire, z_wire, x, z_min, z_max, current, mu_0=4*np.pi*1e-
     return mu_0 * current / 2 / np.pi * Tesla_to_gauss / (z_max - z_min) * (np.arctan((z_wire - z_max) / (x_wire - x)) - np.arctan((z_wire - z_min) / (x_wire - x))
     
 
-def H_z  
-#%%
+def H_z_internal():
+    pass
 
+def H_coil(I_coil):
+    return I
+
+#%%
 N_x = 60
 N_z = 20
 x, dx = np.linspace(-1.5e-3, 1.5e-3, N_x, retstep=True)
@@ -82,11 +86,12 @@ def H_convolve(H_green, J, x, dx, z, dz, x_conv, z_conv):
     H_avarage = np.sum(H_tot, axis=0) * dz / (z_conv[-1] - z_conv[0])
     return H_tot, H_avarage
 
-#H_tot, H_avarage = H_convolve(H_green, J_const, x, dx, z, dz, x_conv, z_conv)
-H_tot, H_avarage = H_convolve(H_green, J_rand, x, dx, z, dz, x_conv, z_conv)
-fig = plt.figure()
-ax = fig.gca(projection='3d')
-surf = ax.plot_wireframe(xx_c, zz_c, J_rand)
+H_tot, H_avarage = H_convolve(H_green, J_const, x, dx, z, dz, x_conv, z_conv)
+if False:
+    H_tot, H_avarage = H_convolve(H_green, J_rand, x, dx, z, dz, x_conv, z_conv)
+    fig = plt.figure()
+    ax = fig.gca(projection='3d')
+    surf = ax.plot_wireframe(xx_c, zz_c, J_rand)
 
 #%%
 if False:

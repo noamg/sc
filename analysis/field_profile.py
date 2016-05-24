@@ -57,8 +57,8 @@ plt.plot(x, H_a)
 plt.plot(x, H_a_numeric)
 
 #%%
-N_x = 60
-N_z = 40
+N_x = 100
+N_z = 70
 Dx = 3e-3
 Dz = 1e-3
 x, dx = np.linspace(-Dx, Dx, N_x, retstep=True)
@@ -69,18 +69,34 @@ H_green = H_z_wire(0, 0, xx, zz, 1)
 x_conv = np.arange(-0.5 * Dx, 0.5 * Dx, dx)
 z_conv = np.arange(-0.5 * Dz, 0.5 * Dz, dz)
 xx_c, zz_c = np.meshgrid(x_conv, z_conv)
-current_in = 1
+current_in = 1.5
 J_const = np.ones((len(z_conv), len(x_conv))) / (len(z_conv) * len(x_conv) * dx * dz) * current_in
 assert(np.allclose(J_const.sum() * dx * dz, current_in))
+frac = 0.1
+J_rand = np.random.binomial(n=1, p=frac, size=(len(z_conv), len(x_conv)))
+J_rand = J_rand / J_rand.sum() / dx / dz * current_in
+assert(np.allclose(J_rand.sum() * dx * dz, current_in))
 
-H_tot = sp.signal.convolve2d(H_green, J_const, mode='valid') * dx * dz
-#z = 0.1e-3
+def H_convolve(H_green, J, x, dx, z, dz, x_conv, z_conv):
+    H_tot = sp.signal.convolve2d(H_green, J, mode='valid') * dx * dz
+    H_avarage = np.sum(H_tot, axis=0) * dz / (z_conv[-1] - z_conv[0])
+    return H_tot, H_avarage
 
-#%%
+#H_tot, H_avarage = H_convolve(H_green, J_const, x, dx, z, dz, x_conv, z_conv)
+H_tot, H_avarage = H_convolve(H_green, J_rand, x, dx, z, dz, x_conv, z_conv)
 fig = plt.figure()
 ax = fig.gca(projection='3d')
-surf = ax.plot_wireframe(xx, zz, H_green)
+surf = ax.plot_wireframe(xx_c, zz_c, J_rand)
+
+#%%
+if False:
+    fig = plt.figure()
+    ax = fig.gca(projection='3d')
+    surf = ax.plot_wireframe(xx, zz, H_green)
 
 fig = plt.figure()
 ax = fig.gca(projection='3d')
 surf = ax.plot_wireframe(xx_c, zz_c, H_tot[:-1, :-1])
+
+plt.figure()
+plt.plot(x_conv, H_avarage[:-1])

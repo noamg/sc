@@ -6,6 +6,8 @@ Created on Fri Apr 15 16:27:39 2016
 """
 
 import numpy as np
+import scipy as sp
+from scipy import signal
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
@@ -27,9 +29,10 @@ def H_z_wire(x_wire, z_wire, xx, zz, current, mu_0=4*np.pi*1e-7):
     return mu_0 * current / 2 / np.pi * Tesla_to_gauss * (x_wire - xx) / ((xx - x_wire) ** 2 + (zz - z_wire) ** 2)
 
 def H_z_wire_avaraged(x_wire, z_wire, x, z_min, z_max, current, mu_0=4*np.pi*1e-7):
-    return mu_0 * current / 2 / np.pi * Tesla_to_gauss / (z_max - z_min) * (np.arctan(z_max / x) - np.arctan(z_min / x))
+    return mu_0 * current / 2 / np.pi * Tesla_to_gauss / (z_max - z_min) * (np.arctan((z_wire - z_max) / (x_wire - x)) - np.arctan((z_wire - z_min) / (x_wire - x))
     
-    
+
+def H_z  
 #%%
 
 N_x = 60
@@ -54,3 +57,30 @@ plt.plot(x, H_a)
 plt.plot(x, H_a_numeric)
 
 #%%
+N_x = 60
+N_z = 40
+Dx = 3e-3
+Dz = 1e-3
+x, dx = np.linspace(-Dx, Dx, N_x, retstep=True)
+z, dz = np.linspace(-Dz, Dz, N_z, retstep=True)
+xx, zz = np.meshgrid(x, z)
+H_green = H_z_wire(0, 0, xx, zz, 1)
+
+x_conv = np.arange(-0.5 * Dx, 0.5 * Dx, dx)
+z_conv = np.arange(-0.5 * Dz, 0.5 * Dz, dz)
+xx_c, zz_c = np.meshgrid(x_conv, z_conv)
+current_in = 1
+J_const = np.ones((len(z_conv), len(x_conv))) / (len(z_conv) * len(x_conv) * dx * dz) * current_in
+assert(np.allclose(J_const.sum() * dx * dz, current_in))
+
+H_tot = sp.signal.convolve2d(H_green, J_const, mode='valid') * dx * dz
+#z = 0.1e-3
+
+#%%
+fig = plt.figure()
+ax = fig.gca(projection='3d')
+surf = ax.plot_wireframe(xx, zz, H_green)
+
+fig = plt.figure()
+ax = fig.gca(projection='3d')
+surf = ax.plot_wireframe(xx_c, zz_c, H_tot[:-1, :-1])

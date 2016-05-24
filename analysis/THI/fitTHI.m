@@ -18,6 +18,13 @@ for ind = 1: length(THI070416.files)
         THI070416_prcssd.sampCurr{ind}{jnd} = abs(THI070416.SampCurr{ind}(ix));
         THI070416_prcssd.sampVolt{ind}{jnd} = abs(THI070416.SampVolt{ind}(ix));
         if strcmp(THI070416.files{ind}(23),'6')
+            THI070416_prcssd.tempMean{ind}(jnd) = pt100_convert(mean(THI070416.TempRes{ind}(30:end)),0);
+            THI070416_prcssd.tempSTD{ind}(jnd) = std(pt100_convert(THI070416.TempRes{ind}(30:end),0));
+            if uniqueCoilCurr(jnd) == 0.128
+                THI070416_prcssd.coilCurr{ind}(jnd) = 0;
+                THI070416_prcssd.sampCurr{ind}{jnd} = abs(THI070416.SampVolt{ind}(ix));
+                THI070416_prcssd.sampVolt{ind}{jnd} = abs(THI070416.TempRes{ind}(ix));
+            end
             THI070416_prcssd.sampCurr{ind}{jnd}(1:2:end) = [];
             THI070416_prcssd.sampVolt{ind}{jnd}(1:2:end) = [];
         else
@@ -75,7 +82,7 @@ figure
 hold on
 for ind = 1:length(THI040416_prcssd.tempMean)
     for jnd = 1:length(THI040416_prcssd.coilCurr{ind})
-       plot3(THI070416_prcssd.tempMean{ind}(jnd),THI040416_prcssd.coilCurr{ind}(jnd),THI040416_prcssd.fitData1{ind}{jnd}.a,'.')
+       plot3(THI040416_prcssd.tempMean{ind}(jnd),THI040416_prcssd.coilCurr{ind}(jnd),THI040416_prcssd.fitData1{ind}{jnd}.a,'.')
     end
 end
 

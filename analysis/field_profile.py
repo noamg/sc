@@ -92,7 +92,8 @@ I_int = 1.5
 I_coil = 7
 
 # space parameters
-N_x = 10000
+N_x = 100
+#N_x = 10000
 N_z = 70
 Dx = 3.2e-3
 Dz = 2e-3
@@ -123,10 +124,20 @@ assert(np.allclose(J_rand.sum() * dx * dz, I_int))
 
 J = J_rand
 
-if False:    
+if True:    
     fig = plt.figure()
     ax = fig.gca(projection='3d')
     surf = ax.plot_wireframe(xx_c, zz_c, J)
+    ax.set_xlabel('x [m]')
+    ax.set_ylabel('z [m]')
+    ax.set_zlabel(r'J [$\frac{amp}{m^2}$]')
+    ax.set_title('current density at bar cross section')
+
+    plt.figure()
+    plt.pcolormesh(xx_c, zz_c, J)
+    plt.xlabel('x [m]')
+    plt.ylabel('z [m]')
+    plt.title('current density at bar cross section')
 
 
 
@@ -151,14 +162,29 @@ if True:
     fig = plt.figure()
     ax = fig.gca(projection='3d')
     surf = ax.plot_wireframe(xx_c, zz_c, H_tot)
+    ax.set_xlabel('x [m]')
+    ax.set_ylabel('z [m]')
+    ax.set_zlabel('H [gauss]')
+    ax.set_title('magnetic field H')
+    
 
 fig = plt.figure()
 ax = fig.gca(projection='3d')
 surf = ax.plot_wireframe(xx_c[:,:-1], zz_c[:,:-1], np.diff(H_tot, axis=1) / dx)
+ax.set_xlabel('x [m]')
+ax.set_ylabel('z [m]')
+ax.set_zlabel(r'$\frac{dH}{dx}$ [$\frac{gauss}{m}$]')
+ax.set_title(r'$\frac{dH}{dx}$, proportional to force on vortices')
 
 
 plt.figure()
 plt.plot(x_conv, H_avarage_z)
+plt.xlabel('x [m]')
+plt.ylabel(r'$<H>_z$ [gauss]')
+plt.title('vertical mean of H (along z)')
    
 plt.figure()
 plt.plot(0.5 * (x_conv[:-1] + x_conv[1:]), dH_dx)
+plt.xlabel('x [m]')
+plt.ylabel(r'$\frac{d<H>_z}{dx}$ [$\frac{gauss}{m}$]')
+plt.title(r'vertical mean of $\frac{dH}{dx}$ (along z)')

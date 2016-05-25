@@ -954,10 +954,54 @@ status open
 \end_layout
 
 \begin_layout Standard
-מוליכי על קרים הם חומרים שעוברים למצב מוליך על בטמפרטורות בטווח ___, הם
- לרוב מתכות ולא סגסוגות.
- מוליכי על חמים, הם חומרים שעוברים למצב על מוליך בטמפרטורות בטווח ____ והם
- סגסוגות שונות.
+מוליכי על קרים הם חומרים שעוברים למצב מוליך על בטמפרטורות נמוכות מטמפרטורת
+ הרתיחה של חנקן נוזלי 
+\begin_inset Formula $\left(77\textdegree K\right)$
+\end_inset
+
+, ולכן דורשים אמצעי קירור מורכבים.
+ על המוליכים הראשונים שהיו מוכרים היו מתכות, לרוב טהורות ולא סגסוגות עם
+ טמפרטורות מעבר של 
+\begin_inset Formula $1-20\textdegree K$
+\end_inset
+
+.
+ ב-
+\numeric on
+1986
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+התחילו להתגלות מוליכי על שהם חומרים קרמיים מבוססי נחושת 
+\begin_inset Formula $\left(Cuprates\right)$
+\end_inset
+
+, רובם מוליכי על "חמים" עם טמפרטורות מעבר של 
+\begin_inset Formula $90-150\textdegree K$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection*
@@ -1216,7 +1260,7 @@ status open
 \end_layout
 
 \begin_layout Subsubsection*
-קוונטיזית השטף המגנטי בעל מוליך
+קוונטיזצית השטף המגנטי בעל מוליך
 \end_layout
 
 \begin_layout Standard
@@ -1423,7 +1467,150 @@ status open
 \end_layout
 
 \begin_layout Standard
-קווי השטף המגנטי חודרים לעל מוליך מסוג
+ההבדל בין על מוליכים מסוג
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לעל מוליכים מסוג
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+טמון ביחס בין עומק החדירה ואורך הקוהרנטיות שמסומן 
+\begin_inset Formula $\kappa=\frac{\lambda}{\xi}$
+\end_inset
+
+.
+ עבור ערכי 
+\begin_inset Formula $\kappa$
+\end_inset
+
+ גדולים מספיק 
+\begin_inset Formula $\left(\frac{1}{\sqrt{2}}<\right)$
+\end_inset
+
+ מתאפשרת חדירה של שטף מגנטי במנות כמתואר לעיל.
+ זוהי תוצאה של עדיפות אנרגטית ליצירת אזור שפה בין החומר העל מוליך וליבת
+ נורמלית, שלא קיימת במוליכים מסוג
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+.
+ קווי השטף המגנטי חודרים לעל מוליך מסוג
 \family roman
 \series medium
 \shape up
@@ -1450,8 +1637,9 @@ status open
 \color inherit
 2
 \numeric off
-, כאשר מסביב כל אחד מהם מערבולת של זרם, הממסך את שאר החומר מהשדה המגנטי
- )כמו שזרמי שפה ממסכים את תוך החומר משדה חיצוני(.
+, כאשר מסביב כל אחד מהם מערבולת של זרם, הממסך **דן: אני לא בטוח עד כמה "מיסוך"
+ זה במקום** את שאר החומר מהשדה המגנטי )כמו שזרמי שפה ממסכים את תוך החומר
+ משדה חיצוני(.
  מערבולות הזרם מגיבות לכוחות שונים, ותנועה שלהן יוצרת התנגדות אפקטיבית )שאינה
  אוהמית!( בחומר.
 \end_layout
@@ -1535,7 +1723,17 @@ status open
 0
 \numeric off
 .
- לעומת זאת, אם ישנו גרדיאנט בשדה, אז המערבולת תרגיש כוח נטו במורד הגרדיאנט.
+ לעומת זאת, אם ישנו גרדיאנט בשדה, אז המערבולת תרגיש כוח נטו במעלה
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+דן: שיניתי מ"במורד"
+\end_layout
+
+\end_inset
+
+ הגרדיאנט.
 \end_layout
 
 \begin_layout Standard
@@ -1553,6 +1751,20 @@ status open
 \end_inset
 
 .
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+ )לכן גם נראה רק מנות של 
+\begin_inset Formula $\Phi_{0}$
+\end_inset
+
+, ולא כפולות שלו(
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1561,8 +1773,17 @@ status open
 
 \begin_layout Standard
 כאשר יש מיעוט מערבולות הן פשוט נמצאות במרחקים גדולים זו מזו.
- כאשר יש ריבוי מערבולות, אנרגית האינטרקציה של מערבולות מינימלית כאשר הן
- מסודרות בשריג משולש: 
+ כאשר יש ריבוי מערבולות
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+לדעתי זה הפוך, בריבוי אתה שובר את השריג, המיעוט אתה נאמן לו עד כדי פינינג
+\end_layout
+
+\end_inset
+
+, אנרגית האינטרקציה של מערבולות מינימלית כאשר הן מסודרות בשריג משולש: 
 \begin_inset Formula $Abrikosov-Lattice$
 \end_inset
 
@@ -1590,8 +1811,18 @@ status open
 \begin_inset Formula $flux-flow$
 \end_inset
 
-(: מערבולות נעות בפסים במורד גרדיאנט השדה המגנטי שיוצר הזרם, נוצרות בשפת
- החומר עליה השדה גבוה, ונעלמות בשפת החומר עליה השדה נמוך.
+(: מערבולות נעות בפסים במעלה
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+היה מורד
+\end_layout
+
+\end_inset
+
+ גרדיאנט השדה המגנטי שיוצר הזרם, נוצרות בשפת החומר עליה השדה גבוה, ונעלמות
+ בשפת החומר עליה השדה נמוך.
 \end_layout
 
 \begin_layout Standard
@@ -1700,7 +1931,15 @@ status open
 \end_layout
 
 \begin_layout Enumerate
-מדידת זרם ומתח: דוגמא של על מוליך מסוג **** במידות ____ עליה מולחמים
+מדידת זרם ומתח: דוגמא של על מוליך מסוג 
+\begin_inset Formula $BiPbSrCaCuO$
+\end_inset
+
+ במידות 
+\begin_inset Formula $2.1\times3.2\times20.1\,mm$
+\end_inset
+
+ עליה מולחמים
 \family roman
 \series medium
 \shape up
@@ -1773,7 +2012,7 @@ status open
 
 \begin_layout Enumerate
 שליטה בטמפרטורה: הדוגמא נמצאת בתוך צינור המוכנס לאמבט של חנקן נוזלי בטמפרטורת
- הרתיכה שלו 
+ הרתיחה שלו 
 \begin_inset Formula $77^{\circ}k$
 \end_inset
 
@@ -1788,7 +2027,7 @@ status open
 
 \begin_layout Enumerate
 שליטה בשדה מגנטי: סביב הצינור עם הדוגמא ישנו סליל נחושת המחובר לספק זרם,
- ומשרה שדה מגנטי בסביבת הדוגמא.
+ ומשרה שדה מגנטי קבוע בקירוב בסביבת הדוגמא.
 \end_layout
 
 \begin_layout Enumerate
@@ -1841,23 +2080,28 @@ reference "sub:matlab_control"
 \numeric off
  דקות להתייצבות הטמפרטורה של המערכת, *** האם להכניס מדידות טרמליזציה עם
  זמן מחצית חיים וכו'? ***.
- לפני כל מדידה ווידאנו את התייצבות הטמפרטורה עד סקאלה של ____
+ לפני כל מדידה ווידאנו את התייצבות הטמפרטורה עד סקאלה של 
+\begin_inset Formula $\pm0.05\textdegree K$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
 שגיאה שיטתית במדידת הטמפרטורה: נגד המדידה לא היה צמוד לדוגמא, והוא היה קרוב
  יותר לנגד החימום.
- כלומר, הוא הצביע על טמפרטורה מעט יותר גבוהה מהטמפרטורה של הדוגמא.
+ כלומר, הוא הצביע על טמפרטורה מעט יותר גבוהה מהטמפרטורה של הדוגמא, בתהליכי
+ חימום וקירור.
 \end_layout
 
 \begin_layout Enumerate
-אפקטים לא רצויים של חימום: ברוב הניסויים בדוגמא מתמפח הספק מזערי, אבל בתיילי
- הנחושת המובילים אליה, ובמגעי הבדיל הצמודים אליה יכול להתפתח הספק שמשנה
- את הטמפרטורה של הדוגמא, ולכן את התגובה שלה לזרם, שדה וכו'.
+אפקטים לא רצויים של חימום: ברוב הניסויים בדוגמא עצמה מתמפתח הספק מזערי,
+ אבל בתיילי הנחושת המובילים אליה, ובמגעי הבדיל הצמודים אליה יכול להתפתח
+ הספק שמשנה את הטמפרטורה של הדוגמא, ולכן את התגובה שלה לזרם, שדה וכו'.
  יתר על כן, השינוי הזה בטמפרטורה לא משתקף במדידת הטמפרטורה, שכן החימום נעשה
  צמוד מאוד לדוגמא.
- הפיתרון לסוגיה היה להזרים לסירוגין זרמים למקטעי זמן קצרים ***, להמתין להתקררות
- חוזרת של הדוגמא.
+ הפיתרון לסוגיה היה להזרים לסירוגין זרמים למקטעי זמן קצרים *** של עשיריות
+ שניה בודדות, ולהמתין להתקררות חוזרת של הדוגמא על פני שניות בודדות.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1870,7 +2114,7 @@ reference "sub:matlab_control"
 \end_inset
 
 : הסטה קטנה רציפה של המתח בין ההדקים בסקאלה של *** 
-\begin_inset Formula $5nV$
+\begin_inset Formula $5\mu V$
 \end_inset
 
 .
@@ -2016,11 +2260,11 @@ status open
 \end_inset
 
  של 
-\begin_inset Formula $0.03amp$
+\begin_inset Formula $0.03Amp$
 \end_inset
 
  או 
-\begin_inset Formula $0.5amp$
+\begin_inset Formula $0.5Amp$
 \end_inset
 
  )תלוי בהרצה( ומדדנו את המתח 
@@ -2215,7 +2459,15 @@ status open
 \begin_inset Formula $V(I)$
 \end_inset
 
- בטמפרטורות ***תחום*** ושדות מגנטיים ***תחום***.
+ בטמפרטורות 
+\begin_inset Formula $102-117\textdegree K$
+\end_inset
+
+ ושדות מגנטיים 
+\begin_inset Formula $\sim0-400\,Gauss$
+\end_inset
+
+.
  מדידות אלו מאפיינות חלק מדיאגרמת הפאזות 
 \begin_inset Formula $T-H$
 \end_inset
@@ -2229,7 +2481,8 @@ status open
 \begin_inset Formula $H$
 \end_inset
 
- עולה, אחרת היו יכולות להיתקע בעל מוליך מערבולות שלא הספיקו להיעלם.
+ עולה, אחרת היו יכולות להישאר בדוגמא מערבולות שלא הספיקו להיעלם )היסטרזיס
+ של על מוליכים, תופעה בה אנו לא דנים(.
 \end_layout
 
 \begin_layout Subsection*
@@ -2274,7 +2527,7 @@ status open
 \begin_layout Standard
 \begin_inset Formula 
 \[
-R_{tot}=\frac{}{}
+R_{tot}=\frac{R_{b}I}{\frac{R_{b}}{\alpha}+I}
 \]
 
 \end_inset
@@ -2430,12 +2683,25 @@ status open
 \begin_layout Standard
 אולם, להתאמת המודל שהצענו לתוצאות, נדרש ערך התנגדות של בערך *** בשפה, כאשר
  מצפים לבערך ***.
- כמו כן, התלות בטמפרטורה ***
+ כמו כן, קיימת תלות של 
+\begin_inset Formula $R_{b}$
+\end_inset
+
+ בשדה המגנטי, מה שלא סביר להתנגדות אוהמית סטנדרטית.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+התלות בטמפרטורה ***
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-עולה ערך לא ריאלי של התנגדות בהיקף והתנהגות לא ריאלית עם הטמפרטורה, מודל
- נופל
+עולה ערך לא ריאלי של התנגדות בהיקף והתנהגות לא ריאלית עם השדה, מודל נופל
 \end_layout
 
 \begin_layout Section*
@@ -2704,7 +2970,7 @@ status open
 
 \begin_layout Enumerate
 לאורך הניסוי השתמשנו בשדה חיצוני מקסימלי שיכלנו ליצור: 
-\begin_inset Formula $H=***$
+\begin_inset Formula $H=700\pm70\,Gauss$
 \end_inset
 
 .
@@ -2716,7 +2982,7 @@ status open
 \end_inset
 
  וזיהינו את הזרם הקריטי 
-\begin_inset Formula $I_{crit}=1.5\pm**amp$
+\begin_inset Formula $I_{crit}=1.75\pm0.25\,Amp$
 \end_inset
 
 .
@@ -2724,14 +2990,14 @@ status open
 
 \begin_layout Enumerate
 במקביל לקביעת זרם פנימי הקריטי או מעט מעליו, הזרמנו 
-\begin_inset Formula $I_{ext}=4amp$
+\begin_inset Formula $I_{ext}=4\,Amp$
 \end_inset
 
  שהוא הזרם המקסימלי שנתן ספק הזרם.
 \end_layout
 
 \begin_layout Enumerate
-חזרנו על המדידות הנ"ל עבור שני הקיטובים )כיוונים( האפשריים של 
+חזרנו על המדידות הנ"ל עבור שני הקיטובים )כיוון הזרמת זרם( האפשריים של 
 \begin_inset Formula $I_{transport}$
 \end_inset
 

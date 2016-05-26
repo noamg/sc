@@ -59,7 +59,7 @@ plt.figure()
 plt.plot(means)
 wrap_detrand = wrap - means[:, np.newaxis]
 on_detrand = V[is_each_I_ext_on] - means
-wrap_on_off = np.hstack([wrap_detrand, on_detrand.reshape(-1,1)])
+wrap_on_off = np.hstack([wrap_detrand[:,:5], on_detrand.reshape(-1,1), wrap_detrand[:,5:]])
 off_detrand = wrap_detrand.flatten()
 all_detrand = wrap_on_off.flatten()
 

@@ -35,20 +35,25 @@ V_mean_off = np.mean(V[is_each_I_ext_off])
 V_std_off = np.std(V[is_each_I_ext_off])
 
 #%%
-plt.figure()
-plt.plot(I_ext, V, '.')
-plt.hlines([V_mean_on - V_std_on, V_mean_on, V_mean_on + V_std_on], I_ext.min(), I_ext.max(), label='on')
-plt.hlines([V_mean_off - V_std_off, V_mean_off, V_mean_off + V_std_off], I_ext.min(), I_ext.max(), label='off', colors='r')
-
-plt.xlabel('external current')
-plt.ylabel('voltage on sample')
-plt.legend(loc='best')
-
+def plot_v_mean_std(I_ext, V, V_mean_on, V_std_on, V_mean_off, V_std_off):
+    plt.figure()
+    plt.plot(I_ext, V, '.')
+    plt.hlines([V_mean_on - V_std_on, V_mean_on, V_mean_on + V_std_on], I_ext.min(), I_ext.max(), label='on')
+    plt.hlines([V_mean_off - V_std_off, V_mean_off, V_mean_off + V_std_off], I_ext.min(), I_ext.max(), label='off', colors='r')
+    
+    plt.xlabel('external current')
+    plt.ylabel('voltage on sample')
+    plt.legend(loc='best')
+    
+    
+plot_v_mean_std(I_ext, V, V_mean_on, V_std_on, V_mean_off, V_std_off)
 plt.figure()
 plt.plot(V, '.')
+
 #%%
 wrap_d = np.diff(np.where(is_each_I_ext_on)[0])[0]
-wrap = V[is_each_I_ext_off][np.floor(0.5 * wrap_d - 0.5) : -np.ceil(0.5 * wrap_d - 0.5)].reshape((-1, wrap_d - 1))
+slice_no_edges = slice(np.floor(0.5 * wrap_d - 0.5), -np.ceil(0.5 * wrap_d - 0.5))
+wrap = V[is_each_I_ext_off][slice_no_edges].reshape((-1, wrap_d - 1))
 means = np.mean(wrap, axis=1)
 plt.figure()
 plt.plot(means)
@@ -60,12 +65,15 @@ all_detrand = wrap_on_off.flatten()
 
 plt.figure()
 plt.plot(all_detrand, '.')
-"""
-V_mean_on = np.mean(V[is_each_I_ext_on])
-V_std_on = np.std(V[is_each_I_ext_on])
-V_mean_off = np.mean(V[is_each_I_ext_off])
-V_std_off = np.std(V[is_each_I_ext_off])
-"""
+
+
+V_mean_on_det = np.mean(on_detrand)
+V_std_on_det = np.std(on_detrand)
+V_mean_off_det = np.mean(off_detrand)
+V_std_off_det = np.std(off_detrand)
+
+plot_v_mean_std(I_ext[slice_no_edges], all_detrand, V_mean_on_det, V_std_on_det, V_mean_off_det, V_std_off_det)
+
 
 
 

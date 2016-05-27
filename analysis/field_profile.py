@@ -8,9 +8,14 @@ Created on Fri Apr 15 16:27:39 2016
 import numpy as np
 import scipy as sp
 from scipy import signal
+import matplotlib
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
+matplotlib.rcParams['font.size'] = 22
+matplotlib.rcParams['axes.labelpad'] = 30
+matplotlib.rcParams['axes.labelsize'] = 'large'
 
+folder_figs = '/home/noam/studies/physics/lab_c/sc.git/figs/'
 #%%
 def f(x,z):
     return x / (x ** 2  + z ** 2)
@@ -92,11 +97,12 @@ I_int = 1.5
 I_coil = 7
 
 # space parameters
-N_x = 100
+N_x = 10000
 #N_x = 10000
 N_z = 70
 Dx = 3.2e-3
 Dz = 2e-3
+R_wire = 0.25e-3
 
 # create Green function
 x, dx = np.linspace(-Dx, Dx, N_x, retstep=True)
@@ -117,7 +123,7 @@ xx_c, zz_c = np.meshgrid(x_conv, z_conv)
 # create current density metrix
 J_const = np.ones((len(z_conv), len(x_conv))) / (len(z_conv) * len(x_conv) * dx * dz) * I_int
 assert(np.allclose(J_const.sum() * dx * dz, I_int))
-frac = 0.01
+frac = 0.0001
 J_rand = np.random.binomial(n=1, p=frac, size=(len(z_conv), len(x_conv)))
 J_rand = J_rand / J_rand.sum() / dx / dz * I_int
 assert(np.allclose(J_rand.sum() * dx * dz, I_int))
@@ -126,6 +132,7 @@ J = J_rand
 
 if True:    
     fig = plt.figure()
+    #fig, axs = plt.subplots(nrows=3, subplot_kw=dict(projection='3d'))
     ax = fig.gca(projection='3d')
     surf = ax.plot_wireframe(xx_c, zz_c, J)
     ax.set_xlabel('x [m]')
@@ -143,9 +150,12 @@ if True:
 
 
 H_coil = H_coil_z(I_coil)
-H_ext = 5 * H_z_wire(1.6e-3, 0, xx_c, zz_c, I_ext) + 6 * H_z_wire(-1.6e-3, 0, xx_c, zz_c, I_ext)
+H_ext = 5 * H_z_wire(0.5 * (Dx + R_wire), 0, xx_c, zz_c, I_ext) + 6 * H_z_wire(-0.5 * (Dx + R_wire), 0, xx_c, zz_c, I_ext)
 H_int = H_convolve(H_green, J, x, dx, z, dz, x_conv, z_conv)
 #%%
+H_type = 'j_int_rand_frac_' + str(frac)
+#H_type = 'j_int_const'
+#H_type = 'I_ext'
 H_tot = H_int
 H_avarage_z = np.sum(H_tot, axis=0) * dz / (z_conv[-1] - z_conv[0])
 dH_dx = np.diff(H_avarage_z) / dx
@@ -162,10 +172,11 @@ if True:
     fig = plt.figure()
     ax = fig.gca(projection='3d')
     surf = ax.plot_wireframe(xx_c, zz_c, H_tot)
-    ax.set_xlabel('x [m]')
+    ax.set_xlabel('x [m]', labelpad=30)
     ax.set_ylabel('z [m]')
     ax.set_zlabel('H [gauss]')
-    ax.set_title('magnetic field H')
+    ax.set_title('magnetic field H: ' + H_type)
+    fig.savefig(folder_figs + 'H_' + H_type + '.png')
     
 
 fig = plt.figure()
@@ -173,18 +184,21 @@ ax = fig.gca(projection='3d')
 surf = ax.plot_wireframe(xx_c[:,:-1], zz_c[:,:-1], np.diff(H_tot, axis=1) / dx)
 ax.set_xlabel('x [m]')
 ax.set_ylabel('z [m]')
-ax.set_zlabel(r'$\frac{dH}{dx}$ [$\frac{gauss}{m}$]')
-ax.set_title(r'$\frac{dH}{dx}$, proportional to force on vortices')
+ax.set_zlabel(r'$\frac{d}{dx}H$ [$\frac{gauss}{m}$]')
+ax.set_title(r'$\frac{d}{dx}H$, proportional to force on vortices: ' + H_type)
+fig.savefig(folder_figs + 'dH_dx_' + H_type + '.png')
 
 
 plt.figure()
 plt.plot(x_conv, H_avarage_z)
 plt.xlabel('x [m]')
 plt.ylabel(r'$<H>_z$ [gauss]')
-plt.title('vertical mean of H (along z)')
+plt.title('vertical mean of H (along z): ' + H_type)
+plt.savefig(folder_figs + 'H_mean_' + H_type + '.png')
    
 plt.figure()
 plt.plot(0.5 * (x_conv[:-1] + x_conv[1:]), dH_dx)
 plt.xlabel('x [m]')
-plt.ylabel(r'$\frac{d<H>_z}{dx}$ [$\frac{gauss}{m}$]')
-plt.title(r'vertical mean of $\frac{dH}{dx}$ (along z)')
+plt.ylabel(r'$\frac{d}{dx}<H>_z$ [$\frac{gauss}{m}$]')
+plt.title(r'vertical mean of $\frac{d}{dx}H$ (along z): ' + H_type)
+plt.savefig(folder_figs + 'dH_mean_dx_' + H_type + '.png')

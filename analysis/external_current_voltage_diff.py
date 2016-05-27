@@ -15,8 +15,12 @@ Tpt100_tolerance = 0.2
 
 
 folder = "/home/noam/studies/physics/lab_c/sc.git/data/150516/"
+file_out = '/home/noam/studies/physics/lab_c/sc.git/some_results/v_shift.csv'
+file_out_2 = '/home/noam/studies/physics/lab_c/sc.git/some_results/v_shift_2.csv'
+t_out = np.resize(mlab.csv2rec(file_out), 10)
+#t_out = np.recarray()
 file_1 = "/home/noam/studies/physics/lab_c/sc.git/data/150516/THI_manThermalAutoMeas_9_65.csv"
-names = ['t', 'Tpt100', 'V', 'I_ext', 'I_coil', 'I_int', 'I_ext_order', 'I_int_sign, I_ext_sign']
+names = ['t', 'Tpt100', 'V', 'I_ext', 'I_coil', 'I_int', 'I_ext_order', 'I_int_sign', 'I_ext_sign']
 table = mlab.csv2rec(file_1, names=names, skiprows=1)
 assert np.allclose(table['I_coil'], I_coil_expected)
 assert np.allclose(table['Tpt100'], Tpt100_expected, atol=Tpt100_tolerance)
@@ -74,7 +78,18 @@ V_std_off_det = np.std(off_detrand)
 
 plot_v_mean_std(I_ext[slice_no_edges], all_detrand, V_mean_on_det, V_std_on_det, V_mean_off_det, V_std_off_det)
 
+V_diff = V_mean_on_det - V_mean_off_det
+V_diff_err = np.linalg.norm([V_std_on_det, V_std_off_det])
+I_ext_out = I_ext[is_each_I_ext_on].mean()
+I_ext_out_err = I_ext[is_each_I_ext_on].std()
+I_int_out = table['I_int'][0]
+I_ext_sign_out = table['I_ext_sign'][0]
+I_int_sign_out = table['I_int_sign'][0]
 
+t_out[0] = (int(file_1[-6:-4]), table['I_coil'][0], I_int_out, I_ext_out, I_int_sign_out, I_ext_sign_out, V_mean_on_det, V_std_on_det, V_mean_off_det, V_std_off_det, V_diff, V_diff_err)
+han = open(file_out_2, 'w')
+mlab.rec2csv(t_out, han)
+han.close()
 
 
 """

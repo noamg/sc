@@ -2153,6 +2153,14 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/test_set_basic.png
+	lyxscale 25
+	scale 25
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -2290,14 +2298,39 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/RT_zoomout.png
+	lyxscale 25
+	scale 25
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figs/RT_withError.png
+	lyxscale 25
+	scale 25
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-חזרות שונות של מדידת 
+בגרף הימני חזרות שונות של מדידת 
 \begin_inset Formula $R(T)$
 \end_inset
 
-, ומיצוע עליהן
+, ללא ציון אי וודאות של 
+\begin_inset Formula $2.5^{\circ}K$
+\end_inset
+
+ במדידת הטמפרטורה.
+ בגרף השמאלי, מדידה יחידה של 
+\begin_inset Formula $R(T)$
+\end_inset
+
+, עם ציון אי הוודאות
 \end_layout
 
 \end_inset
@@ -2311,13 +2344,67 @@ status open
 \end_layout
 
 \begin_layout Standard
-גרף אחד עם כל התוצאות.
- גרף אחד עם מיצוע.
- כנראה בלי מיצוע, אין לזה משמעות.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/RT_zoomTc.png
+	lyxscale 25
+	scale 25
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+חזרות שונות על מדידת 
+\begin_inset Formula $R(T)$
+\end_inset
+
+, עם התמקדות על 
+\begin_inset Formula $T_{c}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-הנה טמפרטורת מעבר: ____
+כפי שניתן לראות באיורים, חזרות שונות על המדידה הצביעו על טמפרטורות קריטיות
+ 
+\begin_inset Formula $T_{c}$
+\end_inset
+
+ שונות בטווח 
+\begin_inset Formula $104.5-114.0[^{\circ}K]$
+\end_inset
+
+ עבור הדוגמא הראשונה ו- 
+\begin_inset Formula $119.5\pm2.5[^{\circ}K]$
+\end_inset
+
+ עבור הראש השני.
 \end_layout
 
 \begin_layout Subsection*
@@ -2586,6 +2673,57 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/THI_example_V_of_I_per_H_at_T_better.png
+	lyxscale 25
+	scale 25
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/THI_example_V_of_I_per_T_at_H.png
+	lyxscale 25
+	scale 25
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figs/THI_example_V_of_I_per_T_at_H_zoom.png
+	lyxscale 25
+	scale 25
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -2646,10 +2784,6 @@ status open
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption Standard

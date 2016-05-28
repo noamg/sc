@@ -3231,10 +3231,6 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -3809,6 +3805,739 @@ status open
 \begin_layout Standard
 אין לנו דבר חכם להגיד על הכיוון המועדף שהניסיון מראה למערכת, ניסינו לחשוב
  על הכיוון של השדה החיצוני, אבל נראה שהסקאלה שלו חזקה יותר משמעותית.
+\end_layout
+
+\begin_layout Subsubsection*
+ניתוח: 
+\begin_inset Formula $H,\frac{d}{dx}H$
+\end_inset
+
+ המושרים ע"י 
+\begin_inset Formula $I_{ext},I_{transport}$
+\end_inset
+
+ וע"י הזרם בסליל
+\end_layout
+
+\begin_layout Standard
+כל שדה מגנטי משפיע על המערכת בשתי צורות: תוספת שדה מגנטי מקומי 
+\begin_inset Formula $H=H_{z}$
+\end_inset
+
+ משנה את צפיפות המערבולות המקומית )והמערבולות מאכלסות אתרי 
+\begin_inset Formula $pinning$
+\end_inset
+
+ בעצמות שונות(.
+ גרדיאנט שדה מגנטי 
+\begin_inset Formula $\frac{d}{dx}H_{z}$
+\end_inset
+
+ מפעיל כוח על המערבולות.
+ למעשה, כיוון שהמערבולות הן בכיוון ציר 
+\begin_inset Formula $z$
+\end_inset
+
+, צריך למצע את האפקטים הללו לאורך ציר 
+\begin_inset Formula $z$
+\end_inset
+
+: 
+\begin_inset Formula $<H>_{z}$
+\end_inset
+
+, 
+\begin_inset Formula $\frac{d}{dx}<H>_{z}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+כדי לבדוק את המודלים השונים לעיל/להלן*** ביצענו סימולציה נומרית של השדה
+ שמשרים הזרמים 
+\begin_inset Formula $I_{ext}$
+\end_inset
+
+ , 
+\begin_inset Formula $I_{transport}$
+\end_inset
+
+ , באצמעות קונבולוציה של צפיפות הזרם עם פונקצית ההשפעה 
+\begin_inset Formula $H_{z}$
+\end_inset
+
+ של תיל בודד בתור פונקצית גרין.
+ רזולוצית הסימולציה הייתה 
+\begin_inset Formula $dx=600[nm]\approx2\lambda$
+\end_inset
+
+.
+ עבור 
+\begin_inset Formula $I_{transport}$
+\end_inset
+
+ בדקנו כמה התפלגויות זרמים שונות: התפלגות קבועה, והתפלגות הזרם בערוצים ממוקדים
+ המכסים חלק קטן מתוך שטח החתך באופן אקראי )עבור יחסים של 
+\begin_inset Formula $0.01,0.001,0.0001$
+\end_inset
+
+(.
+\end_layout
+
+\begin_layout Standard
+למשל:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/current_density_cross_section_frac_0.0001.png
+	lyxscale 25
+	scale 25
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הסליל משרה שדה קבוע 
+\begin_inset Formula $H=700[gauss]$
+\end_inset
+
+, וכמובן ללא נגזרת משמעותית.
+\end_layout
+
+\begin_layout Standard
+הזרם החיצוני 
+\begin_inset Formula $I_{ext}$
+\end_inset
+
+ משרה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/H_I_ext.png
+	lyxscale 25
+	scale 37
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/H_mean_I_ext.png
+	lyxscale 25
+	scale 37
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/dH_mean_dx_I_ext.png
+	lyxscale 25
+	scale 37
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הזרם הפנימי 
+\begin_inset Formula $I_{transport}$
+\end_inset
+
+ משרה שדה שתלוי בהתפלגות הזרם לאורך חתך המוליך.
+\end_layout
+
+\begin_layout Standard
+בהנחת התפלגות זרם אחידה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/H_j_int_const.png
+	lyxscale 25
+	scale 37
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/H_mean_j_int_const.png
+	lyxscale 25
+	scale 37
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/dH_mean_dx_j_int_const.png
+	lyxscale 25
+	scale 37
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בהנחת שהזרם מתפלג על
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0.01
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אקראי מתוך השטח:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/dH_mean_dx_j_int_rand_frac_0.01.png
+	lyxscale 25
+	scale 25
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בהנחת שהזרם מתפלג על
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0.001
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אקראי מתוך השטח:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/dH_mean_dx_j_int_rand_frac_0.001.png
+	lyxscale 25
+	scale 25
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בהנחת שהזרם מתפלג על
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0.0001
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אקראי מתוך השטח:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/dH_mean_dx_j_int_rand_frac_0.0001.png
+	lyxscale 25
+	scale 25
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מסקנות מעניין זה:
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Subsubsection*

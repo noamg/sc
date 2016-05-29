@@ -380,6 +380,14 @@
 
 \end_layout
 
+\begin_layout Standard
+נועם: אני לא בטוח מה צריך להיות קודם: רשימת מודלים שמסבירים את התופעה, או
+ ניתוח שדה מגנטי.
+ הצגה היסטורית: קודם רשימת מודלים.
+ הצגה פדגוגית, שמשאפשרת הצגת מודלים עם החולשות והיתרונות שלהם: קודם ניתוח
+ שדה מגנטי.
+\end_layout
+
 \begin_layout Subsection*
 איך לארגן את הדוח
 \end_layout
@@ -1002,6 +1010,10 @@ status open
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Standard
+*** המקום הנכון להזכיר את דיאגרמת הפאזות ***
 \end_layout
 
 \begin_layout Subsection*
@@ -1637,11 +1649,11 @@ status open
 \color inherit
 2
 \numeric off
-, כאשר מסביב כל אחד מהם מערבולת של זרם, הממסך **דן: אני לא בטוח עד כמה "מיסוך"
- זה במקום** את שאר החומר מהשדה המגנטי )כמו שזרמי שפה ממסכים את תוך החומר
- משדה חיצוני(.
- מערבולות הזרם מגיבות לכוחות שונים, ותנועה שלהן יוצרת התנגדות אפקטיבית )שאינה
- אוהמית!( בחומר.
+, כאשר מסביב כל אחד מהם מערבולת של זרם, הממסך את שאר החומר מהשדה המגנטי
+ )כמו שזרמי שפה ממסכים את תוך החומר משדה חיצוני(.
+ מערבולות הזרם מגיבות לכוחות שונים, ותנועה שלהן יוצרת דיסיפאציה של אנרגיה
+ )הרחבה בהמשך(.
+ כלומר, מתקבלת התנגדות אפקטיבית )שאינה אוהמית!( בחומר.
 \end_layout
 
 \begin_layout Standard
@@ -1751,20 +1763,11 @@ status collapsed
 \end_inset
 
 .
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
- )לכן גם נראה רק מנות של 
+ לכן, הקוונטיזציה היא למנות שטף של 
 \begin_inset Formula $\Phi_{0}$
 \end_inset
 
-, ולא כפולות שלו(
-\end_layout
-
-\end_inset
-
-
+, ולא כפולות שלו.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1772,7 +1775,8 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-כאשר יש מיעוט מערבולות הן פשוט נמצאות במרחקים גדולים זו מזו.
+סידור המערבולות תלוי בצפיפות המערבולות.
+ כאשר יש מיעוט מערבולות הן פשוט נמצאות במרחקים גדולים זו מזו.
  כאשר יש ריבוי מערבולות
 \begin_inset Note Note
 status collapsed
@@ -1790,6 +1794,11 @@ status collapsed
 .
  הכוח בין המערבולות מאוזן ע"י השדה המגנטי שיצר את המערבולות מלכתחילה, שהוא
  חזק יותר מחוץ לחומר העל מוליך, ולכן משאיר אותן בתוך החומר.
+ כאשר יש הרבה מאוד מערבולות, והן קרובות זו לזו יותר מ- 
+\begin_inset Formula $\approx\lambda$
+\end_inset
+
+ המבנה נשבר והמערבולות חופפות זו את זו.
 \end_layout
 
 \begin_layout Standard
@@ -1839,6 +1848,65 @@ status collapsed
 
 \begin_layout Subsubsection*
 התנגדות אפקטיבית
+\end_layout
+
+\begin_layout Standard
+כפי שהוזכר לעיל, תנועה רוחבית של מערבולות )כלומר, בניצב לכיוון הזרם 
+\begin_inset Formula $I_{transport}$
+\end_inset
+
+( יוצרת דיסיפאציה.
+ באופן בסיסי לפי חוק פאראדיי, תנועה של מערבולות )שהיא שינוי בשטף המגנטי(
+ משרה כ.א.מ ויוצרת שדה חשמלי 
+\begin_inset Formula $\vec{E}$
+\end_inset
+
+ בדוגמא.
+ דבר זה יוצר הספק דיסיפאציה לפי 
+\begin_inset Formula $W_{dissipation}=\vec{E}\cdot\vec{J}$
+\end_inset
+
+.
+ המודל המנתח זאת הוא מודל 
+\begin_inset Formula $Bardeen-Stephen$
+\end_inset
+
+.
+ 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $Tinkham:167-169$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ במודל זה מניחים באופן פשטני:
+\end_layout
+
+\begin_layout Enumerate
+תנועת המערבולות איטית, ולכן מניחים שניתן להניח שהכוח הכולל הפועל עליהן בציר
+ הרוחבי הוא לינארי 
+\begin_inset Formula $-\eta v$
+\end_inset
+
+.
+ כלומר, במצב העמיד מערבולות מגיעות למהירות שיוט.
+\end_layout
+
+\begin_layout Enumerate
+שהמערבולת מורכבת מליבה גלילית מושלמת במצב נורמלי )ושאר החומר הינו על מוליך(.
+ הנחה זו מאפשרת לנתח את השדה החשמלי מחוץ לליבות באמצעות משוואות לונדון,
+ ובתוך הליבות ע"ס תנאי שפה המתקבלים מהפיתרון מחוץ לליבות.
+\end_layout
+
+\begin_layout Standard
+בתנאים אילו נוצר הספק של ....
+ *** האם בכלל לצטט את הנוסחא? אנחנו לא מתייחסים אליה??***
 \end_layout
 
 \begin_layout Standard
@@ -1931,7 +1999,7 @@ status collapsed
 \end_layout
 
 \begin_layout Enumerate
-מדידת זרם ומתח: דוגמא של על מוליך מסוג 
+החומר: דוגמא של על מוליך מסוג 
 \begin_inset Formula $BiPbSrCaCuO$
 \end_inset
 
@@ -1990,7 +2058,11 @@ status collapsed
 \noun default
 \color inherit
 מגעים, ונמצאת בתוך צינור עם רכיבים שיתוארו להלן.
- המדידה מתבצעת בקונפיגורצית 
+ 
+\end_layout
+
+\begin_layout Enumerate
+מדידת זרם ומתח: המדידה מתבצעת בקונפיגורצית 
 \begin_inset Formula $4-probe$
 \end_inset
 
@@ -2704,10 +2776,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Graphics
 	filename figs/THI_example_V_of_I_per_T_at_H.png
 	lyxscale 25
@@ -2823,7 +2891,7 @@ status open
 
  בשדה המגנטי, מה שלא סביר להתנגדות אוהמית סטנדרטית.
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 התלות בטמפרטורה ***
@@ -2831,7 +2899,7 @@ status open
 
 \end_inset
 
-
+התלות בטמפרטורה ***
 \end_layout
 
 \begin_layout Standard
@@ -3736,6 +3804,416 @@ status open
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $I_{transport}-sign\backslash I_{ext}-sign$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $I_{transport}=1.5(amp)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $4.8\pm0.6$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2.9\pm0.5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3.6\pm0.7$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-1.0\pm0.9$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $I_{transport}=1.75(amp)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $5.0\pm1.1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1.8\pm0.8$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3.3\pm0.8$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-1.5\pm0.7$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $I_{transport}=2.0(amp)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $6.0\pm0.7$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2.6\pm0.7$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3.6\pm1.1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-2.4\pm0.8$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+תוצאות סופיות של מדידת הסטות המתח בין 
+\begin_inset Formula $I_{ext}=0$
+\end_inset
+
+ לבין 
+\begin_inset Formula $I_{ext}=3.94\pm0.02(amp)$
+\end_inset
+
+ ביחידות של 
+\begin_inset Formula $\mu V$
+\end_inset
+
+.
+ המדידות נעשו בשלושה זרמי 
+\begin_inset Formula $Transport$
+\end_inset
+
+ שונים כאשר 
+\begin_inset Formula $I_{crit}=1.5(amp)$
+\end_inset
+
+.
+ רעש המכשיר בניקוי ה- 
+\begin_inset Formula $Drift$
+\end_inset
+
+ הוא בתחום 
+\begin_inset Formula $0.5-1(\mu V)$
+\end_inset
+
+ , והוא כבר נלקח בחשבון בחישוב השגיאה המוצגת בטבלאות.
+ תוצאות הניסוי הראו השפעה מובהקת של 
+\begin_inset Formula $I_{ext}$
+\end_inset
+
+ על המתח הנמדד על הדוגמא
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection*
 דיון
 \end_layout
@@ -3895,10 +4373,6 @@ status open
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -4534,10 +5008,6 @@ status open
 
 \begin_layout Standard
 מסקנות מעניין זה:
-\end_layout
-
-\begin_layout Standard
-
 \end_layout
 
 \begin_layout Subsubsection*

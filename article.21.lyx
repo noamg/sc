@@ -79,7 +79,7 @@
 \end_layout
 
 \begin_layout Author
-דן וקסלר ונועם גביש, בהנחיית חן אלפרן, ודן כהן***
+דן וקסלר ונועם גביש, בהנחיית חן אלפרן, ודן כהן
 \end_layout
 
 \begin_layout Abstract
@@ -186,11 +186,7 @@
 \end_layout
 
 \begin_layout Enumerate
-לוודא זרם כולל V קוראים לי שטורפםכע 
-\begin_inset Formula $f=ma$
-\end_inset
-
-
+לוודא זרם כולל V
 \end_layout
 
 \begin_layout Enumerate
@@ -384,21 +380,12 @@
 
 \end_layout
 
-\begin_layout Standard
-נועם: אני לא בטוח מה צריך להיות קודם: רשימת מודלים שמסבירים את התופעה, או
- ניתוח שדה מגנטי.
- הצגה היסטורית: קודם רשימת מודלים.
- הצגה פדגוגית, שמשאפשרת הצגת מודלים עם החולשות והיתרונות שלהם: קודם ניתוח
- שדה מגנטי.
-\end_layout
-
 \begin_layout Subsection*
 איך לארגן את הדוח
 \end_layout
 
 \begin_layout Standard
-רקע: לכלול פיתוח קווינטוט השטף המגנטי, מושגים בסיסיים (חמים קרים, סוג, סוג
- 2) תוצאות-ניתוח-דיון-תוצאות ניתוח דיון ולא קודם כל התוצאות הדו"ח אמור להיראות
+רקע:תוצאות-ניתוח-דיון-תוצאות ניתוח דיון ולא קודם כל התוצאות הדו"ח אמור להיראות
  כמו סיפור היפוטזות מתחרות לגבי מה שקרה ניסויים שיכולים להבחין ביניהן
 \end_layout
 
@@ -524,6 +511,13 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/storeBoughtGraphs/superconducting_Hg_resistance___figure.boundless-cdn.com_11749_large_figure-21-03-02a.jpeg
+	lyxscale 50
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -537,7 +531,9 @@ status open
 \begin_inset Formula $T_{c}$
 \end_inset
 
- ההתנגדות צונחת
+ ההתנגדות צונחת ל-
+\numeric on
+0
 \end_layout
 
 \end_inset
@@ -666,6 +662,13 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/storeBoughtGraphs/superconductor_B_of_H___Tinkham_p12.PNG
+	lyxscale 50
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -887,57 +890,25 @@ status open
 \end_layout
 
 \begin_layout Standard
-סוג
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-1
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-סוג
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/storeBoughtGraphs/phase_diagram___img.tfd.com_ggse_6a_gsed__0001__0023__0__img6948.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+דיאגרמת פאזות של מוליך על חם )מסוג
 \family roman
 \series medium
 \shape up
@@ -963,6 +934,27 @@ status open
 \noun default
 \color inherit
 2
+\numeric off
+(.
+ ערכי השדה הקריטי 
+\begin_inset Formula $H_{C1}$
+\end_inset
+
+ ו-
+\begin_inset Formula $H_{C2}$
+\end_inset
+
+ משתנים עם הטמפרטורה ומתקבלות עקומות המפרידות בין הפאזות השונות
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1014,10 +1006,6 @@ status open
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Standard
-*** המקום הנכון להזכיר את דיאגרמת הפאזות ***
 \end_layout
 
 \begin_layout Subsection*
@@ -1082,7 +1070,7 @@ status open
 \end_inset
 
  השדה המגנטי הלוקאלי, 
-\begin_inset Formula $\Lambda=\frac{4\pi\lambda^{2}}{c^{2}}=\frac{*}{*}$
+\begin_inset Formula $\Lambda=\frac{4\pi\lambda^{2}}{c^{2}}=\frac{m^{*}}{n_{s}\left(e^{*}\right)^{2}}$
 \end_inset
 
  הינו פרמטר סקלארי פנומנולוגי )תוך הנחת 
@@ -1122,46 +1110,8 @@ status open
  .
 \end_layout
 
-\begin_layout Standard
-*** עוד משהו על משוואות לונדון ***?
-\end_layout
-
 \begin_layout Subsection*
 תורת גינזנורג לנדאו
-\end_layout
-
-\begin_layout Standard
-קדימה: ביעילות.
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-110
-\numeric off
- 
-\numeric on
-127
 \end_layout
 
 \begin_layout Standard
@@ -1280,6 +1230,23 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+עפ"י 
+\begin_inset Formula $\left[2\right]-p.11-12$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 כעת ננתח על מוליך הנמצא בשדה מגנטי חיצוני 
 \begin_inset Formula $H$
 \end_inset
@@ -1383,99 +1350,6 @@ status open
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Standard
-***
-\end_layout
-
-\begin_layout Standard
-הנחת 
-\begin_inset Formula $\psi$
-\end_inset
-
- משתנה באיטיות.
- אם קבוע, חוזרים למודל של לונדון.
-\end_layout
-
-\begin_layout Standard
-האם גם תורת גינצבורג לנדאו + קווינטוט השטף המגנטי, להביא את עיקרי הפיתוח
- מטינקהם, סביבות
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-4
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-משוואות
-\end_layout
-
-\begin_layout Standard
-חדירת שדה, פרופיל מגנטיזציה עם איור שני הסוגים
-\end_layout
-
-\begin_layout Standard
-אורך קוהרנטיות?
-\end_layout
-
-\begin_layout Standard
-מה חשוב: חשוב שהאינטגרל המסלולי הסגור מקוונטט.
- קוטב וזה.
-\end_layout
-
-\begin_layout Standard
-חשוב 
-\begin_inset Formula $\phi$
-\end_inset
-
- הפאזה של 
-\begin_inset Formula $\psi$
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection*
@@ -1667,6 +1541,13 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/storeBoughtGraphs/Flux_lines_in_a_superconductor___upload.wikimedia.org_wikipedia_en_5_57_Flux_lines_in_a_superconductor01.jpg
+	lyxscale 20
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout

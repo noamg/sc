@@ -1355,7 +1355,13 @@ status open
 \end_layout
 
 \begin_layout Subsection*
-מערבולות זרם בעל מוליך
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:מערבולות-זרם-בעל"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1532,8 +1538,165 @@ status open
 , כאשר מסביב כל אחד מהם מערבולת של זרם, הממסך את שאר החומר מהשדה המגנטי
  )כמו שזרמי שפה ממסכים את תוך החומר משדה חיצוני(.
  מערבולות הזרם מגיבות לכוחות שונים, ותנועה שלהן יוצרת דיסיפאציה של אנרגיה
- )הרחבה בהמשך(.
+ )
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:התנגדות-אפקטיבית"
+
+\end_inset
+
+(.
  כלומר, מתקבלת התנגדות אפקטיבית )שאינה אוהמית!( בחומר.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/storeBoughtGraphs/kappa_type1_vs_type2_wall_energy_tinkham121.PNG
+	lyxscale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+התנהגות השדה המגנטי וצפיפות נושאי מטען העל 
+\begin_inset Formula $\left|\psi\right|^{2}$
+\end_inset
+
+ בשפת על מוליך מסוג
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו-
+\numeric on
+2
+\numeric off
+.
+ בעל מוליך מסוג
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ישנו תשלום אנרגטי על השפה, כאשר יש איזור )בערך בגודל 
+\begin_inset Formula $\xi-\lambda$
+\end_inset
+
+( שגם השדה המגנטי מוחזק מחוץ לו וגם מוחזק באנרגיה גבוהה מזו של המצב המעובה.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1570,13 +1733,13 @@ status open
 כוחות הפועלים על מערבולות
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
 בורות פוטנציאל: בהעדר שדה חיצוני, המצב האנרגתי העדיף של 
 \begin_inset Formula $\psi$
 \end_inset
 
  הוא ללא מערבולות.
- ליד פגמים בגביש, 
+ ליד פגמים בגביש 
 \begin_inset Formula $\psi\approx0$
 \end_inset
 
@@ -1585,12 +1748,12 @@ status open
 \end_inset
 
  קטן יותר אם היא נוצרת על הפגם הזה.
- כלומר, מערבולות נמשכות לפגמים בגביש.
+ כלומר, מערבולות "נמשכות" לפגמים בגביש.
  כיוון שאנרגיה תרמית יכולה לעזור למערבולות לצאת מבורות הפוטנציאל הללו, הם
  אפקטיבית יותר עמוקים ככל שהטמפרטורה נמוכה יותר.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Enumerate
 גרדיאנט שדה מגנטי: שדה מגנטי מקביל לכיוון המערבולת, מפעיל כוח לורנץ על נושאי
  מטען העל )היות והוא מאונך לכיוון התנועה שלהם(.
  אם השדה המגנטי אחיד במרחב, אז נושאי מטען שנמצאים בצדדים שונים של המערבולת
@@ -1622,20 +1785,10 @@ status open
 0
 \numeric off
 .
- לעומת זאת, אם ישנו גרדיאנט בשדה, אז המערבולת תרגיש כוח נטו במעלה
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-דן: שיניתי מ"במורד"
+ לעומת זאת, אם ישנו גרדיאנט בשדה, אז המערבולת תרגיש כוח נטו במעלה הגרדיאנט.
 \end_layout
 
-\end_inset
-
- הגרדיאנט.
-\end_layout
-
-\begin_layout Standard
+\begin_layout Enumerate
 כוח בין מערבולות: מערבולות שדה מפעילות כוח זו על זו, כוח שמנסה להרחיק אותן.
  מקרה פשטני ברור משיקולים אנרגתיים: האנרגיה המגנטית הולכת כמו 
 \begin_inset Formula $B^{2}$
@@ -1650,7 +1803,7 @@ status collapsed
 \end_inset
 
 .
- לכן, הקוונטיזציה היא למנות שטף של 
+ לכן הקוונטיזציה היא למנות שטף בודדות של 
 \begin_inset Formula $\Phi_{0}$
 \end_inset
 
@@ -1663,18 +1816,9 @@ status collapsed
 
 \begin_layout Standard
 סידור המערבולות תלוי בצפיפות המערבולות.
- כאשר יש מיעוט מערבולות הן פשוט נמצאות במרחקים גדולים זו מזו.
- כאשר יש ריבוי מערבולות
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-לדעתי זה הפוך, בריבוי אתה שובר את השריג, המיעוט אתה נאמן לו עד כדי פינינג
-\end_layout
-
-\end_inset
-
-, אנרגית האינטרקציה של מערבולות מינימלית כאשר הן מסודרות בשריג משולש: 
+ כאשר יש מיעוט מערבולות הן פשוט נמצאות במרחקים גדולים זו מזו ואין אינטראקציה.
+ כאשר יש ריבוי מערבולות, אנרגיית האינטרקציה של מערבולות מינימלית כאשר הן
+ מסודרות בשריג משולש: 
 \begin_inset Formula $Abrikosov-Lattice$
 \end_inset
 
@@ -1707,34 +1851,37 @@ status collapsed
 \begin_inset Formula $flux-flow$
 \end_inset
 
-(: מערבולות נעות בפסים במעלה
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-היה מורד
-\end_layout
-
-\end_inset
-
- גרדיאנט השדה המגנטי שיוצר הזרם, נוצרות בשפת החומר עליה השדה גבוה, ונעלמות
- בשפת החומר עליה השדה נמוך.
+(: מערבולות נעות בפסים במעלה גרדיאנט השדה המגנטי שיוצר הזרם, נוצרות בשפת
+ החומר עליה השדה גבוה, ונעלמות בשפת החומר עליה השדה נמוך.
 \end_layout
 
 \begin_layout Standard
 אם הכוח הזה חזק יותר מחלק מכוחות העיגון, בד"כ לא יזוזו מערבולות בודדות בגלל
  הדחייה ההדדית ביניהן.
- אבל קבוצות גדולות של מערבולות יכולות לנוע יחד בהשפעת הכוח )
+ אבל קבוצות גדולות של מערבולות יכולות לנוע יחד בהשפעת הכוח.
+ הכוח על מערבולות נסכם על פני שטח הקבוצה, ודחיית המערבולות נסכמת לאורך היקף
+ הקבוצה )גדלים כמספר המערבולות בקבוצה וכשורש מספר המערבולות בקבוצה בהתאמה(,
+ ולכן ייתכן שעבור קבוצה גדולה מספיק תהיה תנועה.
+\end_layout
+
+\begin_layout Standard
+בטמפרטורה גבוהה מספיק, אפילו עם כח מגנטי חלש )הנובע מזרם חלש(, אנרגיה תרמית
+ יכולה לאפשר למערבולת "לקפוץ" מתוך בור פוטנציאל.
+ המערבולת תמשיך עד שתילכד בבור אחר, ותצא ממנו שוב בגלל אנרגיה תרמית )
 \begin_inset Formula $flux-creep$
 \end_inset
 
-(.
- הכוח על מערבולות נסכם על פני שטח הקבוצה, ודחיית המערבולות נסכמת לאורך היקף
- הקבוצה, ולכן ייתכן שעבור קבוצה גדולה מספיק תהיה תנועה.
+(
 \end_layout
 
 \begin_layout Subsubsection*
-התנגדות אפקטיבית
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:התנגדות-אפקטיבית"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1793,87 +1940,33 @@ status open
 
 \begin_layout Standard
 בתנאים אילו נוצר הספק של ....
- *** האם בכלל לצטט את הנוסחא? אנחנו לא מתייחסים אליה??***
-\end_layout
-
-\begin_layout Standard
-**הערה של נועם: כמו שאני מבין את זה, ייתכן שבלי זרם פנימי לא תהיה התנגדות.
- הזרם החיצוני יסיע מערבולות, מה שיגרום לנפילת מתח, אבל אין זרם בכיוון הזה,
- אז לא יהיה חימום ג'ול.
- מה שיקרה זה נדידה של מטענים שתאפס את הפרש המתחים.***
-\end_layout
-
-\begin_layout Standard
-
-\numeric on
-168-169
-\end_layout
-
-\begin_layout Standard
-כלומר, לכאורה הכוח בין מערבולות ידחוף אותן לקצוות.
- 
-\end_layout
-
-\begin_layout Standard
-נוצרות ונעלמות בשפה
-\end_layout
-
-\begin_layout Standard
-כוח חיצוני על מערבולות, "רואות גרדיאנט שדה מגנטי"
-\end_layout
-
-\begin_layout Standard
-כוח בין מערבולות, חישובי אנרגיה, ציטוט מטינקהם
-\end_layout
-
-\begin_layout Standard
-סידור מערבולות?
-\end_layout
-
-\begin_layout Standard
-עיגון מערבולות
-\end_layout
-
-\begin_layout Standard
-זרימת מערבולות
-\end_layout
-
-\begin_layout Standard
-התנגדות אפקטיבית: הטלת מתח על העל מוליך.
-\end_layout
-
-\begin_layout Standard
-דיאגרמת הפאזות 
-\begin_inset Formula $T-H$
-\end_inset
-
- איור
-\end_layout
-
-\begin_layout Standard
-מודלים שונים לנפילת המתח: התנגדות בליבת המערבולת, משוואות מקסוול שינוי שטף
- משרה כ.א.מ: אנחנו צריכים להבין האם אילו מודלים שונים או שתי דרכים להסתכל
- על אותו דבר
+ ***נועם: נוסחא***
 \end_layout
 
 \begin_layout Subsection*
-עוד הערות
+חומר מגורען
 \end_layout
 
 \begin_layout Standard
-לכל הפחות הערה: גביש לא מושלם חומר מגורען
+ייצור גבישים בגדלים מקרוסקופיים )מ"מים( של מוליכי על חמים )
+\begin_inset Formula $Cuprates$
+\end_inset
+
+( הינו קשה.
+ אפשרות אחת לקבל דוגמא בגודל מקרוסקופי הינה לדחוס אבקה )גבישים קטנים( של
+ החומר הרצוי.
+ בתהליך זה מתקבלים הרבה גבישים קטנים עם כיווניות לא אחידה וגם חללים ביניהם.
 \end_layout
 
 \begin_layout Standard
-אם נצליח: ההבדל בין פרופיל שדה עם בור לבלי בור
+הדוגמא איתה נעשו כל הניסויים להלן הינה כזו ולכן ייתכנו הבדלים בין התוצאות
+ שהתקבלו לתוצאות אותן היינו רואים בדוגמא המורכבת מגביש אחד מושלם.
+ התייחסות מלאה יותר למבנה החומר הייתה דורשת תיאור שלו כאתרים שונים המצומדים
+ על ידי צמתי ג'וספסון [***סימוכין***], מפאת סיבוכיות הזנחנו זאת בניתוח.
 \end_layout
 
 \begin_layout Part*
 מערכת הניסוי
-\end_layout
-
-\begin_layout Standard
-*** בלה בלה בלה על מוליך פרמטרים סדר של דברים ***
 \end_layout
 
 \begin_layout Standard
@@ -1964,21 +2057,19 @@ status open
 \begin_inset Formula $PT100$
 \end_inset
 
- למדידת טמפרטורה, הנגד מחובר למד התנגדות ולפי ההתנגדות מחשבים את הטמפרטורה
- לפי *** רפרנס.
- 
+ למדידת טמפרטורה, הנגד מחובר למד התנגדות ולפי ההתנגדות מחשבים את הטמפרטורה.
 \end_layout
 
 \begin_layout Enumerate
 שליטה בטמפרטורה: הדוגמא נמצאת בתוך צינור המוכנס לאמבט של חנקן נוזלי בטמפרטורת
  הרתיחה שלו 
-\begin_inset Formula $77^{\circ}k$
+\begin_inset Formula $77^{\circ}K$
 \end_inset
 
 .
  כמו כן, מעל הנגד למדידת טמפרטורה נמצא נגד הספק, בעזרתו ניתן לחמם את המערכת
  לטמפרטורה מעל 
-\begin_inset Formula $77^{\circ}k$
+\begin_inset Formula $77^{\circ}K$
 \end_inset
 
 .
@@ -2001,8 +2092,49 @@ reference "subsec:matlab_control"
 .
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/test_set_basic.png
+	lyxscale 25
+	scale 25
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+תרשים של מערכת הניסוי: ניתן לראות )מלמטה מלמעלה( בתוך הצינור )מיכל ההליום(
+ נמצאת הדוגמא, המחבורת בתצורת 
+\begin_inset Formula $4-probe$
+\end_inset
+
+, נגד טמפ' 
+\begin_inset Formula $Pt-100$
+\end_inset
+
+ המחובר למד התנגדות ולבסוף נגד חימום המחובר לספק זרם.
+ מקיף את הצינור סליל שמשרה שדה מגנטי קבוע~ באזור הדוגמא.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection*
-דברים שהיה צריך לשים לב, מגבלות מערכת המדידה
+מגבלות מערכת המדידה
 \end_layout
 
 \begin_layout Subsubsection*
@@ -2010,12 +2142,19 @@ reference "subsec:matlab_control"
 \end_layout
 
 \begin_layout Enumerate
-זמני תרמליזציה: עם שינוי ההספק של נגד החימום, נדרשו כ-
+זמני תרמליזציה: עם שינוי ההספק של נגד החימום, נדרשו מעל ל-
+\numeric on
+5
+\numeric off
+ דקות להתייצבות הטמפרטורה של המערכת )נמדד זמן מחצית חיים לתרמליזציה של כ-
+\numeric on
+90
 \family roman
 \series medium
 \shape up
 \size normal
 \emph off
+\numeric off
 \bar no
 \strikeout off
 \uuline off
@@ -2028,17 +2167,13 @@ reference "subsec:matlab_control"
 \shape default
 \size default
 \emph default
-\numeric on
 \bar default
 \strikeout default
 \uuline default
 \uwave default
 \noun default
 \color inherit
-4
-\numeric off
- דקות להתייצבות הטמפרטורה של המערכת, *** האם להכניס מדידות טרמליזציה עם
- זמן מחצית חיים וכו'? ***.
+שניות( .
  לפני כל מדידה ווידאנו את התייצבות הטמפרטורה עד סקאלה של 
 \begin_inset Formula $\pm0.05\textdegree K$
 \end_inset
@@ -2059,8 +2194,8 @@ reference "subsec:matlab_control"
  הספק שמשנה את הטמפרטורה של הדוגמא, ולכן את התגובה שלה לזרם, שדה וכו'.
  יתר על כן, השינוי הזה בטמפרטורה לא משתקף במדידת הטמפרטורה, שכן החימום נעשה
  צמוד מאוד לדוגמא.
- הפיתרון לסוגיה היה להזרים לסירוגין זרמים למקטעי זמן קצרים *** של עשיריות
- שניה בודדות, ולהמתין להתקררות חוזרת של הדוגמא על פני שניות בודדות.
+ הפיתרון לסוגיה היה להזרים לסירוגין זרמים למקטעי זמן קצרים של עשיריות שניה
+ בודדות, ולהמתין להתקררות חוזרת של הדוגמא על פני שניות בודדות.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -2072,7 +2207,7 @@ reference "subsec:matlab_control"
 \begin_inset Formula $Drift$
 \end_inset
 
-: הסטה קטנה רציפה של המתח בין ההדקים בסקאלה של *** 
+: הסטה קטנה רציפה של המתח בין ההדקים בסקאלה של 
 \begin_inset Formula $5\mu V$
 \end_inset
 
@@ -2090,129 +2225,7 @@ reference "subsec:matlab_control"
 \begin_inset Formula $0.2sec$
 \end_inset
 
- כדי להימנע ממתח שנובע מהשראות פרזיטית במערכת.
-\end_layout
-
-\begin_layout Enumerate
-האם להזכיר גם:
-\end_layout
-
-\begin_layout Standard
-איזכור תופעות: השהיית זמן בין פקודה לבין איסוף מידע,.
-\end_layout
-
-\begin_layout Standard
-כל מיני קבועי זמן שהיה צריך לחכות
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename figs/test_set_basic.png
-	lyxscale 25
-	scale 25
-
-\end_inset
-
-
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-תרשים של מערכת הניסוי: ניתן לראות
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-1
-\numeric off
-,
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2
-\numeric off
-,
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-3
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+ כדי להימנע מקפיצת מתח שנובעת מהשראות פרזיטית במערכת.
 \end_layout
 
 \begin_layout Section*
@@ -2265,31 +2278,19 @@ status open
 \end_inset
 
 
-\begin_inset Graphics
-	filename figs/RT_withError.png
-	lyxscale 25
-	scale 25
-
-\end_inset
-
-
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-בגרף הימני חזרות שונות של מדידת 
+חזרות שונות של מדידת 
 \begin_inset Formula $R(T)$
 \end_inset
 
 , ללא ציון אי וודאות של 
-\begin_inset Formula $2.5^{\circ}K$
+\begin_inset Formula $\pm1.4\textdegree K$
 \end_inset
 
  במדידת הטמפרטורה.
- בגרף השמאלי, מדידה יחידה של 
-\begin_inset Formula $R(T)$
-\end_inset
-
-, עם ציון אי הוודאות
+ 
 \end_layout
 
 \end_inset
@@ -2309,8 +2310,40 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/RT_withError.png
+	lyxscale 25
+	scale 25
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+מדידה יחידה של 
+\begin_inset Formula $R(T)$
+\end_inset
+
+, עם ציון אי הוודאות.
+\end_layout
+
+\end_inset
+
 
 \end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -2434,7 +2467,7 @@ status open
  נתונה כאשר היא נמצאת בה זמן רב, כדי להתמודד עם אפקטים של זמן תרמליזציה
  בתוך הדוגמא.
  במקרה זה המדידה הייתה בזמן התקררות וזה יוצר שגיאה מסוימת: חלק מהדוגמא יכול
- כבר להיות בפאזה על מוליכה וחלק עדיין לא.קצב המעבר.
+ כבר להיות בפאזה על מוליכה וחלק עדיין לא.
 \end_layout
 
 \begin_layout Standard
@@ -2450,7 +2483,7 @@ status open
 
  יכולה להיות לא מתואמת, ורק עם ידירה נוספת בטמפרטורה חל תיאום פאזות וצניחת
  ההתנגדות.
- *** רפרנס ***?
+ 
 \end_layout
 
 \begin_layout Standard
@@ -2493,8 +2526,14 @@ status open
 \color inherit
 2
 \numeric off
-, שדה מגנטי חזק דיו יכול לחדור לעל מוליך בצורה של מערבולות זרמי על ***קישור
- רקע***.
+, שדה מגנטי חזק דיו יכול לחדור לעל מוליך בצורה של מערבולות זרמי על 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:מערבולות-זרם-בעל"
+
+\end_inset
+
+.
  זרם פנימי 
 \begin_inset Formula $I_{transport}$
 \end_inset
@@ -2544,10 +2583,14 @@ status open
 \end_layout
 
 \begin_layout Standard
-*** הוצאתי את השורה הזו מהרגע התיאורטי, לא ברור לי איפה זה צריך להיות: ***
- פיתוח תיאורטי שלנו: מודל שאנחנו הצענו: על מוליכות בחומר ומוליכות מושלמת
- רגילה על השפה, בגלל אפקטים של חימצון או אורך הקוהרנטיות + הנחה של התפלגות
- אחידה של בורות עבור המערבולות.
+*** להתחיל התוצאות, לעבור להתמודדות שלנו יחד עם עקומה של 
+\begin_inset Formula $FIT$
+\end_inset
+
+ שעדיין לא קיימת ולסיים בדיאגרמת פאזות עם רפרנס לעקמומיות *** פיתוח תיאורטי
+ שלנו: מודל שאנחנו הצענו: על מוליכות בחומר ומוליכות מושלמת רגילה על השפה,
+ בגלל אפקטים של חימצון או אורך הקוהרנטיות + הנחה של התפלגות אחידה של בורות
+ עבור המערבולות.
  
 \end_layout
 
@@ -2595,7 +2638,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
+התאמת עקומה
 \end_layout
 
 \end_inset
@@ -2777,20 +2820,11 @@ status open
 \end_inset
 
  בשדה המגנטי, מה שלא סביר להתנגדות אוהמית סטנדרטית.
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-התלות בטמפרטורה ***
-\end_layout
-
-\end_inset
-
-התלות בטמפרטורה ***
 \end_layout
 
 \begin_layout Standard
 עולה ערך לא ריאלי של התנגדות בהיקף והתנהגות לא ריאלית עם השדה, מודל נופל
+ ***להוסיף שהתאמה שרירותית כן נתנה תוצאה לא מופרכת*
 \end_layout
 
 \begin_layout Section*
@@ -2822,81 +2856,20 @@ status collapsed
 \end_inset
 
 .
- מטרות הניסוי להוכיח בדרך נוספת שהמתח על העל מוליך לא נובע מהתנגדות אוהמית,
- ***ותכלס גם לחקור התקן חדש מגניב***
+ מטרות הניסוי:
 \end_layout
 
-\begin_layout Standard
-***
+\begin_layout Enumerate
+להוכיח בדרך נוספת שהמתח על העל מוליך לא נובע מהתנגדות אוהמית.
 \end_layout
 
-\begin_layout Standard
-בקטנה.
- לתקף מודל נפילת מתח / להבדיל בין מודלים.
- מטרה להשיג אפקט ולפתוח אפשרויות לחקור אותו בהמשך.
-\end_layout
+\begin_layout Enumerate
+לאפיין את ההתנגדות האפקטיבית תוך הפרדה של ההשפעה של גרדיאנט שדה מגנטי מההשפעות
+ האחרות של זרם 
+\begin_inset Formula $I_{transport}$
+\end_inset
 
-\begin_layout Standard
-חידוש: מערך תיילים אוגו בוגו שמשרה גרדיאנט שדה.
- כלומר, יוצר אפקט שדה בערך כמו זרם בעל מוליך, בלי הזרם עצמו.
- מאפשר להפריד בין תופעות.
-\end_layout
-
-\begin_layout Standard
-עוד על מערכת הניסוי.
- איור
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-1
-\numeric off
-, איור
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2
+.
 \end_layout
 
 \begin_layout Subsection*
@@ -2904,12 +2877,12 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-*** תיאור של הצירים, מה זה אומר: מעל, בצד...
+*** תיאור של הצירים, מה זה אומר: מעל, בצד...***
 \end_layout
 
 \begin_layout Standard
-לצורך הניסוי בנינו שני התקנים: התקן ראשון שבו עובר תיל מעל הדוגמא, ומשרה
- שדה בפרופיל:
+לצורך הניסוי בנינו שני התקנים: התקן ראשון )ששימש לבדיקת היתכנות( שבו עובר
+ תיל מעל הדוגמא, ומשרה שדה בפרופיל:
 \end_layout
 
 \begin_layout Standard
@@ -2936,7 +2909,8 @@ status open
 \end_layout
 
 \begin_layout Standard
-והתקן שני שבו תיילים עוברים בצידי הדוגמא, ומשרים שדה בפרופיל:
+והתקן שני )שעליו נערך הניסוי( שבו תיילים עוברים בצידי הדוגמא, ומשרים שדה
+ בפרופיל:
 \end_layout
 
 \begin_layout Standard
@@ -3039,27 +3013,22 @@ status open
 \end_layout
 
 \begin_layout Standard
-חשוב: שיקולים בעיצוב ראש הניסוי השני.
-\end_layout
-
-\begin_layout Subsection*
-מהלך הניסוי *** האם גם ההתקן הראשון באותה צורה? האם יש תוצאות מההתקן הראשון
+***חשוב: שיקולים בעיצוב ראש הניסוי השני.
  ***
 \end_layout
 
-\begin_layout Standard
-מהלך הניסוי, מה עשינו: להעיתיק ממחברת המעבדה ולתמצת, להבהיר את רדיפת האפקט.
+\begin_layout Subsection*
+מהלך הניסוי
 \end_layout
 
 \begin_layout Enumerate
 כדי לשלוט באופן מיטבי בטמפרטורה, קיררנו את הדוגמא לטמפרטורה של חנקן נוזלי,
- כלומר, לא הפעלנו את נגד ההספק )וגם כי לא נשארה כניסה פנויה של ספק זרם בשביל
- נגד ההספק(.
+ כלומר, לא הפעלנו את נגד ההספק )גם כי לא היה ספק זרם זמין בשביל נגד ההספק(.
 \end_layout
 
 \begin_layout Enumerate
 לאורך הניסוי השתמשנו בשדה חיצוני מקסימלי שיכלנו ליצור: 
-\begin_inset Formula $H=700\pm70\,Gauss$
+\begin_inset Formula $H=700\pm35\,Gauss$
 \end_inset
 
 .
@@ -3178,7 +3147,7 @@ status open
 \begin_inset Formula $drift$
 \end_inset
 
-
+, עם סימון של ממוצע וסטיית תקן למעלה ולמטה לכל זרם
 \end_layout
 
 \end_inset
@@ -3192,503 +3161,11 @@ status open
 \end_layout
 
 \begin_layout Standard
-לא גולמי: טבלאות בקיטובים שונים של הזרמים, אשכרה ההסחות.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="3">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $I_{transport}=1.50(amp)$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $I_{transport}-sign\backslash I_{ext}-sign$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-+
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-+
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $4.8\pm0.6$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $2.9\pm0.5$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $3.6\pm0.7$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $-1.0\pm0.9$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="3">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $I_{transport}=1.75(amp)$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $I_{transport}-sign\backslash I_{ext}-sign$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-+
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-+
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $5.0\pm1.1$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $1.8\pm0.8$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $3.3\pm0.8$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $-1.5\pm0.7$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="3">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $I_{transport}=2.0(amp)$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $I_{transport}-sign\backslash I_{ext}-sign$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-+
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-+
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $6.0\pm0.7$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $2.6\pm0.7$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $3.6\pm1.1$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $-2.4\pm0.8$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-תוצאות סופיות של מדידת הסטות המתח בין 
-\begin_inset Formula $I_{ext}=0$
-\end_inset
-
- לבין 
-\begin_inset Formula $I_{ext}=3.94\pm0.02(amp)$
-\end_inset
-
- ביחידות של 
-\begin_inset Formula $\mu V$
-\end_inset
-
-.
- המדידות נעשו בשלושה זרמי 
-\begin_inset Formula $Transport$
-\end_inset
-
- שונים כאשר 
-\begin_inset Formula $I_{crit}=1.5(amp)$
-\end_inset
-
-.
- רעש המכשיר בניקוי ה- 
-\begin_inset Formula $Drift$
-\end_inset
-
- הוא בתחום 
-\begin_inset Formula $0.5-1(\mu V)$
-\end_inset
-
- , והוא כבר נלקח בחשבון בחישוב השגיאה המוצגת בטבלאות.
- תוצאות הניסוי הראו השפעה מובהקת של 
-\begin_inset Formula $I_{ext}$
-\end_inset
-
- על המתח הנמדד על הדוגמא
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
+תוצאות ההסחות במתח לכל הזרמים 
+\begin_inset Formula $I_{transport}$
 \end_inset
-
 
+ ולכל הקיטובים של הזרמים:
 \end_layout
 
 \begin_layout Standard
@@ -4127,6 +3604,10 @@ status open
 \end_layout
 
 \begin_layout Standard
+*** להעביר פסילות למטה***
+\end_layout
+
+\begin_layout Standard
 מבט: זרם חיצוני יוצר כוח על מערבולות
 \end_layout
 
@@ -4158,7 +3639,7 @@ status open
 \end_layout
 
 \begin_layout Subsubsection*
-עוד משהו לדיון
+עוד משהו לדיון ****
 \end_layout
 
 \begin_layout Standard
@@ -4170,6 +3651,13 @@ status open
 \begin_layout Standard
 אין לנו דבר חכם להגיד על הכיוון המועדף שהניסיון מראה למערכת, ניסינו לחשוב
  על הכיוון של השדה החיצוני, אבל נראה שהסקאלה שלו חזקה יותר משמעותית.
+\end_layout
+
+\begin_layout Standard
+**הערה של נועם: כמו שאני מבין את זה, ייתכן שבלי זרם פנימי לא תהיה התנגדות.
+ הזרם החיצוני יסיע מערבולות, מה שיגרום לנפילת מתח, אבל אין זרם בכיוון הזה,
+ אז לא יהיה חימום ג'ול.
+ מה שיקרה זה נדידה של מטענים שתאפס את הפרש המתחים.***
 \end_layout
 
 \begin_layout Subsubsection*
@@ -4220,8 +3708,8 @@ status open
 \end_layout
 
 \begin_layout Standard
-כדי לבדוק את המודלים השונים לעיל/להלן*** ביצענו סימולציה נומרית של השדה
- שמשרים הזרמים 
+כדי לבדוק את המודלים השונים לעיל ביצענו סימולציה נומרית של השדה שמשרים הזרמים
+ 
 \begin_inset Formula $I_{ext}$
 \end_inset
 
@@ -4561,52 +4049,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
 \begin_inset Graphics
 	filename figs/dH_mean_dx_j_int_rand_frac_0.01.png
 	lyxscale 25
@@ -4683,52 +4125,6 @@ status open
 \noun default
 \color inherit
 אקראי מתוך השטח:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -4823,52 +4219,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
 \begin_inset Graphics
 	filename figs/dH_mean_dx_j_int_rand_frac_0.0001.png
 	lyxscale 25
@@ -4893,8 +4243,12 @@ status open
 
 \end_layout
 
+\begin_layout Subsubsection*
+מסקנות מהסימולציה של השדות ***
+\end_layout
+
 \begin_layout Standard
-מסקנות מעניין זה:
+****
 \end_layout
 
 \begin_layout Subsubsection*
@@ -5166,200 +4520,6 @@ status open
 
 \begin_layout Standard
 מה עוד?
-\end_layout
-
-\begin_layout Part*
-תוצאות
-\end_layout
-
-\begin_layout Subsection*
-מדידת פרופיל התנגדות כתלות בטמפרטורה, ומציאת תחום הטמפרטורה הקריטית
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-פרופיל התנגדות כתלות בטמפרטורה.
- שינוי ההתנגדות מתקיים בתחום הטמפרטורות ____
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection*
-איפיון דיאגרמת הפאזות 
-\begin_inset Formula $T-H$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-שליטה ב- מדידה בלה בלה
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-מדידות 
-\begin_inset Formula $V(I)$
-\end_inset
-
- בטמפרטורות 
-\begin_inset Formula $T$
-\end_inset
-
- ושדות 
-\begin_inset Formula $H$
-\end_inset
-
- שונים, עם התאמה למודל __רפרנס פנימי___
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-ח
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-השתנות הפרמטרים של ההתאמה ___ כתלות ב 
-\begin_inset Formula $T\text{,H}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-מסקנה: ההתאמה נותנת פרמטרים בתחום לא הגיוני והמודל נופל.
-\end_layout
-
-\begin_layout Subsection*
-מדידה עם שדה חיצוני
-\end_layout
-
-\begin_layout Standard
-בקקבקב
-\end_layout
-
-\begin_layout Part*
-דיון, סיכום, מסקנות, כיוונים להמשך
-\end_layout
-
-\begin_layout Standard
-הרבה דיון.
- הרבה
-\end_layout
-
-\begin_layout Part*
-כל מיני הערכות סדרי גודל
-\end_layout
-
-\begin_layout Standard
-שדה סליל.
- כל אמפר הוא
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-100
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-גאוס בערך.
-\end_layout
-
-\begin_layout Standard
-שדה חיצוני:
 \end_layout
 
 \begin_layout Part*

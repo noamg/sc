@@ -1,4 +1,4 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
 \lyxformat 474
 \begin_document
 \begin_header
@@ -2715,21 +2715,9 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-*** להתחיל התוצאות, לעבור להתמודדות שלנו יחד עם עקומה של 
-\begin_inset Formula $FIT$
-\end_inset
-
- שעדיין לא קיימת ולסיים בדיאגרמת פאזות עם רפרנס לעקמומיות *** 
 \end_layout
 
 \begin_layout Standard
@@ -2746,7 +2734,7 @@ status open
 ( עבור המערבולות, קיבלנו תלות ריבועית של המתח בזרם - תלות לינארית של מספר
  המערבולות הזמינות ושל הכח על מערבולת בזרם.
  
-\begin_inset Formula $V=\alpha I^{2}$
+\begin_inset Formula $V=\beta I^{2}$
 \end_inset
 
 
@@ -2754,7 +2742,7 @@ status open
 
 \begin_layout Standard
 ההתנגדות הכוללת של הדוגמא תהיה לפי חיבור במקביל של הפנים, עם התנגדות 
-\begin_inset Formula $R_{effective}=\alpha I$
+\begin_inset Formula $R_{effective}=\beta I$
 \end_inset
 
  , והחוץ, עם התנגדות אוהמית סטנדרטית 
@@ -2767,7 +2755,7 @@ status open
 \begin_layout Standard
 \begin_inset Formula 
 \[
-R_{tot}=\frac{I}{R_{b}+\alpha I}\:\Rightarrow\:V=R_{b}\cdot\frac{I^{2}}{\frac{R_{b}}{\alpha}+I}
+R_{tot}=\frac{I}{R_{b}+\beta I}\:\Rightarrow\:V=R_{b}\cdot\frac{I^{2}}{\frac{R_{b}}{\beta}+I}
 \]
 
 \end_inset
@@ -2857,7 +2845,7 @@ status open
 \begin_inset Formula $R_{b}$
 \end_inset
 
- שהותאמו, ניתן לראות שהערכים הינם מסדר גודל של אלפיות אוהמ ומראים תלות בשדה
+ שהותאמו, ניתן לראות שהערכים הינם מסדר גודל של אלפיות אוהם ומראים תלות בשדה
  המגנטי
 \begin_inset CommandInset label
 LatexCommand label
@@ -2879,39 +2867,24 @@ name "fig:התאמה של התנגדות בשפה"
 \end_layout
 
 \begin_layout Standard
-כפי שניתן לראות ב- ערכי ההתנגדות שהתקבלו לשפת המוליך )עפ"י המודל( לא 
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
+כפי שניתן לראות ב-
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:התאמה של התנגדות בשפה"
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-
-
+ ערכי ההתנגדות שהתקבלו לשפת המוליך )עפ"י המודל( תלויים בעצמת השדה המגנטי,
+ מה שלא צפוי להתנגדות אוהמית סטנדרטית.
+ בנוסף, מכיוון שניתן לקחת את ההתנגדות לפני המעבר למצב על מוליך בתור חסם
+ להתנגדות השפה )כי השינוי השלילי של ההתנגדות האוהמית בגלל ירידת הטמפרטורה
+ בוודאי זניח לעומת השינוי החיובי בגלל הקטנת שטח החתך, שתלוי באורך הקוהרנטיות(
+ הרי שהערך המצופה צריך להיות גדול ממאיות אוהם, ולא באלפיות אוהם כפי שהתקבל.
 \end_layout
 
 \begin_layout Standard
-השתנות הפרמטרים של ההתאמה 
-\begin_inset Formula $R_{b}(T,H)$
-\end_inset
-
- , 
-\begin_inset Formula $\alpha(T,H)$
-\end_inset
-
-
+לאחר שפסלנו את המודל שהצענו עברנו להתאמה השניה כדי לקבל מדד לפאזה של החומר
+ בכל ערך שדה וטמפרטורה.
 \end_layout
 
 \begin_layout Standard
@@ -2921,9 +2894,38 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/exponent fit parameter.png
+	lyxscale 50
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+הפרמטר 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ של ההתאמה השרירותית.
+ ניתן לראות מונוטוניות בטמפרטורה - גרפים "חמים" מתחת לגרפים "קרים".
+ לפרמטר השרירותי נלקחו ספים שרירותיים, עפ"י התקבצות ערכים, כאשר התחתון מתאים
+ ל-
+\begin_inset Formula $H_{c2}$
+\end_inset
+
+ והשני, שהתקבל עבורו רק חסם תחתון, מתאים ל-
+\begin_inset Formula $H_{c1}$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:פרמטר שרירותי"
+
+\end_inset
+
 
 \end_layout
 
@@ -2938,7 +2940,71 @@ status open
 \end_layout
 
 \begin_layout Standard
-דיאגרמת הפאזות:
+עפ"י הספים )השרירותיים( שניתן לראות ב-
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:פרמטר שרירותי"
+
+\end_inset
+
+ התאמנו לכל טמפרטורה ערך 
+\begin_inset Formula $H_{c2}$
+\end_inset
+
+ בנקודה בה בגרף שלה "חוצה" את הסף.
+ מההתאמה ניתן גם להסיק שהערך של 
+\begin_inset Formula $H_{c1}$
+\end_inset
+
+ קטן מערך ה-"
+\numeric on
+0
+\numeric off
+" שלנו, שחסום על ידי ערך השדה המקסימלי שהזרם בדוגמא מייצר )או סכומו עם שדה
+ אחר במערכת הניסוי שלא נלקח בחשבון( בתחום הטמפרטורות הנ"ל.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/H_C2(T)_with_phaseNames.png
+	lyxscale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+ערך 
+\begin_inset Formula $H_{c2}$
+\end_inset
+
+ כפי חושב עפ"י חציית הסף השרירותי
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לא מצאנו נתונים בספרות להשוות אליהם את הגרף האחרון, אך לפי [***סימוכין***],
+ העקמומיות החיובית בסביבת 
+\begin_inset Formula $T_{c}$
+\end_inset
+
+ תואמת את הצפי התיאורטי.
 \end_layout
 
 \begin_layout Standard
@@ -3345,7 +3411,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Tabular
 <lyxtabular version="3" rows="10" columns="3">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -4567,7 +4633,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="3">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">

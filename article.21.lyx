@@ -75,7 +75,7 @@
 \begin_body
 
 \begin_layout Title
-המקור להתנגדות אפקטיבית במוליכי על
+התנגדות אפקטיבית במוליכי על בתנאי גרדיאנט שדה מגנטי חיצוני
 \end_layout
 
 \begin_layout Author
@@ -224,101 +224,6 @@
 \end_layout
 
 \begin_layout Enumerate
-לוודא זרם כולל V
-\end_layout
-
-\begin_layout Enumerate
-לנסות להגיד משהו על התוצאות שלנו
-\end_layout
-
-\begin_layout Enumerate
-ניתוח נומרי של שדה מגנטי )שעה וחצי(: הסתיים.
- :: נשאר לייצר גרפים, להוסיף צירים עם סקאלות.
- מה יש: שדה, עם מיצוע, עם מיצוע וגזירה, לייצא נתונים לגרפים תלת ממדיים למטלב,
- גם קצת חיבורים שלהם.
- ערוצים: שברים של עשירית, מאית, אלפית.
- לשנות גדלים של גופן
-\end_layout
-
-\begin_layout Enumerate
-פיטים במטלב, בניית דיאגרמת פאזות.
- )שעתיים??(: פיט סוג
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-1
-\numeric off
-, סוג
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2
-\numeric off
-, ידני.
- דן שלישי
-\end_layout
-
-\begin_layout Enumerate
-ניתוח תוצאות של הסטת מתח.
- )שעה וחצי( נועם חמישי
-\end_layout
-
-\begin_layout Enumerate
-ייצור תמונות )שעה וחצי( נועם/דן חמישי
-\end_layout
-
-\begin_layout Enumerate
-השלמת נתונים צפים, הכנסה של סקאלות )שעה וחצי( דן רביעי
-\end_layout
-
-\begin_layout Enumerate
-עוד כתיבה בנושא התנגדות אפקטיבית, כתיבה בנושא הדיון )שעה-שעתיים?( רביעי
- אחרי דורון
-\end_layout
-
-\begin_layout Enumerate
 ניתוח תוצאות 
 \begin_inset Formula $LSCO$
 \end_inset
@@ -327,110 +232,19 @@
 \end_layout
 
 \begin_layout Enumerate
-סגירה )שעתיים *
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- (
+גודל תמונות
 \end_layout
 
 \begin_layout Enumerate
-בונוס בלבד: ניתוח תוצאות הסטת מתח ראש ראשון.
- בוטל
+סכימה + מערכת צירים
 \end_layout
 
-\begin_layout Part*
-דברים לא לשכוח
+\begin_layout Enumerate
+כוכביות למצוא את כל ה- *** >>> <<<, _, ___ וכו'
 \end_layout
 
-\begin_layout Standard
-לעבור על מחברת המעבדה בשביל כאבים שהיו בדרך ולציין אותם
-\end_layout
-
-\begin_layout Standard
+\begin_layout Enumerate
 להכניס איזכורים של מאמרים שעליהם עברנו וכו', קטעים מטינקהם.
-\end_layout
-
-\begin_layout Standard
-אפשר להכניס תגית לנוסחאות ואיורים, ואחרי זה להפנות אליהם עם רפרנס פנימי.
-\end_layout
-
-\begin_layout Standard
-לוודא את הכיוון של סוגריים ודברים שיכולים קצת להתעוות מעברית אנגלית
-\end_layout
-
-\begin_layout Standard
-אפקטים של חימום
-\end_layout
-
-\begin_layout Standard
-למצוא את כל ה- *** >>> <<<, _, ___ וכו'
-\end_layout
-
-\begin_layout Standard
-האם זה נראה כמו סיפור?
-\end_layout
-
-\begin_layout Standard
-הסיפור שלנו: הנושא: התנגדות אפקטיבית בעל מוליך, הגביע הקדוש: זרם חיצוני,
- ניסויי הכנה: 
-\begin_inset Formula $R(T)$
-\end_inset
-
- 
-\begin_inset Formula $V(T,H,I)$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection*
-איך לארגן את הדוח
-\end_layout
-
-\begin_layout Standard
-רקע:תוצאות-ניתוח-דיון-תוצאות ניתוח דיון ולא קודם כל התוצאות הדו"ח אמור להיראות
- כמו סיפור היפוטזות מתחרות לגבי מה שקרה ניסויים שיכולים להבחין ביניהן
-\end_layout
-
-\begin_layout Standard
-תכל'ס: שורה תחתונה: אנחנו גיבורים.
- הוכחנו שאפקט מסוים אכן מתקיים, ואנחנו מצביעים על הסברים שונים לו ועל ניסויי
- המשך בנושא 
 \end_layout
 
 \begin_layout Part*
@@ -1726,10 +1540,6 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -1975,8 +1785,15 @@ status open
 \end_layout
 
 \begin_layout Standard
-בתנאים אילו נוצר הספק של ....
- ***נועם: נוסחא***
+בתנאים אילו נוצר הספק של 
+\begin_inset Formula $W_{dissipation}=2\cdot\frac{v^{2}\Phi_{0}^{2}}{4\pi a^{2}c^{2}\rho_{n}}\cdot[sample-height]\cdot[N_{vortices}]$
+\end_inset
+
+ )כאשר 
+\begin_inset Formula $\rho_{n}$
+\end_inset
+
+ התנגדות סגולית של החומר בפאזה הנורמלית(
 \end_layout
 
 \begin_layout Subsection*
@@ -1998,7 +1815,20 @@ status open
 הדוגמא איתה נעשו כל הניסויים להלן הינה כזו ולכן ייתכנו הבדלים בין התוצאות
  שהתקבלו לתוצאות אותן היינו רואים בדוגמא המורכבת מגביש אחד מושלם.
  התייחסות מלאה יותר למבנה החומר הייתה דורשת תיאור שלו כאתרים שונים המצומדים
- על ידי צמתי ג'וספסון [***סימוכין***], מפאת סיבוכיות הזנחנו זאת בניתוח.
+ על ידי צמתי ג'וספסון 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $Tinkham:6.6\,\,\,\,p234$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+מפאת סיבוכיות הזנחנו זאת בניתוח.
 \end_layout
 
 \begin_layout Part*
@@ -2369,10 +2199,6 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -2406,10 +2232,6 @@ status open
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -2523,7 +2345,11 @@ status open
 \end_layout
 
 \begin_layout Standard
-*** מה יש לנו להגיד על זה שיש כמה עקומות שונות? ***
+בחזרות שונות על הניסוי מודדים טמפרטורות קריטיות שונות זו מזו בטווח של 
+\begin_inset Formula $15\textdegree K$
+\end_inset
+
+, אנחנו לא יודעים למה הטווח גדול כ"כ.
 \end_layout
 
 \begin_layout Section*
@@ -2698,10 +2524,6 @@ reference "fig:מדידה:-המתח-על"
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -2716,10 +2538,6 @@ reference "fig:מדידה:-המתח-על"
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -3037,8 +2855,20 @@ status open
 \end_layout
 
 \begin_layout Standard
-לא מצאנו נתונים בספרות להשוות אליהם את הגרף האחרון, אך לפי [***סימוכין***],
- העקמומיות החיובית בסביבת 
+לא מצאנו נתונים בספרות להשוות אליהם את הגרף האחרון, אך לפי 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $Hiroshi-Maeda:p68$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, העקמומיות החיובית בסביבת 
 \begin_inset Formula $T_{c}$
 \end_inset
 
@@ -3081,18 +2911,12 @@ status open
 \end_layout
 
 \begin_layout Standard
-אולם, להתאמת המודל שהצענו לתוצאות, נדרש ערך התנגדות של בערך *** בשפה, כאשר
- מצפים לבערך ***.
- כמו כן, קיימת תלות של 
-\begin_inset Formula $R_{b}$
+המודל שהצענו נפסל כפי שהוזכר לעיל.
+ אבל התאמה פרמטרית שכימתה את הצורה של הפונקציה הצליחה לאפיין 
+\begin_inset Formula $H_{C2}$
 \end_inset
 
- בשדה המגנטי, מה שלא סביר להתנגדות אוהמית סטנדרטית.
-\end_layout
-
-\begin_layout Standard
-עולה ערך לא ריאלי של התנגדות בהיקף והתנהגות לא ריאלית עם השדה, מודל נופל
- ***להוסיף שהתאמה שרירותית כן נתנה תוצאה לא מופרכת*
+ בדיאגרמת הפאזות של החומר.
 \end_layout
 
 \begin_layout Section*
@@ -5332,11 +5156,11 @@ status open
 \end_layout
 
 \begin_layout Part*
-הפניות
+***הפניות
 \end_layout
 
 \begin_layout Standard
-טינקהם
+טינקהם*****
 \end_layout
 
 \begin_layout Standard
@@ -5356,7 +5180,17 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
 https://en.wikipedia.org/wiki/Quantum_vortex
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -5374,10 +5208,24 @@ https://en.wikipedia.org/wiki/Quantum_vortex
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $https://en.wikipedia.org/wiki/Quantum_{v}ortex$
-\end_inset
+מקורות תמונות
+\end_layout
 
+\begin_layout Standard
+Bismuth-Based High-Temperature Superconductors Hiroshi Maeda CRC Press,
+ 9 ביולי 1996 עמוד 
+\end_layout
 
+\begin_layout Part*
+תודות
+\end_layout
+
+\begin_layout Standard
+תודה לעודד אגם ולדרור אורגד על עזרתם בהבנת החומר התיאורטי ודיון על התוצאות.
+\end_layout
+
+\begin_layout Standard
+תודה לשי ואבנר מבית המלאכה שבנו את ההתקן המגניב.
 \end_layout
 
 \begin_layout Part*
@@ -5395,8 +5243,36 @@ name "sub:matlab_control"
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://github.com/noamg/sc/tree/master/matlabio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection*
-קוד מטלב ניתוח נתונים
+קוד מטלב ופייתון ניתוח נתונים
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://github.com/noamg/sc/tree/master/analysis
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*

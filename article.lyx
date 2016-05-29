@@ -1012,6 +1012,10 @@ status open
 .
 \end_layout
 
+\begin_layout Standard
+*** המקום הנכון להזכיר את דיאגרמת הפאזות ***
+\end_layout
+
 \begin_layout Subsection*
 מודל פנומנולוגי לתיאור על מוליכות - משוואות לונדון
 \end_layout
@@ -1844,6 +1848,65 @@ status collapsed
 
 \begin_layout Subsubsection*
 התנגדות אפקטיבית
+\end_layout
+
+\begin_layout Standard
+כפי שהוזכר לעיל, תנועה רוחבית של מערבולות )כלומר, בניצב לכיוון הזרם 
+\begin_inset Formula $I_{transport}$
+\end_inset
+
+( יוצרת דיסיפאציה.
+ באופן בסיסי לפי חוק פאראדיי, תנועה של מערבולות )שהיא שינוי בשטף המגנטי(
+ משרה כ.א.מ ויוצרת שדה חשמלי 
+\begin_inset Formula $\vec{E}$
+\end_inset
+
+ בדוגמא.
+ דבר זה יוצר הספק דיסיפאציה לפי 
+\begin_inset Formula $W_{dissipation}=\vec{E}\cdot\vec{J}$
+\end_inset
+
+.
+ המודל המנתח זאת הוא מודל 
+\begin_inset Formula $Bardeen-Stephen$
+\end_inset
+
+.
+ 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $Tinkham:167-169$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ במודל זה מניחים באופן פשטני:
+\end_layout
+
+\begin_layout Enumerate
+תנועת המערבולות איטית, ולכן מניחים שניתן להניח שהכוח הכולל הפועל עליהן בציר
+ הרוחבי הוא לינארי 
+\begin_inset Formula $-\eta v$
+\end_inset
+
+.
+ כלומר, במצב העמיד מערבולות מגיעות למהירות שיוט.
+\end_layout
+
+\begin_layout Enumerate
+שהמערבולת מורכבת מליבה גלילית מושלמת במצב נורמלי )ושאר החומר הינו על מוליך(.
+ הנחה זו מאפשרת לנתח את השדה החשמלי מחוץ לליבות באמצעות משוואות לונדון,
+ ובתוך הליבות ע"ס תנאי שפה המתקבלים מהפיתרון מחוץ לליבות.
+\end_layout
+
+\begin_layout Standard
+בתנאים אילו נוצר הספק של ....
+ *** האם בכלל לצטט את הנוסחא? אנחנו לא מתייחסים אליה??***
 \end_layout
 
 \begin_layout Standard

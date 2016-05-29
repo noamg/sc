@@ -1,4 +1,4 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
 \lyxformat 474
 \begin_document
 \begin_header
@@ -2874,13 +2874,45 @@ status open
 תוספות למערכת הניסוי
 \end_layout
 
+\begin_layout Subsubsection*
+הכיוונים במערכת:
+\end_layout
+
 \begin_layout Standard
-*** תיאור של הצירים, מה זה אומר: מעל, בצד...***
+למעלה: ציר 
+\begin_inset Formula $z$
+\end_inset
+
+, הכיוון של השדה המגנטי.
+\end_layout
+
+\begin_layout Standard
+קדימה: ציר 
+\begin_inset Formula $y$
+\end_inset
+
+ הכיוון של 
+\begin_inset Formula $I_{transport}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+הצידה: ציר 
+\begin_inset Formula $x$
+\end_inset
+
+, בניצב לזרם ולשדה.
+\end_layout
+
+\begin_layout Subsubsection*
+התקנים חדשים
 \end_layout
 
 \begin_layout Standard
 לצורך הניסוי בנינו שני התקנים: התקן ראשון )ששימש לבדיקת היתכנות( שבו עובר
- תיל מעל הדוגמא, ומשרה שדה בפרופיל:
+ תיל מעל הדוגמא:
 \end_layout
 
 \begin_layout Standard
@@ -2893,7 +2925,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
+התקן ראשון: תיילים בצידי הדוגמא
 \end_layout
 
 \end_inset
@@ -2907,31 +2939,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-והתקן שני )שעליו נערך הניסוי( שבו תיילים עוברים בצידי הדוגמא, ומשרים שדה
- בפרופיל:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+והתקן שני )שעליו נערך הניסוי( שבו תיילים עוברים בצידי הדוגמא:
 \end_layout
 
 \begin_layout Standard
@@ -2944,7 +2952,9 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-מערך התיילים להשראת שדה מגנטי *** על העל מוליך
+התקן שני: תיילים בצידי הדוגמא.
+ הזרם בתיילים בצדדים השונים של הדוגמא הוא באותו כיוון, והתיילים מתחברים
+ זה לזה במרחק כמה ס"מ מהדוגמא )אפקטיבית באינסוף(
 \end_layout
 
 \end_inset
@@ -2957,62 +2967,24 @@ status open
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
+\begin_layout Subsubsection*
+מגבלות מערכת הניסוי
 \end_layout
 
+\begin_layout Enumerate
+לאורך רוב הניסוי לא היה ספק זרם זמין בשביל נגד ההספק, ולכן היה אילוץ 
+\begin_inset Formula $T=77\textdegree K$
 \end_inset
 
-
+.
 \end_layout
 
+\begin_layout Enumerate
+מגבלות ספק הזרם: 
+\begin_inset Formula $I_{ext}\le4(amp)$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-ניתוח כמותי: השדה שמשרה תיל חיצוני.
- מהצד, מלמעלה.
- פרופיל.
- גרף
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-***חשוב: שיקולים בעיצוב ראש הניסוי השני.
- ***
+.
 \end_layout
 
 \begin_layout Subsection*
@@ -3049,7 +3021,12 @@ status open
 \begin_inset Formula $I_{ext}=4\,Amp$
 \end_inset
 
- שהוא הזרם המקסימלי שנתן ספק הזרם.
+ שהוא הזרם המקסימלי שנתן ספק הזרם, או 
+\begin_inset Formula $I_{ext}=0$
+\end_inset
+
+ בשביל למדוד את ההסחה במתח בין המקרים.
+ הקפדנו על פולסים קצרים של זרם כדי למנוע אפקטים של חימום.
 \end_layout
 
 \begin_layout Enumerate
@@ -3069,7 +3046,30 @@ status open
 \end_layout
 
 \begin_layout Standard
-מופע אחד: גולמי: מתח כתלות בזרם חיצוני, אפשר לראות הסחה.
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+במדידות שלנו, ללא זרם פנימי 
+\begin_inset Formula $I_{transport}$
+\end_inset
+
+ לא נמדד מתח על הדוגמא
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3094,7 +3094,11 @@ status open
 \begin_inset Formula $drift$
 \end_inset
 
- בוולטמטר
+ בוולטמטר, וגם שאכן יש הסחה במתח בעקבות הזרם 
+\begin_inset Formula $I_{ext}$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -3175,7 +3179,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Tabular
 <lyxtabular version="3" rows="10" columns="3">
-<features tabularvalignment="middle">
+<features rotate="0" tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -3184,7 +3188,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $I_{transport}-sign\backslash I_{ext}-sign$
+\begin_inset Formula $sign(I_{transport})\,\,\,\backslash\,\,\,sign(I_{ext})$
 \end_inset
 
 
@@ -3576,17 +3580,60 @@ status open
 
 \end_layout
 
+\begin_layout Standard
+במדידות שלנו, עם זרם חיצוני של 
+\begin_inset Formula $I_{ext}=3(amp)$
+\end_inset
+
+ נמדד מתח על הדוגמא בסקאלה קטנה יותר של 
+\begin_inset Formula $V\approx1.5\pm0.5\mu V$
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Subsection*
 דיון
 \end_layout
 
 \begin_layout Standard
-משפט פותח לדיון
+הניסוי הראה אפקט מובהק של 
+\begin_inset Formula $I_{ext}=4(amp)$
+\end_inset
+
+ על המתח 
+\begin_inset Formula $V$
+\end_inset
+
+ כאשר 
+\begin_inset Formula $I_{transport}\approx I_{crit}$
+\end_inset
+
+, ולכן הראה באופן נוסף שנפילת המתח לא נובעת מהתנגדות אוהמית.
+\end_layout
+
+\begin_layout Subsubsection*
+נחיצות 
+\begin_inset Formula $I_{transport}$
+\end_inset
+
+ לקיום דיסיפאציה
 \end_layout
 
 \begin_layout Standard
-הצלחה כבירה.
- בוז התנגדות אוהמית, איזה יופי.
+במדידות שלנו, ללא זרם פנימי 
+\begin_inset Formula $I_{transport}$
+\end_inset
+
+ לא נמדד מתח על הדוגמא.
+ ייתכן כי בלעדיו, מערבולות יכולות לזרום לרוחב הדוגמא בהשפעת השדה החיצוני,
+ ולהטיל לזמן קצר מתח על הדוגמא, שמאוזן ע"י הצטברות מטען.
+ בהעדר מגעים בקצות הדוגמא, הצטברות המטען תישאר.
+ בהעדר זרם, יתקבל 
+\begin_inset Formula $W_{dissipation}=\vec{E}\cdot\vec{J}=0$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -3602,22 +3649,17 @@ status open
 \end_layout
 
 \begin_layout Standard
-*** להעביר פסילות למטה***
-\end_layout
-
-\begin_layout Standard
 מבט: זרם חיצוני יוצר כוח על מערבולות
 \end_layout
 
 \begin_layout Enumerate
-זרם חיצוני חזק שלא מצליח לפרק את הבורות, וזרם פנימי שמצליח לפרק אותם (ולא
- משנה באיזה כיוון הוא) : ע"ס הסימולציה הנומרית, זה ייתכן רק במקרים מחמירים
- של התפלגות זרם בערוצים מעטים ודקים + אמירה כמותית.
+זרם חיצוני חזק שלא מצליח להוציא מערבולות מתוך הבורות, וזרם פנימי שמצליח
+ להוציא אותן )ולא משנה באיזה כיוון הוא(.
 \end_layout
 
 \begin_layout Enumerate
-זרם פנימי שנמצא על הסף של הזזת מערבולות וזרם חיצוני שמעביר אותו את הסף.
- : נפסל ע"ס תוצאות סימנים קיטבים ביחד, הפוך
+זרם פנימי שנמצא על הסף של הזזת מערבולות מתוך הבורות, וזרם חיצוני שמעביר
+ אותו את הסף.
 \end_layout
 
 \begin_layout Standard
@@ -3625,37 +3667,15 @@ status open
 \end_layout
 
 \begin_layout Enumerate
-הזרם החיצוני יוצר עוד מערבולות נטו והזרימה שלהן מטילה מתח, ספציפית, המערבולות
- החדשות מאכלסות את הבורות הרדודים יותר וקל להזיז אותן.
- נופל: התרומה נטו מעטה + מספר
+הזרם החיצוני יוצר עוד מערבולות נטו שמאכלסות את הבורות הרדודים יותר.
+ הזרימה שלהן מטילה מתח על הדוגמא.
 \end_layout
 
 \begin_layout Enumerate
-הזרם החיצוני בצורה שאנחנו בנינו, לא יוצר עוד מערבולות נטו, אבל יוצר עוד
- מערבולות בצד ימין ופחות בשמאל, מאפשר שם זרימה (מערבולות מאכלסות אתרים רדודים
- יותר: בהנחת ערוצים מחמירים כנל, ייתכן גם יוצר וגם מזיז מערבולות בעצמו
-\end_layout
-
-\begin_layout Subsubsection*
-עוד משהו לדיון ****
-\end_layout
-
-\begin_layout Standard
-עוד סיפור: בלי זרם פנימי אין נפילת מתח, לכן הזרם החיצוני יכול להזיז מערבולות,
- מה שיוצר נפילת מתח רגעית, שמאוזנת ע"י הצטברות מטען.
- מצב סטציונרי
-\end_layout
-
-\begin_layout Standard
-אין לנו דבר חכם להגיד על הכיוון המועדף שהניסיון מראה למערכת, ניסינו לחשוב
- על הכיוון של השדה החיצוני, אבל נראה שהסקאלה שלו חזקה יותר משמעותית.
-\end_layout
-
-\begin_layout Standard
-**הערה של נועם: כמו שאני מבין את זה, ייתכן שבלי זרם פנימי לא תהיה התנגדות.
- הזרם החיצוני יסיע מערבולות, מה שיגרום לנפילת מתח, אבל אין זרם בכיוון הזה,
- אז לא יהיה חימום ג'ול.
- מה שיקרה זה נדידה של מטענים שתאפס את הפרש המתחים.***
+הזרם החיצוני לא יוצר עוד מערבולות נטו, אבל מעביר מערבולות בין שני הצדדים
+ לרוחב הדוגמא.
+ המערבולות העודפות באחד הצדדים מאכלסות את הבורות הרדודים יותר, וזרימה שלהם
+ יוצר מתח על הדוגמא.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -3668,6 +3688,15 @@ status open
 \end_inset
 
  וע"י הזרם בסליל
+\end_layout
+
+\begin_layout Standard
+על מנת להפריד בין המודלים הללו, נדרש ניתוח כמותי של השדות המגנטיים במערכת:
+ 
+\begin_inset Formula $H_{coil},H_{transport},H_{ext}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -3729,15 +3758,52 @@ status open
 \begin_inset Formula $I_{transport}$
 \end_inset
 
- בדקנו כמה התפלגויות זרמים שונות: התפלגות קבועה, והתפלגות הזרם בערוצים ממוקדים
- המכסים חלק קטן מתוך שטח החתך באופן אקראי )עבור יחסים של 
+ בדקנו כמה התפלגויות זרמים שונות:
+\end_layout
+
+\begin_layout Enumerate
+מודל "קירוב
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+" שהוא התפלגות קבועה.
+\end_layout
+
+\begin_layout Enumerate
+מודל והתפלגות הזרם בערוצים ממוקדים המכסים חלק קטן מתוך שטח החתך באופן אקראי
+ )עבור יחסים של 
 \begin_inset Formula $0.01,0.001,0.0001$
 \end_inset
 
 (.
-\end_layout
+ בהעדר התנגדות אין מניעה לזרמים חד ממדיים, וזה המודל הפשוט ביותר שבו גרדיאנטים
+ חדים בשדה.
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
 למשל:
 \end_layout
 
@@ -3806,6 +3872,10 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+השדה המגנטי שמשרה 
+\begin_inset Formula $I_{ext}$
+\end_inset
+
 
 \end_layout
 
@@ -3837,6 +3907,14 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+השדה המגנטי שמשרה 
+\begin_inset Formula $I_{ext}$
+\end_inset
+
+, ממוצע לאורך ציר 
+\begin_inset Formula $z$
+\end_inset
+
 
 \end_layout
 
@@ -3868,6 +3946,14 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+נזגרת השדה המגנטי שמשרה 
+\begin_inset Formula $I_{ext}$
+\end_inset
+
+, ממוצע לאורך ציר 
+\begin_inset Formula $z$
+\end_inset
+
 
 \end_layout
 
@@ -3911,6 +3997,10 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+השדה המגנטי שמשרה 
+\begin_inset Formula $I_{transport}$
+\end_inset
+
 
 \end_layout
 
@@ -3942,6 +4032,14 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+השדה המגנטי שמשרה 
+\begin_inset Formula $I_{transport}$
+\end_inset
+
+, ממוצע לאורך ציר 
+\begin_inset Formula $z$
+\end_inset
+
 
 \end_layout
 
@@ -3973,9 +4071,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+נזגרת השדה המגנטי שמשרה 
+\begin_inset Formula $I_{transport}$
+\end_inset
 
-\end_layout
-
+, ממוצע לאורך ציר 
+\begin_inset Formula $z$
 \end_inset
 
 
@@ -3984,6 +4085,16 @@ status open
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אם הזרם מתפלג בערוצים, נוצרות פלקטואציות קטנות בשדה שהוא משרה )לעומת זרם
+ מתפלג אחיד(, וההבדל המשמעותי הוא בנזרת השדה.
 \end_layout
 
 \begin_layout Standard
@@ -4058,7 +4169,19 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+נזגרת השדה המגנטי שמשרה 
+\begin_inset Formula $I_{transport}$
+\end_inset
 
+, ממוצע לאורך ציר 
+\begin_inset Formula $z$
+\end_inset
+
+, בהתפלגות זרם בערוצים על פני 
+\begin_inset Formula $0.01$
+\end_inset
+
+ משטח החתך
 \end_layout
 
 \end_inset
@@ -4143,7 +4266,19 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+נזגרת השדה המגנטי שמשרה 
+\begin_inset Formula $I_{transport}$
+\end_inset
 
+, ממוצע לאורך ציר 
+\begin_inset Formula $z$
+\end_inset
+
+, בהתפלגות זרם בערוצים על פני 
+\begin_inset Formula $0.001$
+\end_inset
+
+ משטח החתך
 \end_layout
 
 \end_inset
@@ -4228,7 +4363,310 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+נזגרת השדה המגנטי שמשרה 
+\begin_inset Formula $I_{transport}$
+\end_inset
 
+, ממוצע לאורך ציר 
+\begin_inset Formula $z$
+\end_inset
+
+, בהתפלגות זרם בערוצים על פני 
+\begin_inset Formula $0.0001$
+\end_inset
+
+ משטח החתך
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+סיכום התוצאות של סדרי גודל של השדות ונגזרתם:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+סקאלת 
+\begin_inset Formula $\frac{d}{dx}<H>_{z}[\frac{gauss}{m}]$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+סקאלת 
+\begin_inset Formula $<H>_{z}[gauss]$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+מקור השדה
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\numeric on
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\numeric on
+700
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+סליל
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\numeric on
+40000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\numeric on
+40
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $I_{ext}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\numeric on
+1000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\numeric on
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $J_{transport}=Const$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\numeric on
+2000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\numeric on
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ערוצים 
+\begin_inset Formula $0.01$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\numeric on
+4000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\numeric on
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ערוצים 
+\begin_inset Formula $0.001$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\numeric on
+10000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\numeric on
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ערוצים 
+\begin_inset Formula $0.0001$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+סיכום התוצאות של סדרי גודל של השדות ונגזרתם
 \end_layout
 
 \end_inset
@@ -4242,11 +4680,67 @@ status open
 \end_layout
 
 \begin_layout Subsubsection*
-מסקנות מהסימולציה של השדות ***
+מסקנות מניתוח השדות המגנטיים ונזרתם, לגבי המודלים האפשריים ***
 \end_layout
 
 \begin_layout Standard
-****
+מבט: זרם חיצוני יוצר כוח על מערבולות
+\end_layout
+
+\begin_layout Enumerate
+זרם חיצוני חזק שלא מצליח להוציא מערבולות מתוך הבורות, וזרם פנימי שמצליח
+ להוציא אותן )ולא משנה באיזה כיוון הוא(.
+\begin_inset Newline newline
+\end_inset
+
+: ע"ס הסימולציה הנומרית, זה ייתכן רק במקרים מחמירים של התפלגות זרם בערוצים
+ מעטים ודקים + אמירה כמותית.
+\end_layout
+
+\begin_layout Enumerate
+זרם פנימי שנמצא על הסף של הזזת מערבולות מתוך הבורות, וזרם חיצוני שמעביר
+ אותו את הסף.
+\begin_inset Newline newline
+\end_inset
+
+ : נפסל ע"ס תוצאות סימנים קיטבים ביחד, הפוך
+\end_layout
+
+\begin_layout Standard
+מבט: זרם חיצוני יוצר מערבולות נוספות:
+\end_layout
+
+\begin_layout Enumerate
+הזרם החיצוני יוצר עוד מערבולות נטו שמאכלסות את הבורות הרדודים יותר.
+ הזרימה שלהן מטילה מתח על הדוגמא.
+\begin_inset Newline newline
+\end_inset
+
+ נופל: התרומה נטו מעטה + מספר
+\end_layout
+
+\begin_layout Enumerate
+הזרם החיצוני לא יוצר עוד מערבולות נטו, אבל מעביר מערבולות בין שני הצדדים
+ לרוחב הדוגמא.
+ המערבולות העודפות באחד הצדדים מאכלסות את הבורות הרדודים יותר, וזרימה שלהם
+ יוצר מתח על הדוגמא.
+\begin_inset Newline newline
+\end_inset
+
+: בהנחת ערוצים מחמירים כנל, ייתכן גם יוצר וגם מזיז מערבולות בעצמו
+\end_layout
+
+\begin_layout Subsubsection*
+כיוון מועדף במערכת ***
+\end_layout
+
+\begin_layout Standard
+במדידות ניכר שהיפוך הכיוון של הזרם הפנימי והחיצוני יחד משנה את המדידה
+\end_layout
+
+\begin_layout Standard
+אין לנו דבר חכם להגיד על הכיוון המועדף שהניסיון מראה למערכת, ניסינו לחשוב
+ על הכיוון של השדה החיצוני, אבל נראה שהסקאלה שלו חזקה יותר משמעותית.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -4255,7 +4749,24 @@ status open
 \end_layout
 
 \begin_layout Enumerate
-קודם כל: לעבור שוב על התוצאות שלנו, אפשר יהיה להגיד משהו, כנראה.
+למדוד מדידות זהות עבור זרמים נוספים 
+\begin_inset Formula $I_{transport}$
+\end_inset
+
+ כולל 
+\begin_inset Formula $I_{transport}<I_{crit}$
+\end_inset
+
+, כדי לקבל תמונה רחבה יותר.
+\end_layout
+
+\begin_layout Enumerate
+למדוד גם בטמפרטורות גבוהות יותר.
+ ספציפית: האם בטפרטורה גבוהה מספיק ייפול מתח על הדוגמא גם כאשר 
+\begin_inset Formula $I_{transport}=0$
+\end_inset
+
+?
 \end_layout
 
 \begin_layout Enumerate
@@ -4263,12 +4774,7 @@ status open
 \end_layout
 
 \begin_layout Enumerate
-לבנות התקן עם ליפופים רק בצד אחד (מבחין בין יצירה נטו להעברה מצד לצד)
-\end_layout
-
-\begin_layout Enumerate
-לנתח את האפקט בטמפרטורה גבוהה יותר.
- יכול להיות שנצליח לראות אפקט גם ללא זרם פנימי.
+לבנות התקן עם ליפופים רק בצד אחד )מבחין בין יצירה נטו להעברה מצד לצד(
 \end_layout
 
 \begin_layout Enumerate
@@ -4307,23 +4813,6 @@ status open
 אפשר גם לבדוק את התלות של העקומות הללו בטמפרוטורות שונות, כדי לקבל הבנה
  יותר טובה.
  
-\end_layout
-
-\begin_layout Enumerate
-להמשך: לבדוק גם בטמפרטורות גבוהות יותר.
- ספציפית: אנחנו מצפים שבטמפרטורה גבוהה מספיק, הזרם 
-\begin_inset Formula $I_{ext}$
-\end_inset
-
- יוכל להזיז מערבולות גם ללא 
-\begin_inset Formula $I_{transport}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection*
-מגבלות מערכת הניסוי הנוכחית *** מה המקום הנכון לשים את הסעיף ***?
 \end_layout
 
 \begin_layout Section*

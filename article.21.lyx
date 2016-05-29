@@ -1,4 +1,4 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
 \lyxformat 474
 \begin_document
 \begin_header
@@ -193,7 +193,12 @@
  על מנת להבחין בין מודלים שונים שיכולים להסביר את ההשפעה הזו, ביצענו סימולציה
  נומרית של השדות המגנטיים המעורבים במערכת, עם התייחסות לפרופילים אפשריים
  שונים של זרם בתוך הדוגמא.
- הראנו ש**** דיון *****.
+ הראנו שמקור התופעה הינו זרם פנימי שמפולג בערוצים דקים המכסים משמעותית פחות
+ מ- 
+\begin_inset Formula $0.0001$
+\end_inset
+
+ משטח החתך, או בגרדיאנט שדה הסליל, שמוצב בצורה לא סימטרית סביב הדוגמא.
 \end_layout
 
 \begin_layout Abstract
@@ -3444,7 +3449,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Tabular
 <lyxtabular version="3" rows="10" columns="3">
-<features tabularvalignment="middle">
+<features rotate="0" tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -3833,6 +3838,13 @@ status open
 \end_inset
 
  על המתח הנמדד על הדוגמא
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:תוצאות-סופיות-של"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -4666,7 +4678,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="3">
-<features tabularvalignment="middle">
+<features rotate="0" tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -4712,9 +4724,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\numeric on
-0
+???
 \end_layout
 
 \end_inset
@@ -4945,7 +4955,51 @@ status open
 \end_layout
 
 \begin_layout Subsubsection*
-מסקנות מניתוח השדות המגנטיים ונזרתם, לגבי המודלים האפשריים ***
+גרדיאנט השדה שנוצר ע"י הסליל יוצר כיוון מועדף במערכת
+\end_layout
+
+\begin_layout Standard
+במדידות ניכר שהיפוך הכיוון של הזרם הפנימי והחיצוני יחד משנה את המדידה, כלומר,
+ יש כיוון מועדף למערכת.
+ החשוד המיידי הוא השדה המגנטי 
+\begin_inset Formula $H_{coil}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+למרבה הצער הרבה לאחר המדידות, עלו ספקות בנוגע לגודל התרומה של השינוי בשדה
+ ה"קבוע" של הסליל.
+ מכיוון שהסליל אחראי לשדה חזק מאוד, גם הווריאציות העדינות כתוצאה מסטייה
+ קטנה ממרכז הסליל יכולות לתרום גרדיאנט שדה בר השוואה לזה של 
+\begin_inset Formula $I_{ext}$
+\end_inset
+
+: 
+\begin_inset Formula $14000\frac{gauss}{m}$
+\end_inset
+
+ לפי הערכת אצבע מסוימת.
+ איזשהו חלק מהגרדיאנט הזה נופל על ציר 
+\begin_inset Formula $x$
+\end_inset
+
+ )לרוחב הדוגמא( כתלות בזווית.
+ אפקט זה אולי מסביר את שבירת הסימטריה במערכת, כפי שמשוקפת בטבלה 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:תוצאות-סופיות-של"
+
+\end_inset
+
+.
+ עדיין, כיוון שכל המדידות נעשו בלי הזזת הסליל והדוגמא, ההטייה זהה בכולן.
+\end_layout
+
+\begin_layout Subsubsection*
+מסקנות מניתוח השדות המגנטיים ונגזרתם, לגבי המודלים האפשריים )תוך הזנחת הדיון
+ על גראדינט שדה הסליל(
 \end_layout
 
 \begin_layout Standard
@@ -4958,8 +5012,12 @@ status open
 \begin_inset Newline newline
 \end_inset
 
-: ע"ס הסימולציה הנומרית, זה ייתכן רק במקרים מחמירים של התפלגות זרם בערוצים
- מעטים ודקים + אמירה כמותית.
+ע"ס הסימולציה הנומרית, זה ייתכן רק במקרים מחמירים של התפלגות זרם בערוצים
+ מעטים ודקים על פני משמעותית פחות מ- 
+\begin_inset Formula $0.0001$
+\end_inset
+
+ משטח הדוגמא.
 \end_layout
 
 \begin_layout Enumerate
@@ -4968,7 +5026,7 @@ status open
 \begin_inset Newline newline
 \end_inset
 
- : נפסל ע"ס תוצאות סימנים קיטבים ביחד, הפוך
+לא ייתכן כיוון שבכל הכיוונים של הזרמים הפנימי והחיצוני נוצר אפקט במתח.
 \end_layout
 
 \begin_layout Standard
@@ -4981,7 +5039,11 @@ status open
 \begin_inset Newline newline
 \end_inset
 
- נופל: התרומה נטו מעטה + מספר
+לא סביר, כיווון שתרומת השדה של הזרם החיצוני בהשוואה לסליל מזערית )
+\numeric on
+10
+\numeric off
+% במקסימום(.
 \end_layout
 
 \begin_layout Enumerate
@@ -4992,20 +5054,11 @@ status open
 \begin_inset Newline newline
 \end_inset
 
-: בהנחת ערוצים מחמירים כנל, ייתכן גם יוצר וגם מזיז מערבולות בעצמו
-\end_layout
-
-\begin_layout Subsubsection*
-כיוון מועדף במערכת ***
-\end_layout
-
-\begin_layout Standard
-במדידות ניכר שהיפוך הכיוון של הזרם הפנימי והחיצוני יחד משנה את המדידה
-\end_layout
-
-\begin_layout Standard
-אין לנו דבר חכם להגיד על הכיוון המועדף שהניסיון מראה למערכת, ניסינו לחשוב
- על הכיוון של השדה החיצוני, אבל נראה שהסקאלה שלו חזקה יותר משמעותית.
+לא סביר, כיווון שתרומת השדה של הזרם החיצוני בהשוואה לסליל מזערית )
+\numeric on
+10
+\numeric off
+% במקסימום(.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -5032,6 +5085,10 @@ status open
 \end_inset
 
 ?
+\end_layout
+
+\begin_layout Enumerate
+לבצע את המדידה תוך בקרה על הסטייה הרדיאלית ממרכז הסליל, ועל הזווית שלה.
 \end_layout
 
 \begin_layout Enumerate

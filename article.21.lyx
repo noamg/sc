@@ -85,10 +85,23 @@
 \begin_layout Abstract
 מוליכי על מעניינים את האדם מאז שחר ההיסטוריה, יש יישומים רבים כמו הכיסא
  החשמלי, המורס ומעבד המזון.
+ 
 \end_layout
 
 \begin_layout Abstract
-חקרנו חומר מסוג ___ שהוא על מוליך חם, סוג
+מערבולות בעל מוליך
+\end_layout
+
+\begin_layout Abstract
+*
+\end_layout
+
+\begin_layout Abstract
+חקרנו דוגמא מסוג 
+\begin_inset Formula $BSCCO$
+\end_inset
+
+ שהוא על מוליך חם, סוג
 \family roman
 \series medium
 \shape up
@@ -115,24 +128,34 @@
 \color inherit
 2
 \numeric off
-, דוגמא מגורענת ולא גביש יחיד.
+, בתצורה של אבקה דחוסה, ולכן עם מגורענת ולא 
+\begin_inset Formula $single-crystal$
+\end_inset
+
+.
+ תחילה, השתמשנו במדידות 
+\begin_inset Formula $Transport$
+\end_inset
+
+ בשביל למצוא את 
+\begin_inset Formula $T_{c}$
+\end_inset
+
+ ובשביל לנתח את השפעת השדה המגנטי על הפאזה של החומר.
+ הצענו מודל שבו שפת מוליך העל נמצאת במצב רגיל ופסלנו אותו.
+ למרות זאת, ההתאמה הפרמטרית למודל זה ולמודל נוסף נתנו הערכה של 
+\begin_inset Formula $H_{C2}$
+\end_inset
+
+ וחסם על 
+\begin_inset Formula $H_{C1}$
+\end_inset
+
+ בדיאגרמת הפאזות של החומר.
 \end_layout
 
 \begin_layout Abstract
-מערבולות בעל מוליך
-\end_layout
-
-\begin_layout Abstract
-הצענו
-\end_layout
-
-\begin_layout Abstract
-מודל נפל
-\end_layout
-
-\begin_layout Abstract
-ניסוי חדשני להראות משהו על המודל של התנגדות אפקטיבית בעל מוליך.
- סוג
+בשלב השני, חקרנו את הדיסיפאציה בגלל זרימת המערבולות בעל מוליך סוג
 \family roman
 \series medium
 \shape up
@@ -158,27 +181,37 @@
 \noun default
 \color inherit
 2
+\numeric off
+.
+ על מנת להפריד את השפעת הזרם 
+\begin_inset Formula $I_{transport}$
+\end_inset
+
+ בפני עצמו, לגרדיאנט השדה המגנטי שהוא משרה, תכננו ובנינו התקן להשריית גרדיאנט
+ שדה באופן חיצוני.
+ בניסוי הראנו שגרדיאנט השדה החיצוני אכן משפיע על הדיסיפאציה בדוגמא.
+ על מנת להבחין בין מודלים שונים שיכולים להסביר את ההשפעה הזו, ביצענו סימולציה
+ נומרית של השדות המגנטיים המעורבים במערכת, עם התייחסות לפרופילים אפשריים
+ שונים של זרם בתוך הדוגמא.
+ הראנו ש**** דיון *****.
 \end_layout
 
 \begin_layout Abstract
-התקן ראשון
+הצלחת ההתקן פותחת פתח לניסויים נוספים של המערכת בטמפרטורות וזרמים שונים,
+ שיכולים להרחיב את הבנת מנגנון הדיסיפאציה ולהשוותם למודל 
+\begin_inset Formula $Bardeen-Stefen$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Abstract
-התקן שני
+*
 \end_layout
 
 \begin_layout Abstract
 הראנו אפקט, פתח לניסויים נוספים מרהיבים.
  עדיין לא יודעים אם תרומה ביצירת מערבולות או הסעת מערבולות
-\end_layout
-
-\begin_layout Abstract
-נובל
-\end_layout
-
-\begin_layout Abstract
-תודה
 \end_layout
 
 \begin_layout Part*

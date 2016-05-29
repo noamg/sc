@@ -2581,49 +2581,7 @@ reference "sub:מערבולות-זרם-בעל"
 \end_layout
 
 \begin_layout Standard
-*** להתחיל התוצאות, לעבור להתמודדות שלנו יחד עם עקומה של 
-\begin_inset Formula $FIT$
-\end_inset
-
- שעדיין לא קיימת ולסיים בדיאגרמת פאזות עם רפרנס לעקמומיות *** פיתוח תיאורטי
- שלנו: מודל שאנחנו הצענו: על מוליכות בחומר ומוליכות מושלמת רגילה על השפה,
- בגלל אפקטים של חימצון או אורך הקוהרנטיות + הנחה של התפלגות אחידה של בורות
- עבור המערבולות.
- 
-\end_layout
-
-\begin_layout Standard
-הצענו מודל שבו בגלל חימצון השפה או שפונקצית הגל לא נוכחת במרחק 
-\begin_inset Formula $\xi$
-\end_inset
-
- מהשפה: השפה של הדוגמא נמצאת בפאזה מוליכה עם התנגדות 
-\begin_inset Formula $R_{b}$
-\end_inset
-
-.
- פנים הדוגמא הינו על מוליך עם 
-\begin_inset Formula $V=\alpha I^{2}$
-\end_inset
-
- ***נימוק***.
- וההתנגדות הכוללת של הדוגמא יהיה לפי חיבור במקביל של הפנים העל מוליך והחוץ
- המוליך הרגיל.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-R_{tot}=\frac{R_{b}I}{\frac{R_{b}}{\alpha}+I}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-התאמת עקומות + גרף לדוגמא
+גרף אופייני של המתח על העל מוליך כפונקציה של הזרם דרכו:
 \end_layout
 
 \begin_layout Standard
@@ -2633,10 +2591,25 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/THI_example_V_of_I_at_H_and_T.png
+	lyxscale 50
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-התאמת עקומה
+מדידה: המתח על הדוגמא כפונקציה של הזרם בטמפ' ושדה מגנטי נתונים.
+ ניתן לראות שההתנהגות אינה "אוהמית" - תלות לא לינארית
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:מדידה:-המתח-על"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2650,20 +2623,7 @@ status open
 \end_layout
 
 \begin_layout Standard
-משטח תלת ממדי לדוגמא 
-\begin_inset Formula $T-H-I$
-\end_inset
-
-, חתכים כמו שחן ביקש.
- המדידה הכוללת: 
-\begin_inset Formula $V(T,H,I)$
-\end_inset
-
- חתכים: 
-\begin_inset Formula $V(H,I)$
-\end_inset
-
-
+ניתן לראות השתנות של ההתנהגות עם השינוי בשדה המגנטי:
 \end_layout
 
 \begin_layout Standard
@@ -2675,6 +2635,68 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename figs/THI_example_V_of_I_per_H_at_T_better.png
+	lyxscale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+מדידה: המתח על הדוגמא כפונקציה של הזרם והשדה המגנטי החיצוני בטמפרטורה נתונה.
+ כל עקומה היא גרף בשדה קבוע )כמו ב- 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:מדידה:-המתח-על"
+
+\end_inset
+
+(.
+ ניתן לראות התנהגות איכותית שונה בערכי שדה מגנטי שונה
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+גם בחתך של טמפרטורות שונות בשדה קבוע ניתן לראות שינוי:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/THI_example_V_of_I_per_T_at_H.png
+	lyxscale 25
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/THI_example_V_of_I_per_T_at_H_zoom.png
 	lyxscale 25
 	scale 25
 
@@ -2684,6 +2706,165 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+מדידה: המתח על הדוגמא כפונקציה של הזרם והטמפרטורה בשדה מגנטי נתון.
+ כמקודם, העקומות הן גרפים שווי טמפרטורה )ושדה(.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+*** להתחיל התוצאות, לעבור להתמודדות שלנו יחד עם עקומה של 
+\begin_inset Formula $FIT$
+\end_inset
+
+ שעדיין לא קיימת ולסיים בדיאגרמת פאזות עם רפרנס לעקמומיות *** 
+\end_layout
+
+\begin_layout Standard
+לאחר שראינו את הגרפים המתקבלים הצענו מודל משלנו: על מוליכות בחומר ומוליכות
+ רגילה על השפה, בגלל אפקטים של חימצון ושפה לא על מוליכה )במצב נורמלי בגלל
+ אורך קוהרנטיות(.
+\end_layout
+
+\begin_layout Standard
+בפנים הדוגמא, תחת ההנחה של התפלגות אחידה של "עומקי" בורות )
+\begin_inset Formula $\text{pinning sites}$
+\end_inset
+
+( עבור המערבולות, קיבלנו תלות ריבועית של המתח בזרם - תלות לינארית של מספר
+ המערבולות הזמינות ושל הכח על מערבולת בזרם.
+ 
+\begin_inset Formula $V=\alpha I^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ההתנגדות הכוללת של הדוגמא תהיה לפי חיבור במקביל של הפנים, עם התנגדות 
+\begin_inset Formula $R_{effective}=\alpha I$
+\end_inset
+
+ , והחוץ, עם התנגדות אוהמית סטנדרטית 
+\begin_inset Formula $R_{b}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+R_{tot}=\frac{I}{R_{b}+\alpha I}\:\Rightarrow\:V=R_{b}\cdot\frac{I^{2}}{\frac{R_{b}}{\alpha}+I}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בנוסף, ליתר ביטחון, ביצענו התאמה לפונקציה בעלת דמיון איכותי לתוצאות כדי
+ לקבל מדד ל"אוהמיות" או היעדרה )לינאריות( של העקומה:
+\begin_inset Formula 
+\[
+V=C\cdot I\cdot e^{-\frac{\alpha}{I}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+התאמת עקומות לדוגמא:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/THI_example_V_of_I_at_H_and_T_with_fit.png
+	lyxscale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+התאמת עקומה: המתח על הדוגמא כפונקציה של הזרם בטמפ' ושדה מגנטי נתונים.
+ התאמה לשני המודלים הנ"ל
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מתוך התאמות כנ"ל גזרנו ערכי 
+\series bold
+
+\begin_inset Formula $R_{b}$
+\end_inset
+
+
+\series default
+ לאוסף המדידות.
+ הערכים שהתקבלו הם:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/R_b_bad-H_dependent.png
+	lyxscale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+ערכי 
+\begin_inset Formula $R_{b}$
+\end_inset
+
+ שהותאמו, ניתן לראות שהערכים הינם מסדר גודל של אלפיות אוהמ ומראים תלות בשדה
+ המגנטי
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:התאמה של התנגדות בשפה"
+
+\end_inset
+
 
 \end_layout
 
@@ -2698,28 +2879,13 @@ status open
 \end_layout
 
 \begin_layout Standard
+כפי שניתן לראות ב- ערכי ההתנגדות שהתקבלו לשפת המוליך )עפ"י המודל( לא 
 \begin_inset Float figure
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename figs/THI_example_V_of_I_per_T_at_H.png
-	lyxscale 25
-	scale 25
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename figs/THI_example_V_of_I_per_T_at_H_zoom.png
-	lyxscale 25
-	scale 25
-
-\end_inset
-
-
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout

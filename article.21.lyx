@@ -1,4 +1,4 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
+﻿#LyX 2.1 created this file. For more info see http://www.lyx.org/
 \lyxformat 474
 \begin_document
 \begin_header
@@ -3200,7 +3200,7 @@ status open
 
 \begin_layout Enumerate
 מגבלות ספק הזרם: 
-\begin_inset Formula $I_{ext}\le4(amp)$
+\begin_inset Formula $I_{ext}\le4[Amp]$
 \end_inset
 
 .
@@ -3306,7 +3306,7 @@ status open
 \end_inset
 
  ו- 
-\begin_inset Formula $I_{ext}=3.94\pm0.02(amp)$
+\begin_inset Formula $I_{ext}=3.94\pm0.02[Amp]$
 \end_inset
 
  , ניתן לראות את ה- 
@@ -3361,7 +3361,7 @@ status open
 \end_inset
 
  ו- 
-\begin_inset Formula $I_{ext}=3.94\pm0.02(amp)$
+\begin_inset Formula $I_{ext}=3.94\pm0.02[Amp]$
 \end_inset
 
  לאחר תיקון ה- 
@@ -3439,7 +3439,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $I_{transport}=1.5(amp)$
+\begin_inset Formula $I_{transport}=1.5[Amp]$
 \end_inset
 
 
@@ -3541,7 +3541,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $I_{transport}=1.75(amp)$
+\begin_inset Formula $I_{transport}=1.75[Amp]$
 \end_inset
 
 
@@ -3643,7 +3643,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $I_{transport}=2.0(amp)$
+\begin_inset Formula $I_{transport}=2.0[Amp]$
 \end_inset
 
 
@@ -3756,7 +3756,7 @@ status open
 \end_inset
 
  לבין 
-\begin_inset Formula $I_{ext}=3.94\pm0.02(amp)$
+\begin_inset Formula $I_{ext}=3.94\pm0.02[Amp]$
 \end_inset
 
  ביחידות של 
@@ -3769,7 +3769,7 @@ status open
 \end_inset
 
  שונים כאשר 
-\begin_inset Formula $I_{crit}=1.75\pm0.25(amp)$
+\begin_inset Formula $I_{crit}=1.75\pm0.25[Amp]$
 \end_inset
 
 .
@@ -3808,7 +3808,7 @@ name "fig:תוצאות-סופיות-של"
 
 \begin_layout Standard
 במדידות שלנו, עם זרם חיצוני של 
-\begin_inset Formula $I_{ext}=3(amp)$
+\begin_inset Formula $I_{ext}=3[Amp]$
 \end_inset
 
  נמדד מתח על הדוגמא בסקאלה קטנה יותר של 
@@ -3824,7 +3824,7 @@ name "fig:תוצאות-סופיות-של"
 
 \begin_layout Standard
 הניסוי הראה אפקט מובהק של 
-\begin_inset Formula $I_{ext}=4(amp)$
+\begin_inset Formula $I_{ext}=4[Amp]$
 \end_inset
 
  על המתח 

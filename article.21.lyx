@@ -83,21 +83,106 @@
 \end_layout
 
 \begin_layout Abstract
-מוליכי על מעניינים את האדם מאז שחר ההיסטוריה, יש יישומים רבים כמו הכיסא
- החשמלי, המורס ומעבד המזון.
+מוליכי על התגלו התחילת המאה ה-
+\numeric on
+20
+\family roman
+\series medium
+\shape up
+\size small
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
  
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+וניתן להם הסבר תיאורטי עד אמצע המאה )תורת 
+\begin_inset Formula $BCS$
+\end_inset
+
+(.
+ יש להם יישומים חשובים, כמו במכשירי 
+\begin_inset Formula $MRI$
+\end_inset
+
+ ומאיצי חלקיקים, אך יישומם מוגבל בשל הדרישה לטמפקטורות נמוכות.
+ מאז שנות ה-
+\numeric on
+80
+\family roman
+\series medium
+\shape up
+\size small
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+של המאה ה-
+\numeric on
+20
+\family roman
+\series medium
+\shape up
+\size small
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+התחילו להתגלות מוליכי על בטמפרטורות "גבוהות" )
+\begin_inset Formula $\sim100\textdegree K$
+\end_inset
+
+( שעבורם אין תורה מלאה והם מהווים נושא וכלי ניסויי חשוב בפיזיקה המודרנית.
 \end_layout
 
 \begin_layout Abstract
-מערבולות בעל מוליך
-\end_layout
-
-\begin_layout Abstract
-*
-\end_layout
-
-\begin_layout Abstract
-חקרנו דוגמא מסוג 
+בניסוי זה חקרנו דוגמא מסוג 
 \begin_inset Formula $BSCCO$
 \end_inset
 
@@ -128,11 +213,11 @@
 \color inherit
 2
 \numeric off
-, בתצורה של אבקה דחוסה, ולכן עם מגורענת ולא 
+, בתצורה של אבקה דחוסה )מגורענת, ולא 
 \begin_inset Formula $single-crystal$
 \end_inset
 
-.
+(.
  תחילה, השתמשנו במדידות 
 \begin_inset Formula $Transport$
 \end_inset
@@ -142,7 +227,7 @@
 \end_inset
 
  ובשביל לנתח את השפעת השדה המגנטי על הפאזה של החומר.
- הצענו מודל שבו שפת מוליך העל נמצאת במצב רגיל ופסלנו אותו.
+ הצענו מודל שבו שפת מוליך העל נמצאת במצב רגיל ומוליכה זרם ופסלנו אותו.
  למרות זאת, ההתאמה הפרמטרית למודל זה ולמודל נוסף נתנו הערכה של 
 \begin_inset Formula $H_{C2}$
 \end_inset
@@ -204,48 +289,10 @@
 \begin_layout Abstract
 הצלחת ההתקן פותחת פתח לניסויים נוספים של המערכת בטמפרטורות וזרמים שונים,
  שיכולים להרחיב את הבנת מנגנון הדיסיפאציה ולהשוותם למודל 
-\begin_inset Formula $Bardeen-Stefen$
+\begin_inset Formula $Bardeen-Stephen$
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Abstract
-*
-\end_layout
-
-\begin_layout Abstract
-הראנו אפקט, פתח לניסויים נוספים מרהיבים.
- עדיין לא יודעים אם תרומה ביצירת מערבולות או הסעת מערבולות
-\end_layout
-
-\begin_layout Part*
-מה נותר לעשות 
-\end_layout
-
-\begin_layout Enumerate
-ניתוח תוצאות 
-\begin_inset Formula $LSCO$
-\end_inset
-
- )לחזור לגרף, האם יש לנו גם ניתוח כמותי לעשות? שעה?(
-\end_layout
-
-\begin_layout Enumerate
-גודל תמונות
-\end_layout
-
-\begin_layout Enumerate
-סכימה + מערכת צירים
-\end_layout
-
-\begin_layout Enumerate
-כוכביות למצוא את כל ה- *** >>> <<<, _, ___ וכו'
-\end_layout
-
-\begin_layout Enumerate
-להכניס איזכורים של מאמרים שעליהם עברנו וכו', קטעים מטינקהם.
- לסדר רפרנסים
 \end_layout
 
 \begin_layout Part*
@@ -367,6 +414,7 @@ status open
 \begin_inset Graphics
 	filename figs/storeBoughtGraphs/superconducting_Hg_resistance___figure.boundless-cdn.com_11749_large_figure-21-03-02a.jpeg
 	lyxscale 50
+	scale 20
 
 \end_inset
 
@@ -518,6 +566,7 @@ status open
 \begin_inset Graphics
 	filename figs/storeBoughtGraphs/superconductor_B_of_H___Tinkham_p12.PNG
 	lyxscale 50
+	scale 33
 
 \end_inset
 
@@ -751,6 +800,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename figs/storeBoughtGraphs/phase_diagram___img.tfd.com_ggse_6a_gsed__0001__0023__0__img6948.png
+	scale 50
 
 \end_inset
 
@@ -1088,7 +1138,7 @@ status open
 
 \begin_layout Plain Layout
 עפ"י 
-\begin_inset Formula $\left[2\right]-p.11-12$
+\begin_inset Formula $M.\,Suzuki-p.11-12$
 \end_inset
 
 
@@ -1410,6 +1460,7 @@ status open
 \begin_inset Graphics
 	filename figs/storeBoughtGraphs/kappa_type1_vs_type2_wall_energy_tinkham121.PNG
 	lyxscale 50
+	scale 50
 
 \end_inset
 
@@ -1556,6 +1607,7 @@ status open
 \begin_inset Graphics
 	filename figs/storeBoughtGraphs/Flux_lines_in_a_superconductor___upload.wikimedia.org_wikipedia_en_5_57_Flux_lines_in_a_superconductor01.jpg
 	lyxscale 20
+	scale 20
 
 \end_inset
 
@@ -1632,7 +1684,8 @@ status open
 0
 \numeric off
 .
- לעומת זאת, אם ישנו גרדיאנט בשדה, אז המערבולת תרגיש כוח נטו במעלה הגרדיאנט.
+ לעומת זאת, אם ישנו גרדיאנט בשדה, אז המערבולת תרגיש כוח נטו במעלה ההשדה
+ )עם הגרדיאנט(.
 \end_layout
 
 \begin_layout Enumerate
@@ -1698,8 +1751,8 @@ status open
 \begin_inset Formula $flux-flow$
 \end_inset
 
-(: מערבולות נעות בפסים במעלה גרדיאנט השדה המגנטי שיוצר הזרם, נוצרות בשפת
- החומר עליה השדה גבוה, ונעלמות בשפת החומר עליה השדה נמוך.
+(: מערבולות נעות בפסים במעלה השדה המגנטי שיוצר הזרם, נוצרות בשפת החומר עליה
+ השדה גבוה, ונעלמות בשפת החומר עליה השדה נמוך.
 \end_layout
 
 \begin_layout Standard
@@ -1921,7 +1974,7 @@ status open
 
 \begin_layout Enumerate
 מדידת טמפרטורה: מעל הדוגמא נגד מסוג 
-\begin_inset Formula $PT100$
+\begin_inset Formula $Pt-100$
 \end_inset
 
  למדידת טמפרטורה, הנגד מחובר למד התנגדות ולפי ההתנגדות מחשבים את הטמפרטורה.
@@ -1969,7 +2022,7 @@ status open
 \begin_inset Graphics
 	filename figs/test_set_basic.png
 	lyxscale 25
-	scale 25
+	scale 50
 
 \end_inset
 
@@ -2140,7 +2193,7 @@ status open
 \begin_inset Graphics
 	filename figs/RT_zoomout.png
 	lyxscale 25
-	scale 25
+	scale 38
 
 \end_inset
 
@@ -2180,7 +2233,7 @@ status open
 \begin_inset Graphics
 	filename figs/RT_withError.png
 	lyxscale 25
-	scale 25
+	scale 33
 
 \end_inset
 
@@ -2212,7 +2265,7 @@ status open
 \begin_inset Graphics
 	filename figs/RT_zoomTc.png
 	lyxscale 25
-	scale 25
+	scale 35
 
 \end_inset
 
@@ -2340,7 +2393,7 @@ status open
 \begin_inset Formula $\psi$
 \end_inset
 
- יכולה להיות לא מתואמת, ורק עם ידירה נוספת בטמפרטורה חל תיאום פאזות וצניחת
+ יכולה להיות לא מתואמת, ורק עם ירידה נוספת בטמפרטורה חל תיאום פאזות וצניחת
  ההתנגדות.
  
 \end_layout
@@ -2350,7 +2403,7 @@ status open
 \begin_inset Formula $15\textdegree K$
 \end_inset
 
-, אנחנו לא יודעים למה הטווח גדול כ"כ.
+, אין לנו הסבר מדוע הטווח גדול כ"כ.
 \end_layout
 
 \begin_layout Section*
@@ -2430,19 +2483,38 @@ reference "sub:מערבולות-זרם-בעל"
 \end_inset
 
  עולה, אחרת היו יכולות להישאר בדוגמא מערבולות שלא הספיקו להיעלם )היסטרזיס
- של על מוליכים, תופעה בה אנו לא דנים(.
+ של על מוליכים מסוג
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+, תופעה בה אנו לא דנים(.
 \end_layout
 
 \begin_layout Subsection*
 תוצאות
-\end_layout
-
-\begin_layout Subsection*
-התלות 
-\begin_inset Formula $V(I)$
-\end_inset
-
- והצעת מודל
 \end_layout
 
 \begin_layout Standard
@@ -2459,6 +2531,7 @@ status open
 \begin_inset Graphics
 	filename figs/THI_example_V_of_I_at_H_and_T.png
 	lyxscale 50
+	scale 33
 
 \end_inset
 
@@ -2501,6 +2574,7 @@ status open
 \begin_inset Graphics
 	filename figs/THI_example_V_of_I_per_H_at_T_better.png
 	lyxscale 50
+	scale 25
 
 \end_inset
 
@@ -2544,7 +2618,7 @@ status open
 \begin_inset Graphics
 	filename figs/THI_example_V_of_I_per_T_at_H.png
 	lyxscale 25
-	scale 25
+	scale 27
 
 \end_inset
 
@@ -2555,7 +2629,7 @@ status open
 \begin_inset Graphics
 	filename figs/THI_example_V_of_I_per_T_at_H_zoom.png
 	lyxscale 25
-	scale 25
+	scale 27
 
 \end_inset
 
@@ -2572,6 +2646,14 @@ status open
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+הצעת מודל לתלות 
+\begin_inset Formula $V(I)$
 \end_inset
 
 
@@ -2647,6 +2729,7 @@ status open
 \begin_inset Graphics
 	filename figs/THI_example_V_of_I_at_H_and_T_with_fit.png
 	lyxscale 50
+	scale 33
 
 \end_inset
 
@@ -2691,6 +2774,7 @@ status open
 \begin_inset Graphics
 	filename figs/R_b_bad-H_dependent.png
 	lyxscale 50
+	scale 33
 
 \end_inset
 
@@ -2754,6 +2838,7 @@ status open
 \begin_inset Graphics
 	filename figs/exponent fit parameter.png
 	lyxscale 50
+	scale 30
 
 \end_inset
 
@@ -2831,6 +2916,7 @@ status open
 \begin_inset Graphics
 	filename figs/H_C2(T)_with_phaseNames.png
 	lyxscale 50
+	scale 30
 
 \end_inset
 
@@ -2874,29 +2960,6 @@ status open
 \end_inset
 
  תואמת את הצפי התיאורטי.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection*
@@ -2987,14 +3050,14 @@ status open
 \end_inset
 
  הכיוון של 
-\begin_inset Formula $I_{transport}$
+\begin_inset Formula $I_{transport}\equiv I_{int}$
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-הצידה: ציר 
+הצידה/לרוחב: ציר 
 \begin_inset Formula $x$
 \end_inset
 
@@ -3007,30 +3070,7 @@ status open
 
 \begin_layout Standard
 לצורך הניסוי בנינו שני התקנים: התקן ראשון )ששימש לבדיקת היתכנות( שבו עובר
- תיל מעל הדוגמא:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-התקן ראשון: תיילים בצידי הדוגמא
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+ תיל מעל הדוגמא,
 \end_layout
 
 \begin_layout Standard
@@ -3044,12 +3084,96 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename figs/test_set_Head2.png
+
+\end_inset
+
+
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 התקן שני: תיילים בצידי הדוגמא.
  הזרם בתיילים בצדדים השונים של הדוגמא הוא באותו כיוון, והתיילים מתחברים
- זה לזה במרחק כמה ס"מ מהדוגמא )אפקטיבית באינסוף(
+ זה לזה במרחק כמה ס"מ מהדוגמא )אפקטיבית באינסוף(.
+ בתמונה נראה מעבר בודד של התיל בכל צד של הדוגמא אך בפועל התיל עבר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+פעמים בצד אחד ו-
+\numeric on
+6
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בשני
 \end_layout
 
 \end_inset
@@ -3645,7 +3769,7 @@ status open
 \end_inset
 
  שונים כאשר 
-\begin_inset Formula $I_{crit}=1.5(amp)$
+\begin_inset Formula $I_{crit}=1.75\pm0.25(amp)$
 \end_inset
 
 .
@@ -3712,6 +3836,16 @@ name "fig:תוצאות-סופיות-של"
 \end_inset
 
 , ולכן הראה באופן נוסף שנפילת המתח לא נובעת מהתנגדות אוהמית.
+\end_layout
+
+\begin_layout Standard
+משטר תנועת המערבולות הרלבנטי אינו ידוע במסדרת ניסוי זה, והמסקנות אינן מתייחסות
+ אליו.
+ ניתן לבצע מדידות מדוייקות )עם 
+\begin_inset Formula $Hall\,Probe/SQUID$
+\end_inset
+
+( של השדה המגנטי לקביעת צפיפות המערבולות ולפיה את משטר התנועה.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -3855,7 +3989,11 @@ name "fig:תוצאות-סופיות-של"
 \begin_inset Formula $dx=600[nm]\approx2\lambda$
 \end_inset
 
-.
+ או גסה יותר, כאשר לא נדרשה רזולוציה כה עדינה )וכן 
+\begin_inset Formula $dz=28[\mu m]$
+\end_inset
+
+(.
  עבור 
 \begin_inset Formula $I_{transport}$
 \end_inset
@@ -3927,7 +4065,35 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+מודל צפיפות הזרם בהתפלגות אקראית על פני
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
 
+\begin_inset Formula $0.0001$
+\end_inset
+
+ משטח החתך
 \end_layout
 
 \end_inset
@@ -3966,7 +4132,7 @@ status open
 \begin_inset Graphics
 	filename figs/H_I_ext.png
 	lyxscale 25
-	scale 37
+	scale 32
 
 \end_inset
 
@@ -4001,7 +4167,7 @@ status open
 \begin_inset Graphics
 	filename figs/H_mean_I_ext.png
 	lyxscale 25
-	scale 37
+	scale 25
 
 \end_inset
 
@@ -4040,7 +4206,7 @@ status open
 \begin_inset Graphics
 	filename figs/dH_mean_dx_I_ext.png
 	lyxscale 25
-	scale 37
+	scale 25
 
 \end_inset
 
@@ -4048,7 +4214,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-נזגרת השדה המגנטי שמשרה 
+נגזרת השדה המגנטי שמשרה 
 \begin_inset Formula $I_{ext}$
 \end_inset
 
@@ -4091,7 +4257,7 @@ status open
 \begin_inset Graphics
 	filename figs/H_j_int_const.png
 	lyxscale 25
-	scale 37
+	scale 32
 
 \end_inset
 
@@ -4126,7 +4292,7 @@ status open
 \begin_inset Graphics
 	filename figs/H_mean_j_int_const.png
 	lyxscale 25
-	scale 37
+	scale 25
 
 \end_inset
 
@@ -4165,7 +4331,7 @@ status open
 \begin_inset Graphics
 	filename figs/dH_mean_dx_j_int_const.png
 	lyxscale 25
-	scale 37
+	scale 25
 
 \end_inset
 
@@ -4173,7 +4339,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-נזגרת השדה המגנטי שמשרה 
+נגזרת השדה המגנטי שמשרה 
 \begin_inset Formula $I_{transport}$
 \end_inset
 
@@ -4196,7 +4362,7 @@ status open
 
 \begin_layout Standard
 אם הזרם מתפלג בערוצים, נוצרות פלקטואציות קטנות בשדה שהוא משרה )לעומת זרם
- מתפלג אחיד(, וההבדל המשמעותי הוא בנזרת השדה.
+ מתפלג אחיד(, וההבדל המשמעותי הוא בנגזרת השדה.
 \end_layout
 
 \begin_layout Standard
@@ -4271,7 +4437,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-נזגרת השדה המגנטי שמשרה 
+נגזרת השדה המגנטי שמשרה 
 \begin_inset Formula $I_{transport}$
 \end_inset
 
@@ -4368,7 +4534,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-נזגרת השדה המגנטי שמשרה 
+נגזרת השדה המגנטי שמשרה 
 \begin_inset Formula $I_{transport}$
 \end_inset
 
@@ -4465,7 +4631,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-נזגרת השדה המגנטי שמשרה 
+נגזרת השדה המגנטי שמשרה 
 \begin_inset Formula $I_{transport}$
 \end_inset
 
@@ -4855,7 +5021,7 @@ reference "fig:תוצאות-סופיות-של"
 \end_layout
 
 \begin_layout Standard
-מבט: זרם חיצוני יוצר מערבולות נוספות:
+מבט: זרם חיצוני יוצר מערבולות נוספות
 \end_layout
 
 \begin_layout Enumerate
@@ -4963,30 +5129,10 @@ reference "fig:תוצאות-סופיות-של"
 \end_layout
 
 \begin_layout Part*
-***הפניות
+הפניות
 \end_layout
 
-\begin_layout Standard
-טינקהם*****
-\end_layout
-
-\begin_layout Standard
-מאמרים שעברנו עליהם.
-\end_layout
-
-\begin_layout Standard
-לינק לתיקייה עם קבצי 
-\begin_inset Formula $.fig$
-\end_inset
-
- של הגרפים התלת ממדיים, כדי שאפשר יהיה לראות אותם יותר טוב
-\end_layout
-
-\begin_layout Standard
-עוד על קוונטיזצית השטף המגנטי: 
-\end_layout
-
-\begin_layout Standard
+\begin_layout Itemize
 \begin_inset Flex URL
 status open
 
@@ -5000,27 +5146,379 @@ https://en.wikipedia.org/wiki/Quantum_vortex
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Formula $ginzburg-landau-pp11-12$
+\begin_layout Itemize
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+INTRODUCTION TO SUPERCONDUCTIVITY - Second Edition, Michael Tinkham, McGraw-Hill
+ Inc., 1996
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Formula $Tinkham-4.45$
+\begin_layout Itemize
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+Lecture Note on Solid State Physics - Ginzburg-Landau Theory for Superconductivi
+ty, Masatsugu Suzuki and Itsuko S.
+ Suzuki, 2007 - p.11-12
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+Bismuth-Based High-Temperature Superconductors, Hiroshi Maeda, CRC Press,
+ 1996 - p.68
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
 מקורות תמונות
 \end_layout
 
-\begin_layout Standard
-Bismuth-Based High-Temperature Superconductors Hiroshi Maeda CRC Press,
- 9 ביולי 1996 עמוד 
+\begin_layout Itemize
+איור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+figure.boundless-cdn.com/11749/large/figure-21-03-02a
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+איור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+Tinkham p.12
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+איור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+img.tfd.com/ggse/6a/gsed_0001_0023_0_img6948
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+איור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+4
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+Tinkham p.121
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+איור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+upload.wikimedia.org/wikipedia/en/5/57/Flux_lines_in_a_superconductor01
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part*
